@@ -161,7 +161,7 @@ function NavigationMenuDemo() {
               className="lg:hidden bg-white hover:bg-white my-2 rounded-full text-[#021B2C] h-10 w-10"
             >
               <a
-                href="https://wa.me/14804285220"
+                href="https://wa.me/14155692119"
                 target="_blank"
                 rel="noreferrer"
                 className="flex gap-2 justify-center w-full px-4"
@@ -185,11 +185,11 @@ function NavigationMenuDemo() {
             <div className="flex h-20 items-center border-b border-white/10  px-2">
               <Link href="/" onClick={() => setIsOpen(false)}>
                 <Image
-                  src="/img/logor.png"
-                  alt="logor"
+                  src="/img/logoV.png"
+                  alt="logoV"
                   width={100}
                   height={100}
-                  className="w-32 h-14 object-contain"
+                  className="w-32 h-18 object-contain"
                   priority
                 />
               </Link>
@@ -247,11 +247,11 @@ function NavigationMenuDemo() {
             </nav>
             <div className="lg:hidden flex flex-col w-full items-center gap-3 text-white ">
               <Link
-                href="https://wa.me/14804285220"
+                href="https://wa.me/14155692119"
                 className="flex gap-2 justify-center w-full px-4"
               >
                 <button className="bg-white flex justify-center gap-4 text-[#021B2C] px-6 w-full py-3 rounded-xl font-semibold transition transform duration-300 hover:-translate-y-1">
-                  (866) 815-1803{" "}
+                  (415) 569-2119{" "}
                 </button>
               </Link>
               <Link href="/applyNow" className="w-full px-4">
@@ -269,11 +269,11 @@ function NavigationMenuDemo() {
               <div className="flex h-10 items-center  ">
                 <Link href="/" onClick={() => setIsOpen(false)}>
                   <Image
-                    src="/img/logor.png"
-                    alt="logor"
-                    width={100}
-                    height={100}
-                    className="w-28 h-16 object-contain"
+                    src="/img/logoV.png"
+                    alt="logoV"
+                    width={140}
+                    height={80}
+                    className="w-32 h-24 object-contain"
                     priority
                   />
                 </Link>
@@ -329,9 +329,9 @@ function NavigationMenuDemo() {
           </NavigationMenu>
         </div>
         <div className="hidden lg:flex items-center gap-3 text-white py-4">
-          <Link href="tel:+14804285220" className="flex gap-2 justify-center ">
+          <Link href="tel:+14155692119" className="flex gap-2 justify-center ">
             <PhoneCall />
-            <h3>(480) 428-5220 </h3>
+            <h3>(415) 569-2119</h3>
           </Link>
           <Link href="/applyNow" className="flex gap-2 justify-center ">
             <button className="bg-white text-[#021B2C] px-6 py-3 rounded-xl font-semibold transition transform duration-300 hover:-translate-y-1">

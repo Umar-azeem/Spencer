@@ -20,7 +20,7 @@ const ApplyNow: React.FC = () => {
 
   const loanOfficers = [
     {
-      name: "Randy Bongard",
+      name: "Lee Chieng ",
       phone: "480.580.5626",
       email: "rbongard@pricemortgage.com",
     },
@@ -125,13 +125,13 @@ const ApplyNow: React.FC = () => {
             </p>
           </div>
 
-          {/* Randy Bongard Profile */}
+          {/* Lee Chieng  Profile */}
           <div className="p-6 sm:p-8 border-b border-gray-100 bg-gradient-to-r from-[#021B2C]/5 to-[#021B2C]/5">
             <div className="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6">
               <div className="flex-shrink-0">
                 <div className="h-20 w-20 rounded-full bg-[#021B2C] flex items-center justify-center text-white text-2xl font-bold overflow-hidden">
                   <img
-                    src="/img/rb.png"
+                    src="/img/lee.png"
                     alt="Advisor"
                     width={40}
                     height={40}
@@ -142,7 +142,7 @@ const ApplyNow: React.FC = () => {
               <div className="flex-1">
                 <div className="flex items-center gap-2 mb-1">
                   <h3 className="text-xl font-bold text-[#021B2C]">
-                    Randy Bongard
+                    Lee Chieng
                   </h3>
                   <span className="inline-flex items-center gap-1 rounded-full bg-[#021B2C] px-2.5 py-0.5 text-xs font-medium text-white">
                     <Building2 className="h-3 w-3" />

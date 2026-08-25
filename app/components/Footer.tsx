@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import FooterText from "./FooterText";
 import { JSX } from "react/jsx-runtime";
+
 interface SocialIcon {
   id: string;
   src: string;
@@ -15,9 +16,9 @@ interface SocialIcon {
 const socialIcons: SocialIcon[] = [
   {
     id: "facebook",
-    src: "https://www.facebook.com/thecfmtg/",
+    src: "https://www.facebook.com/Leethemortgagespecialist",
     alt: "Facebook",
-    url: "https://www.facebook.com/pricemortgage/",
+    url: "https://www.facebook.com/Leethemortgagespecialist",
     icon: (
       <span className="[&>svg]:h-5 [&>svg]:w-5">
         <svg
@@ -32,9 +33,9 @@ const socialIcons: SocialIcon[] = [
   },
   {
     id: "instagram",
-    src: "https://www.instagram.com/pricemortgagellc/",
+    src: "https://www.instagram.com/lee_themortgagepro/",
     alt: "Instagram",
-    url: "https://www.instagram.com/pricemortgagellc/",
+    url: "https://www.instagram.com/lee_themortgagepro/",
     icon: (
       <span className="[&>svg]:h-5 [&>svg]:w-5">
         <svg
@@ -49,22 +50,23 @@ const socialIcons: SocialIcon[] = [
   },
   {
     id: "linkedin",
-    src: "https://search.google.com/local/writereview?placeid=ChIJLTvnfmusK4cRBSXWxU5bZ1k",
-    alt: "google",
-    url: "https://search.google.com/local/writereview?placeid=ChIJLTvnfmusK4cRBSXWxU5bZ1k",
+    src: "https://www.linkedin.com/in/lee-chieng/",
+    alt: "LinkedIn",
+    url: "https://www.linkedin.com/in/lee-chieng/",
     icon: (
       <span className="[&>svg]:h-5 [&>svg]:w-5">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="currentColor"
-          viewBox="0 0 488 512"
+          viewBox="0 0 448 512"
         >
-          <path d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z" />
+          <path d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
         </svg>
       </span>
     ),
   },
 ];
+
 export default function Footer() {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -93,7 +95,7 @@ export default function Footer() {
       <div className="flex flex-col md:flex-row md:justify-between md:items-end gap-10">
         {/* Contact Info Column */}
         <div>
-          <h3 className="text-xl font-semibold mb-4">Contact Me</h3>
+          <h3 className="text-xl font-semibold mb-4">Contact Lee Chieng</h3>
           <p className="mb-2 flex items-center gap-2">
             <Image
               src="https://cdn.prod.website-files.com/65d509901b89bb3fd2a62af7/65d509901b89bb3fd2a62b87_phone-white.svg"
@@ -104,10 +106,10 @@ export default function Footer() {
               unoptimized
             />
             <Link
-              href="tel:4804285220"
+              href="tel:8337600828"
               className="hover:text-gray-300 transition-colors"
             >
-              (480) 428-5220
+              (833) 760-0828
             </Link>
           </p>
 
@@ -121,10 +123,10 @@ export default function Footer() {
               unoptimized
             />
             <Link
-              href="mailto:rbongard@pricemortgage.com"
+              href="mailto:LChieng@gmccloan.com"
               className="break-all hover:text-gray-300 transition-colors"
             >
-              rbongard@pricemortgage.com
+              LChieng@gmccloan.com
             </Link>
           </p>
           <p className="mb-4 flex flex-row items-start gap-2">
@@ -137,20 +139,17 @@ export default function Footer() {
               unoptimized
             />
             <a
-              href="https://maps.app.goo.gl/PRPXUMwTpo7goBTTA"
+              href="https://maps.google.com/?q=1601+S+De+Anza+Blvd+%23260+Cupertino+CA+95014"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-300 transition-colors flex flex-col items-start gap-1"
             >
-              690 E Warner Rd, Ste. 103
+              1601 S De Anza Blvd #260
               <br />
-              Gilbert, AZ 85296
+              Cupertino, CA 95014
             </a>
-            {/* FHA Case Transfer Request: */}
-            {/* <br />  casetransfer@cfmtg.com */}
           </p>
           {/* Social Links Row */}
-
           <div className="flex items-center gap-3 w-full">
             {socialIcons.map((social) => (
               <a
@@ -159,7 +158,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={social.alt}
-                className="w-9 h-8 md:w-10 md:h-10 hover:text-gray-600 text-[#021B2C] hover:bg-[#021B2C] transition-colors rounded-full border border-[#021B2C] flex items-center justify-center hover:bg-gray-100 transition"
+                className="w-9 h-8 md:w-10 md:h-10 hover:text-gray-600 text-white hover:bg-white transition-colors rounded-full border border-white flex items-center justify-center hover:bg-white hover:text-[#1c1c1c] transition"
               >
                 {social.icon}
               </a>
@@ -167,7 +166,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* logor + Scroll-to-top Column */}
+        {/* logoV + Scroll-to-top Column */}
         <div className="flex flex-row-reverse md:flex-col items-center md:items-end justify-between md:justify-end gap-6 md:gap-0">
           <button
             onClick={scrollToTop}
@@ -186,8 +185,8 @@ export default function Footer() {
 
           <div className="flex flex-col items-center md:mt-20">
             <Image
-              src="/img/logor.png"
-              alt="Adrian Webb logor"
+              src="/img/logoV.png"
+              alt="Lee Chieng logoV"
               width={100}
               height={100}
               className="w-32 h-auto"

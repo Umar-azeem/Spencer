@@ -169,7 +169,7 @@ const LoanProductsCarousel: React.FC = () => {
                     <div className="flex items-center">
                       <img
                         className="w-20 h-20 object-contain"
-                        src="/img/logor.png"
+                        src="/img/logoV.png"
                         alt="logoN"
                       />
                     </div>

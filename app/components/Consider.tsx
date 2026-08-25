@@ -36,10 +36,10 @@ function Consider() {
                 Loan Officer Profile
               </p>
               <h3 className="text-3xl sm:text-4xl font-bold mb-1 tracking-tight">
-                About Randy Bongard
+                About Lee Chieng 
               </h3>
               <p className="text-[#021B2C] text-xs sm:text-sm font-medium mb-6">
-                NMLS #384700
+                NMLS ID:384700
               </p>
 
               <h4 className="text-lg sm:text-xl font-semibold text-[#021B2C] mb-3 border-b border-white/10 pb-2">

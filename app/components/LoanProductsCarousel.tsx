@@ -9,12 +9,12 @@ import Link from "next/link";
 const testimonials = [
   {
     name: "Casey J",
-    text: "The team that worked for me was amazing! Randy is a champion and helped me in every way... The professionalism, work ethic, skill and customer service is stellar!!",
+    text: "The team that worked for me was amazing! Lee is a champion and helped me in every way... The professionalism, work ethic, skill and customer service is stellar!!",
     rating: 5,
   },
   {
     name: "Yvette",
-    text: "Randy and his team were outstanding! They provided top-notch service... An unexpected bonus were video’s emailed explaining the next phase so you weren’t left confused.",
+    text: "Lee and his team were outstanding! They provided top-notch service... An unexpected bonus were video’s emailed explaining the next phase so you weren’t left confused.",
     rating: 5,
   },
   {
@@ -24,7 +24,7 @@ const testimonials = [
   },
   {
     name: "Thomas",
-    text: "Randy's people, in particular Josh have been more than available and helpful through out this whole process. As a first time buyer, I am extremely thankful...",
+    text: "Lee's people, in particular Josh have been more than available and helpful through out this whole process. As a first time buyer, I am extremely thankful...",
     rating: 5,
   },
 ];
@@ -51,7 +51,7 @@ const resources = [
   },
 ];
 
-const AboutRandyPage: React.FC = () => {
+const AboutLeePage: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* --- 1. HERO SECTION --- */}
@@ -63,12 +63,12 @@ const AboutRandyPage: React.FC = () => {
             <span className="text-[#021B2C]">Let's Simplify That.</span>
           </h1>
           <p className="text-xl md:text-2xl text-green-100/90 max-w-3xl mx-auto mb-8">
-            Get expert guidance from Randy Bongard, a trusted advisor with over
-            30 years of experience.
+            Get expert guidance from Lee Chieng , a trusted advisor with over 30
+            years of experience.
           </p>
           <Link href="#contact">
             <button className="bg-white text-[#021B2C] hover:bg-gray-100 px-8 py-4 rounded-xl font-bold text-lg flex items-center gap-2 transition shadow-lg mx-auto">
-              Contact Randy <ArrowRight size={20} />
+              Contact Lee <ArrowRight size={20} />
             </button>
           </Link>
         </div>
@@ -78,10 +78,10 @@ const AboutRandyPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              {/* Placeholder for Randy's Photo */}
+              {/* Placeholder for Lee's Photo */}
               <div className="bg-gray-200 rounded-2xl h-80 w-full max-w-md mx-auto flex items-center justify-center text-gray-500">
                 <User size={64} />
-                <span className="sr-only">Randy's Photo</span>
+                <span className="sr-only">Lee's Photo</span>
               </div>
             </div>
             <div>
@@ -89,10 +89,10 @@ const AboutRandyPage: React.FC = () => {
                 ABOUT ME
               </p>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                Meet Randy Bongard
+                Meet Lee Chieng
               </h2>
               <p className="text-gray-700 text-lg leading-relaxed mb-4">
-                Randy and his team are committed to putting you in the “right”
+                Lee and his team are committed to putting you in the “right”
                 loan program for you (based on your unique situation and
                 specific goals)… at the lowest cost possible. Remember, Price
                 Mortgage is a mortgage broker… so we have access to many more
@@ -116,7 +116,7 @@ const AboutRandyPage: React.FC = () => {
                   </span>
                 </div>
               </div>
-              <p className="text-sm text-gray-500 mt-4">NMLS #832622</p>
+              <p className="text-sm text-gray-500 mt-4">NMLS ID:339727</p>
             </div>
           </div>
         </div>
@@ -219,7 +219,7 @@ const AboutRandyPage: React.FC = () => {
       <section id="contact" className="py-16 md:py-24 bg-[#021B2C] text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Need Some Help? Contact Randy
+            Need Some Help? Contact Lee
           </h2>
           <p className="text-xl text-green-100/90 mb-8">
             Have questions? Ready to get started? Reach out anytime.
@@ -298,4 +298,4 @@ const AboutRandyPage: React.FC = () => {
   );
 };
 
-export default AboutRandyPage;
+export default AboutLeePage;

@@ -25,12 +25,11 @@ export default function Community() {
           </h2>
 
           <p className="text-[15px] text-gray-600 leading-relaxed max-w-2xl mx-auto lg:mx-0 mb-10 sm:mb-14">
-            Randy has been in the real estate industry since 1993. He spend the
-            first 20 years in commercial real estate working for two of the
-            largest publicly-traded REITs(real estate investment trusts) in the
-            country. Randy joins Price Mortgage after having spend 7 years with
-            one of the best mortgage bankers in the industry where he co-managed
-            one of the top-producing lending offices in the Valley.
+            With over 20 years of experience in the mortgage industry, I've had
+            the privilege of helping countless families achieve their dream of
+            homeownership. My journey has been fueled by a passion for making a
+            positive impact in people's lives. Let's embark on this journey
+            together.
           </p>
 
           <Link href="/contact-us">

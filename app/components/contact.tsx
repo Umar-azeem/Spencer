@@ -17,9 +17,9 @@ interface SocialIcon {
 const socialIcons: SocialIcon[] = [
   {
     id: "facebook",
-    src: "https://www.facebook.com/pricemortgage/",
+    src: "https://www.facebook.com/Leethemortgagespecialist",
     alt: "Facebook",
-    url: "https://www.facebook.com/pricemortgage/",
+    url: "https://www.facebook.com/Leethemortgagespecialist",
     icon: (
       <span className="[&>svg]:h-5 [&>svg]:w-5">
         <svg
@@ -34,9 +34,9 @@ const socialIcons: SocialIcon[] = [
   },
   {
     id: "instagram",
-    src: "https://www.instagram.com/pricemortgagellc/",
+    src: "https://www.instagram.com/lee_themortgagepro/",
     alt: "Instagram",
-    url: "https://www.instagram.com/pricemortgagellc/",
+    url: "https://www.instagram.com/lee_themortgagepro/",
     icon: (
       <span className="[&>svg]:h-5 [&>svg]:w-5">
         <svg
@@ -51,9 +51,9 @@ const socialIcons: SocialIcon[] = [
   },
   {
     id: "linkedin",
-    src: "https://www.linkedin.com/company/cornerstone-first-mortgage/",
+    src: "https://www.linkedin.com/in/lee-chieng/",
     alt: "LinkedIn",
-    url: "https://www.linkedin.com/company/cornerstone-first-mortgage/",
+    url: "https://www.linkedin.com/in/lee-chieng/",
     icon: (
       <span className="[&>svg]:h-5 [&>svg]:w-5">
         <svg
@@ -62,38 +62,6 @@ const socialIcons: SocialIcon[] = [
           viewBox="0 0 448 512"
         >
           <path d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
-        </svg>
-      </span>
-    ),
-  },
-  {
-    id: "google",
-    src: "https://search.google.com/local/writereview?placeid=ChIJLTvnfmusK4cRBSXWxU5bZ1k",
-    alt: "Google",
-    url: "https://search.google.com/local/writereview?placeid=ChIJLTvnfmusK4cRBSXWxU5bZ1k",
-    icon: (
-      <span className="[&>svg]:h-5 [&>svg]:w-5">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 48 48"
-          fill="currentColor"
-        >
-          <path
-            fill="currentColor"
-            d="M43.611,20.083H42V20H24v8h11.303c-1.649,4.657-6.08,8-11.303,8c-6.627,0-12-5.373-12-12c0-6.627,5.373-12,12-12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C12.955,4,4,12.955,4,24c0,11.045,8.955,20,20,20c11.045,0,20-8.955,20-20C44,22.659,43.862,21.35,43.611,20.083z"
-          />
-          <path
-            fill="currentColor"
-            d="M6.306,14.691l6.571,4.819C14.655,15.108,18.961,12,24,12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C16.318,4,9.656,8.337,6.306,14.691z"
-          />
-          <path
-            fill="currentColor"
-            d="M24,44c5.166,0,9.86-1.977,13.409-5.192l-6.19-5.238C29.211,35.091,26.715,36,24,36c-5.202,0-9.619-3.317-11.283-7.946l-6.522,5.025C9.505,39.556,16.227,44,24,44z"
-          />
-          <path
-            fill="currentColor"
-            d="M43.611,20.083H42V20H24v8h11.303c-0.792,2.237-2.231,4.166-4.087,5.571c0.001-0.001,0.002-0.001,0.003-0.002l6.19,5.238C36.971,39.205,44,34,44,24C44,22.659,43.862,21.35,43.611,20.083z"
-          />
         </svg>
       </span>
     ),
@@ -131,11 +99,11 @@ Message:
 ${message || "No additional message provided."}
 
 ---
-This inquiry was sent from the Randy Bongard - Price Mortgage website.`,
+This inquiry was sent from the Lee Chieng - Mortgage website.`,
     );
 
     window.open(
-      `mailto:rbongard@pricemortgage.com?subject=${emailSubject}&body=${emailBody}`,
+      `mailto:LChieng@gmccloan.com?subject=${emailSubject}&body=${emailBody}`,
       "_blank",
     );
 
@@ -159,10 +127,10 @@ This inquiry was sent from the Randy Bongard - Price Mortgage website.`,
           <p className="text-slate-500 text-sm mb-6">
             If it didn&apos;t open, please contact us directly at{" "}
             <a
-              href="mailto:rbongard@pricemortgage.com"
+              href="mailto:LChieng@gmccloan.com"
               className="text-[#021B2C] underline font-medium"
             >
-              rbongard@pricemortgage.com
+              LChieng@gmccloan.com
             </a>
           </p>
           <Button
@@ -196,7 +164,7 @@ This inquiry was sent from the Randy Bongard - Price Mortgage website.`,
             Licensed Mortgage Broker
           </p>
           <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-4">
-            Contact Randy Bongard
+            Contact Lee Chieng
           </h1>
           <p className="text-xl text-gray-200 max-w-2xl mx-auto font-light">
             Ready for a clear, straightforward mortgage plan? Let&apos;s
@@ -212,23 +180,23 @@ This inquiry was sent from the Randy Bongard - Price Mortgage website.`,
             {/* Profile Section */}
             <div>
               <h2 className="text-2xl sm:text-3xl font-bold mb-2">
-                Hi, I&apos;m Randy Bongard
+                Hi, I&apos;m Lee Chieng
               </h2>
               <p className="text-2xl font-semibold text-[#021B2C] mb-4">
                 Your Senior Loan Officer
               </p>
               <p className="text-gray-600 leading-relaxed text-[15px]">
-                Randy and his team are committed to putting you in the
+                Lee and his team are committed to putting you in the
                 &ldquo;right&rdquo; loan program for you (based on your unique
                 situation and specific goals)&hellip; at the lowest cost
-                possible. Remember, Price Mortgage is a mortgage broker&hellip;
-                so we have access to many more loan programs to consider!
+                possible. Remember, we have access to many loan programs to
+                consider!
               </p>
               <p className="text-gray-600 leading-relaxed text-[15px] mt-4">
-                They are true loan experts who pride themselves on being
-                mortgage &ldquo;advisors&rdquo;. Moreover, they want to create
-                long-term relationships with each and every one of our
-                clients&hellip; as opposed to just a transactional focus.
+                Lee is a true loan expert who prides himself on being a mortgage
+                &ldquo;advisor&rdquo;. Moreover, he wants to create long-term
+                relationships with each and every one of his clients&hellip; as
+                opposed to just a transactional focus.
               </p>
             </div>
 
@@ -237,7 +205,7 @@ This inquiry was sent from the Randy Bongard - Price Mortgage website.`,
               <h3 className="font-semibold text-lg">Contact Me</h3>
 
               <a
-                href="tel:480-428-5220"
+                href="tel:833-760-0828"
                 className="flex items-start gap-4 group"
               >
                 <div className="w-10 h-10 rounded-full bg-white border border-gray-300 flex items-center justify-center text-[#021B2C] shrink-0 group-hover:bg-[#021B2C] group-hover:text-white transition">
@@ -245,14 +213,14 @@ This inquiry was sent from the Randy Bongard - Price Mortgage website.`,
                 </div>
                 <div>
                   <p className="font-bold text-lg text-gray-900 leading-tight group-hover:text-[#021B2C] transition">
-                    (480) 428-5220
+                    (833) 760-0828
                   </p>
                   <p className="text-gray-500 text-xs mt-1">Phone</p>
                 </div>
               </a>
 
               <a
-                href="mailto:rbongard@pricemortgage.com"
+                href="mailto:LChieng@gmccloan.com"
                 className="flex items-start gap-4 group"
               >
                 <div className="w-10 h-10 rounded-full bg-white border border-gray-300 flex items-center justify-center text-[#021B2C] shrink-0 group-hover:bg-[#021B2C] group-hover:text-white transition">
@@ -260,7 +228,7 @@ This inquiry was sent from the Randy Bongard - Price Mortgage website.`,
                 </div>
                 <div>
                   <p className="font-bold text-lg text-gray-900 leading-tight group-hover:text-[#021B2C] transition break-all">
-                    rbongard@pricemortgage.com
+                    LChieng@gmccloan.com
                   </p>
                   <p className="text-gray-500 text-xs mt-1">Email</p>
                 </div>
@@ -272,12 +240,12 @@ This inquiry was sent from the Randy Bongard - Price Mortgage website.`,
                 </div>
                 <div>
                   <p className="font-bold text-md text-gray-900 leading-tight">
-                    Location
+                    Office Location
                   </p>
                   <p className="text-gray-600 text-sm mt-1">
-                    690 E Warner Rd, Ste. 103
+                    1601 S De Anza Blvd #260
                     <br />
-                    Gilbert, AZ 85296
+                    Cupertino, CA 95014
                   </p>
                 </div>
               </div>
@@ -321,7 +289,7 @@ This inquiry was sent from the Randy Bongard - Price Mortgage website.`,
             {/* NMLS */}
             <div className="border-t border-gray-300 pt-8">
               <p className="text-sm text-gray-500">
-                <span className="font-semibold">NMLS ID:</span> #832622
+                <span className="font-semibold">NMLS ID:</span> # 339727
               </p>
             </div>
           </div>
@@ -335,18 +303,18 @@ This inquiry was sent from the Randy Bongard - Price Mortgage website.`,
 
               <div className="flex flex-wrap gap-3 mb-6">
                 <a
-                  href="mailto:rbongard@pricemortgage.com"
+                  href="mailto:LChieng@gmccloan.com"
                   className="flex items-center gap-2 text-xs text-slate-600 bg-slate-100 hover:bg-slate-200 px-3 py-1.5 rounded-full transition-colors"
                 >
                   <Mail className="w-3.5 h-3.5" />
-                  rbongard@pricemortgage.com
+                  LChieng@gmccloan.com
                 </a>
                 <a
-                  href="tel:480-428-5220"
+                  href="tel:833-760-0828"
                   className="flex items-center gap-2 text-xs text-slate-600 bg-slate-100 hover:bg-slate-200 px-3 py-1.5 rounded-full transition-colors"
                 >
                   <Phone className="w-3.5 h-3.5" />
-                  (480) 428-5220
+                  (833) 760-0828
                 </a>
               </div>
 
@@ -537,12 +505,12 @@ This inquiry was sent from the Randy Bongard - Price Mortgage website.`,
       <footer className="bg-white border-t border-gray-200 py-12 text-xs text-gray-500 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto space-y-4">
           <div className="flex flex-wrap items-start gap-x-6 gap-y-2 font-medium text-gray-700 text-sm">
-            <span>NMLS ID: #832622</span>
+            <span>NMLS ID: 339727</span>
             <a
-              href="tel:480-428-5220"
+              href="tel:833-760-0828"
               className="hover:text-[#021B2C] transition"
             >
-              (480) 428-5220
+              (833) 760-0828
             </a>
             <a
               href="https://www.nmlsconsumeraccess.org"
@@ -554,10 +522,10 @@ This inquiry was sent from the Randy Bongard - Price Mortgage website.`,
             </a>
           </div>
           <p className="leading-relaxed">
-            <strong>Equal Housing Opportunity:</strong> Price Mortgage is an
-            Equal Housing Opportunity lender. We are pledged to the letter and
-            spirit of U.S. policy for the achievement of equal housing
-            opportunity throughout the Nation.
+            <strong>Equal Housing Opportunity:</strong> We are an Equal Housing
+            Opportunity lender. We are pledged to the letter and spirit of U.S.
+            policy for the achievement of equal housing opportunity throughout
+            the Nation.
           </p>
         </div>
       </footer>

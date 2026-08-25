@@ -1,13 +1,10 @@
 "use client";
 
-import { useState, useEffect, ChangeEvent } from "react";
+import { useState, ChangeEvent } from "react";
 
-// Define the interface for the component props
 interface MortgageCalculatorProps {
   setContactOpen: (open: boolean) => void;
 }
-
-// Define the interface for the mortgage calculation result
 interface MortgageResult {
   pi: number;
   tax: number;

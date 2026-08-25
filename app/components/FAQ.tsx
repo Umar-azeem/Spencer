@@ -5,34 +5,29 @@ import { Plus, Minus } from "lucide-react";
 
 const faqs = [
   {
-    question: "How much does it cost to refinance?",
+    question: "What is the first step in the mortgage process?",
     answer:
-      "Refnancing costs typically range from 2% to 6% of the loan amount and include fees such as appraisal, title insurance, and closing costs. Factors like your loan type, location, and credit score can significantly impact these expenses. Our team can help to provide strategies that can help minimize costs",
+      "The first step is getting pre-approved for a mortgage. This will help you determine your budget and show sellers that you are a serious buyer. Pre-approval involves a review of your financial situation and credit history.",
   },
   {
-    question: "How much house can I afford?",
+    question: "How much down payment is required?",
     answer:
-      "We'll review your income, debts, down payment, and financial goals to establish a clear, comfortable budget before you start looking for a home. This helps you shop with confidence.",
+      "The required down payment varies depending on the loan program and lender. Typically, down payments range from 3% to 20% of the home's purchase price. Some programs, like VA and USDA loans, may offer zero down payment options for eligible borrowers.",
   },
   {
-    question: "What is a good credit score?",
+    question: "What is the difference between a fixed-rate and an adjustable-rate mortgage?",
     answer:
-      "While this is program-dependent, many conventional loan options look for a score of 620 or higher. Government-backed loans like FHA and VA are often more flexible.",
+      "A fixed-rate mortgage has an interest rate that remains constant throughout the life of the loan, providing predictable monthly payments. An adjustable-rate mortgage (ARM) has an interest rate that can change periodically, usually based on a benchmark index, which means your payments can increase or decrease over time.",
   },
   {
-    question: "What is a HELOC??",
+    question: "How is my credit score affected by applying for a mortgage?",
     answer:
-      "A Home Equity Line of Credit (HELOC) is a revolving line of credit that uses your home's equity as collateral. It offers flexibility, allowing you to borrow what you need, when you need it, and typically features interest-only payments during the draw period.",
+      "When you apply for a mortgage, lenders perform a hard inquiry on your credit report, which can slightly lower your credit score. However, multiple inquiries within a short period are typically treated as a single inquiry, minimizing the impact on your score. It's important to maintain good credit habits throughout the process.",
   },
   {
-    question: "How do I calculate mortgage payments?",
+    question: "What documents do I need to apply for a mortgage?",
     answer:
-      "You can use our comprehensive mortgage calculator on the Tools page. It allows you to factor in the home price, down payment, interest rate, loan term, and other costs to estimate your monthly payment. You can even download an amortization schedule.",
-  },
-  {
-    question: "What cash-out option is better for me?",
-    answer:
-      "A HELOC (Home Equity Line of Credit) and a HELOAN (Home Equity Loan) are both great options to access your home equity as cash, but what's the difference? Here is the high-level break down, but give us a call and we will help you choose the right option, with side-by-side comparisons and advice from a dedicated mortgage profession.",
+      "To apply for a mortgage, you'll need several documents, including proof of income (such as pay stubs and tax returns), employment history, credit history, bank statements, and information on any other assets and debts. Having these documents ready can expedite the application process.",
   },
 ];
 

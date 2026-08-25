@@ -7,22 +7,40 @@ import * as Icons from "lucide-react";
 export default function AboutPage() {
   const values = [
     {
-      icon: Icons.Shield,
-      title: "Honesty & Transparency",
+      icon: Icons.Heart,
+      title: "Great Customer Experience",
       description:
-        "You get straight answers and clear explanations. No jargon, no surprises.",
+        "A great customer experience means prioritizing your needs, providing clear communication, and ensuring a smooth, stress-free process from start to finish. My goal is to exceed your expectations.",
+    },
+    {
+      icon: Icons.User,
+      title: "Personalized Service",
+      description:
+        "Experience tailored mortgage solutions that fit your unique needs. I take the time to understand your goals and provide options that align with your financial situation and homeownership dreams.",
+    },
+    {
+      icon: Icons.Briefcase,
+      title: "Expert Guidance",
+      description:
+        "With over 20 years in the industry, I bring deep expertise and knowledge to every interaction. You can trust my experience and guidance to navigate the complexities of the mortgage process.",
     },
     {
       icon: Icons.Zap,
-      title: "Unmatched Responsiveness",
+      title: "Fast Approvals",
       description:
-        "I answer calls and return emails promptly. You're never left wondering.",
+        "Time is of the essence in the home buying process. Benefit from quick, efficient approvals that help you move forward with confidence and secure your dream home without unnecessary delays.",
     },
     {
-      icon: Icons.Handshake,
-      title: "A Partnership for Life",
+      icon: Icons.MessageSquare,
+      title: "Transparent Communication",
       description:
-        "My goal is to be your trusted mortgage advisor for every home and every milestone.",
+        "Clear, honest communication is at the heart of what I do. You'll always know where you stand and what to expect, ensuring a smooth and stress-free mortgage experience from start to finish.",
+    },
+    {
+      icon: Icons.Star,
+      title: "Client Success Stories",
+      description:
+        "Join the countless families and individuals who have successfully achieved their homeownership dreams with my help. Let their stories inspire you and give you confidence in your own journey.",
     },
   ];
 
@@ -72,61 +90,47 @@ export default function AboutPage() {
 
   const loanPrograms = [
     {
-      title: "Conventional Loans",
+      title: "GMCC Mortgage Programs",
       description:
-        "Traditional mortgage financing with competitive rates, flexible terms, and down payments as low as 3%.",
+        "Discover GMCC's tailored mortgage solutions and explore a range of programs to find the perfect fit for your homeownership goals.",
     },
     {
-      title: "FHA Loans",
+      title: "The GMCC Advantage",
       description:
-        "Government-backed home loans with flexible credit requirements and down payments as low as 3.5%.",
+        "By partnering with GMCC, my services provide access to secondary capital. This means top-notch expertise and a wide array of mortgage programs that you will not find elsewhere.",
     },
     {
-      title: "VA Home Loans",
+      title: "Industry-Leading Expertise",
       description:
-        "Exclusive zero-down mortgage benefits for veterans and service members.",
+        "Access to industry-leading expertise in mortgage lending with a wide range of competitive mortgage programs.",
     },
     {
-      title: "USDA Loans",
+      title: "Streamlined Processes",
       description:
-        "Loans designed to help low- and moderate-income individuals and families buy homes in rural areas.",
-    },
-    {
-      title: "New Construction Financing",
-      description:
-        "Specialized financing for building your dream home from the ground up.",
-    },
-    {
-      title: "Non-Traditional Solutions",
-      description:
-        "Tailored financing options for self-employed borrowers who may not qualify through traditional methods.",
+        "Benefit from streamlined processes for rapid turnaround and personalized guidance and support throughout your mortgage journey.",
     },
   ];
 
   const faqs = [
     {
-      q: "How fast can I get pre-approved?",
-      a: "Most pre-approvals are completed within 24-48 hours once all documentation is received.",
+      q: "What is the first step in the mortgage process?",
+      a: "The first step is getting pre-approved for a mortgage. This will help you determine your budget and show sellers that you are a serious buyer. Pre-approval involves a review of your financial situation and credit history.",
     },
     {
-      q: "What credit scores work for first-time buyers?",
-      a: "FHA loans accept scores as low as 580 with 3.5% down. Conventional loans typically require 620+.",
+      q: "How much down payment is required?",
+      a: "The required down payment varies depending on the loan program and lender. Typically, down payments range from 3% to 20% of the home's purchase price. Some programs, like VA and USDA loans, may offer zero down payment options for eligible borrowers.",
     },
     {
-      q: "What documents do self-employed borrowers need?",
-      a: "Typically 12-24 months of personal or business bank statements showing consistent income, along with tax returns.",
+      q: "What is the difference between a fixed-rate and an adjustable-rate mortgage?",
+      a: "A fixed-rate mortgage has an interest rate that remains constant throughout the life of the loan, providing predictable monthly payments. An adjustable-rate mortgage (ARM) has an interest rate that can change periodically, usually based on a benchmark index, which means your payments can increase or decrease over time.",
     },
     {
-      q: "What are USDA loan requirements?",
-      a: "USDA loans are for rural properties and require the home to be in an eligible area. They offer 0% down payment options.",
+      q: "How is my credit score affected by applying for a mortgage?",
+      a: "When you apply for a mortgage, lenders perform a hard inquiry on your credit report, which can slightly lower your credit score. However, multiple inquiries within a short period are typically treated as a single inquiry, minimizing the impact on your score. It's important to maintain good credit habits throughout the process.",
     },
     {
-      q: "How does new construction financing work?",
-      a: "Construction loans provide funds to build your home, then convert to permanent financing once construction is complete.",
-    },
-    {
-      q: "What are typical VA loan timelines?",
-      a: "VA loans typically close in 30-45 days. We help veterans navigate the process from COE to appraisal.",
+      q: "What documents do I need to apply for a mortgage?",
+      a: "To apply for a mortgage, you'll need several documents, including proof of income (such as pay stubs and tax returns), employment history, credit history, bank statements, and information on any other assets and debts. Having these documents ready can expedite the application process.",
     },
   ];
 
@@ -147,7 +151,7 @@ export default function AboutPage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Hero Section - Randy Bongard */}
+      {/* Hero Section - Lee Chieng */}
       <div className="relative bg-gradient-to-r from-[#021B4C] via-[#021B2C] to-[#04202D] text-white rounded-2xl">
         <div
           className="absolute inset-0 z-0 opacity-20"
@@ -163,17 +167,19 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-white font-bold tracking-[4px] text-sm mb-4">
-                Senior Loan Officer
+                Certified Mortgage Advisor
               </p>
-              <p className="text-white text-sm mb-2">NMLS #832622</p>
+              <p className="text-white text-sm mb-2">NMLS #339727</p>
+              <p className="text-white text-sm mb-2">CA DRE# 01881231</p>
+              <p className="text-white text-sm mb-4">AZ# 1040124</p>
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-6">
-                Randy Bongard
+                Lee Chieng
               </h1>
               <p className="text-gray-200 text-lg max-w-xl mb-2">
-                690 E Warner Rd, Ste. 103
+                1601 S De Anza Blvd #260,
               </p>
               <p className="text-gray-200 text-lg max-w-xl mb-6">
-                Gilbert, AZ 85296
+                Cupertino, CA 95014
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link href="/contact-us">
@@ -181,9 +187,9 @@ export default function AboutPage() {
                     Get Pre-Approved
                   </button>
                 </Link>
-                <a href="tel:+14804285220">
+                <a href="tel:+14155692119">
                   <button className="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white/10 transition flex items-center gap-2">
-                    <Icons.Phone className="w-4 h-4" /> Call Randy
+                    <Icons.Phone className="w-4 h-4" /> Call Lee
                   </button>
                 </a>
               </div>
@@ -193,8 +199,8 @@ export default function AboutPage() {
               <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96">
                 <div className="absolute inset-0 rounded-full bg-[#021B2C]/95 animate-pulse" />
                 <Image
-                  src="/img/rb.png"
-                  alt="Randy Bongard - Senior Loan Officer"
+                  src="/img/lee.png"
+                  alt="Lee Chieng - Certified Mortgage Advisor"
                   fill
                   className="rounded-full object-cover border-4 border-white/20 shadow-2xl"
                   priority
@@ -209,79 +215,119 @@ export default function AboutPage() {
       </div>
 
       <div className="container mx-auto max-w-7xl px-4 py-12 md:py-16">
-        {/* About Randy Bongard */}
+        {/* About Lee Chieng - Updated with new intro */}
         <section className="mb-16">
-          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
-            About Randy Bongard
-          </h2>
+          <div className="text-center max-w-4xl mx-auto mb-10">
+            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+              Let's Get Introduced
+            </h2>
+            <p className="text-xl text-gray-700 font-medium mb-4">
+              "Hi, I'm Lee, A Dedicated Mortgage Loan Officer Here to Make Your
+              Homeownership Dreams a Reality!"
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              With over 20 years of experience in the mortgage industry, I've
+              had the privilege of helping countless families achieve their
+              dream of homeownership. My journey has been fueled by a passion
+              for making a positive impact in people's lives. Let's embark on
+              this journey together.
+            </p>
+          </div>
+
+          {/* Stats Row */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10">
+            <div className="bg-white rounded-xl p-6 text-center shadow-sm border border-gray-200">
+              <p className="text-3xl font-bold text-[#021B2C]">20+</p>
+              <p className="text-gray-600 text-sm font-medium">Years Of Experience</p>
+            </div>
+            <div className="bg-white rounded-xl p-6 text-center shadow-sm border border-gray-200">
+              <p className="text-3xl font-bold text-[#021B2C]">2,200</p>
+              <p className="text-gray-600 text-sm font-medium">Doors Opened</p>
+            </div>
+            <div className="bg-white rounded-xl p-6 text-center shadow-sm border border-gray-200">
+              <p className="text-3xl font-bold text-[#021B2C]">21</p>
+              <p className="text-gray-600 text-sm font-medium">Day Turnaround</p>
+            </div>
+          </div>
+
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2">
+              <h3 className="font-semibold text-gray-900 text-lg mb-3">My Offer To You</h3>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Randy has been helping clients with their home financing needs
-                for nearly 25 years. He takes pride in making the mortgage
-                process as smooth and enjoyable as possible, whether you're
-                purchasing a new home or refinancing.
+                With over 20 years of experience, I offer expert guidance,
+                personalized solutions, and a commitment to making your
+                homeownership journey smooth and successful.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
-                He offers a full range of loan options, including Conventional,
-                FHA, VA, and USDA programs, as well as financing for new
-                construction projects. For self-employed borrowers who may not
-                qualify through traditional methods, Randy also provides a
-                variety of non-traditional solutions tailored to their needs.
+                I take pride in making the mortgage process as smooth and
+                enjoyable as possible, whether you're purchasing a new home or
+                refinancing.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Originally from Augusta, Randy graduated from the University of
-                Georgia with a degree in Economics. He spent nine years living
-                in Atlanta, where he met his wife, before returning to Augusta
-                to begin his career as a mortgage lender. He and his wife have
-                two sons, Daniel (22) and Shaw (21).
+                Originally from Augusta, I graduated from the University of
+                Georgia with a degree in Economics. I spent nine years living in
+                Atlanta, where I met my wife, before returning to Augusta to
+                begin my career as a mortgage lender. We have two sons, Daniel
+                (22) and Shaw (21).
               </p>
               <p className="text-gray-700 leading-relaxed font-medium">
-                If you want a mortgage experience that{`'`}s professional,
-                personal, and even a little fun, give Randy a call.
+                If you want a mortgage experience that's professional, personal,
+                and even a little fun, give me a call.
               </p>
               <div className="mt-6 flex items-center gap-4">
                 <a
-                  href="tel:+14804285220"
+                  href="tel:+14155692119"
                   className="text-[#021B2C] font-medium flex items-center gap-2"
                 >
                   <Icons.Phone className="w-4 h-4" />
-                  (480) 428-5220
+                  (415) 569-2119
                 </a>
                 <a
-                  href="mailto:rbongard@pricemortgage.com"
+                  href="mailto:LChieng@gmccloan.com"
                   className="text-[#021B2C] font-medium flex items-center gap-2"
                 >
                   <Icons.Mail className="w-4 h-4" />
-                  rbongard@pricemortgage.com
+                  LChieng@gmccloan.com
                 </a>
               </div>
             </div>
 
             <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-              <h3 className="font-semibold text-gray-900 mb-4">
-                A TEAM YOU CAN TRUST
+              <h3 className="font-semibold text-gray-900 mb-4 text-center">
+                My Loan Solution Partners
               </h3>
-              <p className="text-gray-600 text-sm leading-relaxed">
-                Cornerstone First Mortgage, Inc. is a full-service mortgage
-                lender headquartered in San Diego, California. Functioning as
-                both the mortgage lender and broker, all aspects of the loan
-                process (underwriting, funding and processing) are offered
-                in-house. At Cornerstone First Mortgage, Inc., we are dedicated
-                to delivering high-quality customer service and offer an
-                extensive range of home loan programs with competitive rates to
-                deliver a solution that best fits the need of each client.
-              </p>
+              <div className="space-y-4">
+                <div>
+                  <h4 className="font-medium text-[#021B2C] text-sm">GMCC</h4>
+                  <p className="text-gray-600 text-xs leading-relaxed">
+                    GMCC Mortgage Programs offer tailored mortgage solutions to
+                    find the perfect fit for your homeownership goals.
+                  </p>
+                </div>
+                <div className="border-t border-gray-100 pt-3">
+                  <h4 className="font-medium text-[#021B2C] text-sm">The GMCC Advantage</h4>
+                  <p className="text-gray-600 text-xs leading-relaxed">
+                    By partnering with GMCC, my services provide access to
+                    secondary capital, top-notch expertise, and a wide array of
+                    mortgage programs you will not find elsewhere.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </section>
 
-        {/* Values Section */}
+        {/* Values Section - Updated with new values */}
         <section className="mb-16 bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
-          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
-            Mission, Values & Client Promise
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 text-center">
+            Why Choose Me?
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <p className="text-gray-600 text-center max-w-2xl mx-auto mb-8">
+            With over 20 years of experience, I offer expert guidance,
+            personalized solutions, and a commitment to making your
+            homeownership journey smooth and successful.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {values.map((value, index) => {
               const Icon = value.icon;
               return (
@@ -322,15 +368,15 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* Loan Programs */}
+        {/* Loan Programs - Updated with GMCC info */}
         <section className="mb-16">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
             Loan Programs & Expertise
           </h2>
           <p className="text-gray-600 mb-6">
-            Randy offers a full range of loan options to meet your unique needs:
+            I offer a full range of loan options to meet your unique needs:
           </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {loanPrograms.map((program, index) => (
               <div
                 key={index}
@@ -348,23 +394,23 @@ export default function AboutPage() {
         {/* Let's Get You Into Your Dream Home */}
         <section className="mb-16 bg-[#021B2C] text-white rounded-2xl p-8 text-center">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
-            Let{`'`}s get you into your dream home
+            Let's get you into your dream home
           </h2>
-          <p className="text-[#021B2C] max-w-2xl mx-auto mb-8">
-            It{`'`}s simple to get started on your mortgage journey – whether
-            you{`'`}re just looking to get pre-qualified or are ready to submit
-            an application. Just click the button below or submit a contact form
-            to speak with one of our mortgage experts. We're here to help!
+          <p className="text-gray-300 max-w-2xl mx-auto mb-8">
+            It's simple to get started on your mortgage journey – whether you're
+            just looking to get pre-qualified or are ready to submit an
+            application. Just click the button below or submit a contact form to
+            speak with me. I'm here to help!
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <a href="mailto:rbongard@pricemortgage.com">
+            <a href="mailto:LChieng@gmccloan.com">
               <button className="bg-white text-[#021B2C] px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
                 Get Started Today
               </button>
             </a>
             <Link href="/contact-us">
               <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition flex items-center gap-2">
-                <Icons.Mail className="w-4 h-4" /> Contact Randy
+                <Icons.Mail className="w-4 h-4" /> Contact Lee
               </button>
             </Link>
           </div>
@@ -373,7 +419,7 @@ export default function AboutPage() {
         {/* Process Steps */}
         <section className="mb-16 bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
-            How to Work With Randy
+            How to Work With Lee
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {processSteps.slice(0, 4).map((step) => (
@@ -415,7 +461,7 @@ export default function AboutPage() {
             Service Areas
           </h2>
           <p className="text-gray-300 text-center mb-6">
-            Randy is proud to offer expert mortgage guidance in the following
+            I am proud to offer expert mortgage guidance in the following
             states. Please note that specific loan program availability can vary
             by state.
           </p>
@@ -431,11 +477,14 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* FAQs */}
+        {/* FAQs - Updated with new questions */}
         <section className="mb-16">
-          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
-            Frequently Asked Questions
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+            Your Questions Answered
           </h2>
+          <p className="text-gray-600 mb-6">
+            Find Clear and Concise Answers to Common Mortgage Questions
+          </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {faqs.map((faq, index) => (
               <div
@@ -451,33 +500,54 @@ export default function AboutPage() {
           </div>
         </section>
 
+        {/* Newsletter CTA */}
+        <section className="mb-16 bg-gradient-to-r from-[#021B4C] to-[#021B2C] text-white rounded-2xl p-8 text-center">
+          <h3 className="text-xl font-bold mb-2">
+            Want to get expert tips in your inbox?
+          </h3>
+          <p className="text-gray-300 mb-6">
+            Sign up for our weekly newsletter to learn about buying and owning a
+            home one step at a time.
+          </p>
+          <form className="max-w-md mx-auto flex flex-col sm:flex-row gap-3">
+            <input
+              type="email"
+              placeholder="Your email address"
+              className="flex-1 px-4 py-3 rounded-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-white"
+            />
+            <button className="bg-white text-[#021B2C] px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition whitespace-nowrap">
+              Subscribe
+            </button>
+          </form>
+        </section>
+
         {/* CTA Footer */}
         <div className="mt-12 bg-[#021B2C] rounded-2xl p-8 text-white text-center">
           <h3 className="text-xl font-bold mb-2">Ready to get started?</h3>
-          <p className="text-[#021B2C] mb-6 text-sm">
-            Contact Randy today for a no-obligation consultation.
+          <p className="text-gray-300 mb-6 text-sm">
+            Contact Lee today for a no-obligation consultation.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a
-              href="tel:7068293294"
-              className="inline-flex items-center gap-2 bg-white text-white font-semibold px-6 py-3 rounded-xl hover:bg-green-50 transition"
+              href="tel:+14155692119"
+              className="inline-flex items-center gap-2 bg-white text-[#021B2C] font-semibold px-6 py-3 rounded-xl hover:bg-gray-100 transition"
             >
-              <Icons.Phone className="w-5 h-5" /> (480) 428-5220
+              <Icons.Phone className="w-5 h-5" /> (415) 569-2119
             </a>
             <a
-              href="mailto:rbongard@pricemortgage.com"
+              href="mailto:LChieng@gmccloan.com"
               className="inline-flex items-center gap-2 border-2 border-white text-white font-semibold px-6 py-3 rounded-xl hover:bg-white/10 transition"
             >
-              <Icons.Mail className="w-5 h-5" /> Email Randy
+              <Icons.Mail className="w-5 h-5" /> Email Lee
             </a>
           </div>
         </div>
 
         <div className="mt-8 p-4 bg-gray-50 rounded-lg border border-gray-200">
           <p className="text-xs text-gray-500 text-center leading-relaxed">
-            Randy Bongard is a licensed mortgage professional. NMLS #832622.
-            Loan approvals are subject to underwriting guidelines. Equal Housing
-            Lender.
+            Lee Chieng is a licensed mortgage professional. NMLS #339727, CA DRE#
+            01881231, AZ# 1040124. Loan approvals are subject to underwriting
+            guidelines. Equal Housing Lender.
           </p>
         </div>
       </div>

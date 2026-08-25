@@ -14,9 +14,9 @@ interface SocialIcon {
 const socialIcons: SocialIcon[] = [
   {
     id: "facebook",
-    src: "https://www.facebook.com/thecfmtg/",
+    src: "https://www.facebook.com/Leethemortgagespecialist",
     alt: "Facebook",
-    url: "https://www.facebook.com/pricemortgage/",
+    url: "https://www.facebook.com/Leethemortgagespecialist",
     icon: (
       <span className="[&>svg]:h-5 [&>svg]:w-5">
         <svg
@@ -31,9 +31,9 @@ const socialIcons: SocialIcon[] = [
   },
   {
     id: "instagram",
-    src: "https://www.instagram.com/pricemortgagellc/",
+    src: "https://www.instagram.com/lee_themortgagepro/",
     alt: "Instagram",
-    url: "https://www.instagram.com/pricemortgagellc/",
+    url: "https://www.instagram.com/lee_themortgagepro/",
     icon: (
       <span className="[&>svg]:h-5 [&>svg]:w-5">
         <svg
@@ -48,9 +48,9 @@ const socialIcons: SocialIcon[] = [
   },
   {
     id: "linkedin",
-    src: "https://search.google.com/local/writereview?placeid=ChIJLTvnfmusK4cRBSXWxU5bZ1k",
+    src: "https://www.linkedin.com/in/lee-chieng/",
     alt: "google",
-    url: "https://search.google.com/local/writereview?placeid=ChIJLTvnfmusK4cRBSXWxU5bZ1k",
+    url: "https://www.linkedin.com/in/lee-chieng/",
     icon: (
       <span className="[&>svg]:h-5 [&>svg]:w-5">
         <svg
@@ -75,18 +75,17 @@ const Loan: React.FC = () => {
               A Team You Can Trust
             </p>
             <h1 className="text-3xl sm:text-4xl font-semibold leading-tight text-gray-900">
-              Our President Sean Cahan,
+              Hi, I{`'`}m Lee, A Dedicated Mortgage Loan Officer Here to Make Your
+              Homeownership Dreams a Reality!
             </h1>
           </div>
 
           <p className="mt-6 sm:mt-8 text-gray-800 text-sm sm:text-md leading-relaxed max-w-xl mx-auto lg:mx-0">
-            Our President Sean Cahan, uses his 20 years of experience to
-            transform the loan process for the contemporary home-buyer. Our team
-            of professionals are dedicated to delivering excellent customer
-            service, unmatched communication, and transparent accessibility to
-            you throughout the process. With consistent investment in innovative
-            technology, we promise to enhance your experience, so you can be
-            confident in financing your future!
+            With over 20 years of experience in the mortgage industry, I{`'`}ve had
+            the privilege of helping countless families achieve their dream of
+            homeownership. My journey has been fueled by a passion for making a
+            positive impact in people{`'`}s lives. Let{`'`}s embark on this journey
+            together.
           </p>
 
           <Link href="/about">
@@ -95,7 +94,8 @@ const Loan: React.FC = () => {
               className="mt-8 sm:mt-10 inline-flex items-center gap-3 bg-[#021B2C] hover:bg-[#021B2C]/80 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-2xl font-semibold transition mx-auto lg:mx-0"
               type="button"
             >
-              About me            </button>
+              About me{" "}
+            </button>
           </Link>
         </div>
         <div className="flex  flex-col justify-center items-center mt-16 sm:mt-20 lg:mt-0">
@@ -110,7 +110,7 @@ const Loan: React.FC = () => {
             </div>
             <div className="w-full max-w-[350px] sm:max-w-[400px] md:max-w-[450px] aspect-[4/5]  md:h-[500px] bg-[#021B2C] rounded-[20px]" />
             <Image
-              src="/img/rb2.png"
+              src="/img/lee.png"
               alt="Advisor"
               width={480}
               height={680}
@@ -120,11 +120,11 @@ const Loan: React.FC = () => {
             />
             <div className="sm:hidden  absolute top-6 md:bottom-1  md:top-40 left-42 -translate-x-1/2 sm:left-20 sm:translate-x-0  sm:top-1/2 sm:-translate-y-1/2 bg-white rounded-[24px] sm:rounded-[30px] border-white shadow-4xl p-5 sm:p-8 w-[68%] sm:w-[300px]">
               <h3 className="text-lg sm:text-xl font-bold text-black">
-                Randy Bongard
+                Lee Chieng
               </h3>
               <p className="text-gray-800 mt-2 text-xs">Senior Loan Officer </p>
 
-              <p className="text-gray-800 text-xs mt-2">NMLS ID: 832622 </p>
+              <p className="text-gray-800 text-xs mt-2">NMLS ID: 339727 </p>
             </div>
           </div>
           <div className="flex gap-4 m-4">
