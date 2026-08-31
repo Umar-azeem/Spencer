@@ -169,17 +169,19 @@ export default function AboutPage() {
               <p className="text-white font-bold tracking-[4px] text-sm mb-4">
                 Certified Mortgage Advisor
               </p>
-              <p className="text-white text-sm mb-2">NMLS #339727</p>
+              <p className="text-white text-sm mb-2">
+                NMLS #NMLS# 339727, CA DRE#01881231, AZ#1040124
+              </p>
               <p className="text-white text-sm mb-2">CA DRE# 01881231</p>
               <p className="text-white text-sm mb-4">AZ# 1040124</p>
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-6">
                 Lee Chieng
               </h1>
               <p className="text-gray-200 text-lg max-w-xl mb-2">
-                1601 S De Anza Blvd #260,
+                10991 N. De Anza Blvd. 
               </p>
               <p className="text-gray-200 text-lg max-w-xl mb-6">
-                Cupertino, CA 95014
+                #A, Cupertino, CA 95014
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link href="/contact-us">
@@ -238,7 +240,9 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10">
             <div className="bg-white rounded-xl p-6 text-center shadow-sm border border-gray-200">
               <p className="text-3xl font-bold text-[#021B2C]">20+</p>
-              <p className="text-gray-600 text-sm font-medium">Years Of Experience</p>
+              <p className="text-gray-600 text-sm font-medium">
+                Years Of Experience
+              </p>
             </div>
             <div className="bg-white rounded-xl p-6 text-center shadow-sm border border-gray-200">
               <p className="text-3xl font-bold text-[#021B2C]">2,200</p>
@@ -246,13 +250,17 @@ export default function AboutPage() {
             </div>
             <div className="bg-white rounded-xl p-6 text-center shadow-sm border border-gray-200">
               <p className="text-3xl font-bold text-[#021B2C]">21</p>
-              <p className="text-gray-600 text-sm font-medium">Day Turnaround</p>
+              <p className="text-gray-600 text-sm font-medium">
+                Day Turnaround
+              </p>
             </div>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2">
-              <h3 className="font-semibold text-gray-900 text-lg mb-3">My Offer To You</h3>
+              <h3 className="font-semibold text-gray-900 text-lg mb-3">
+                My Offer To You
+              </h3>
               <p className="text-gray-700 leading-relaxed mb-4">
                 With over 20 years of experience, I offer expert guidance,
                 personalized solutions, and a commitment to making your
@@ -305,7 +313,9 @@ export default function AboutPage() {
                   </p>
                 </div>
                 <div className="border-t border-gray-100 pt-3">
-                  <h4 className="font-medium text-[#021B2C] text-sm">The GMCC Advantage</h4>
+                  <h4 className="font-medium text-[#021B2C] text-sm">
+                    The GMCC Advantage
+                  </h4>
                   <p className="text-gray-600 text-xs leading-relaxed">
                     By partnering with GMCC, my services provide access to
                     secondary capital, top-notch expertise, and a wide array of
@@ -545,9 +555,10 @@ export default function AboutPage() {
 
         <div className="mt-8 p-4 bg-gray-50 rounded-lg border border-gray-200">
           <p className="text-xs text-gray-500 text-center leading-relaxed">
-            Lee Chieng is a licensed mortgage professional. NMLS #339727, CA DRE#
-            01881231, AZ# 1040124. Loan approvals are subject to underwriting
-            guidelines. Equal Housing Lender.
+            Lee Chieng is a licensed mortgage professional. NMLS #NMLS# 339727,
+            CA DRE#01881231, AZ#1040124, CA DRE# 01881231, AZ# 1040124. Loan
+            approvals are subject to underwriting guidelines. Equal Housing
+            Lender.
           </p>
         </div>
       </div>

@@ -21,8 +21,8 @@ const ApplyNow: React.FC = () => {
   const loanOfficers = [
     {
       name: "Lee Chieng ",
-      phone: "480.580.5626",
-      email: "rbongard@pricemortgage.com",
+      phone: "+1 (415) 569-2119",
+      email: "LChieng@gmccloan.com",
     },
   ];
 
@@ -156,17 +156,17 @@ const ApplyNow: React.FC = () => {
                       href="tel:4805805626"
                       className="hover:text-[#021B2C] transition-colors"
                     >
-                      480.580.5626
+                      +1 (415) 569-2119
                     </a>
                   </span>
                   <span className="hidden sm:block text-gray-300">|</span>
                   <span className="flex items-center gap-1.5">
                     <Mail className="h-4 w-4 text-[#021B2C]" />
                     <a
-                      href="mailto:rbongard@pricemortgage.com"
+                      href="mailto:LChieng@gmccloan.com"
                       className="hover:text-[#021B2C] transition-colors"
                     >
-                      rbongard@pricemortgage.com
+                      LChieng@gmccloan.com
                     </a>
                   </span>
                   <span className="hidden sm:block text-gray-300">|</span>

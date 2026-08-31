@@ -213,7 +213,7 @@ This inquiry was sent from the Lee Chieng - Mortgage website.`,
                 </div>
                 <div>
                   <p className="font-bold text-lg text-gray-900 leading-tight group-hover:text-[#021B2C] transition">
-                    (833) 760-0828
+                    (415) 569-2119
                   </p>
                   <p className="text-gray-500 text-xs mt-1">Phone</p>
                 </div>
@@ -243,9 +243,9 @@ This inquiry was sent from the Lee Chieng - Mortgage website.`,
                     Office Location
                   </p>
                   <p className="text-gray-600 text-sm mt-1">
-                    1601 S De Anza Blvd #260
+                    10991 N. De Anza Blvd.
                     <br />
-                    Cupertino, CA 95014
+                    #A, Cupertino, CA 95014
                   </p>
                 </div>
               </div>
@@ -286,15 +286,14 @@ This inquiry was sent from the Lee Chieng - Mortgage website.`,
               </div>
             </div>
 
-            {/* NMLS */}
             <div className="border-t border-gray-300 pt-8">
               <p className="text-sm text-gray-500">
-                <span className="font-semibold">NMLS ID:</span> # 339727
+                <span className="font-semibold">NMLS ID:</span> # NMLS# 339727,
+                CA DRE#01881231, AZ#1040124
               </p>
             </div>
           </div>
 
-          {/* Right Column - Contact Form */}
           <div className="lg:col-span-7">
             <div className="bg-white shadow-lg border border-gray-200 rounded-2xl p-6 sm:p-10">
               <h3 className="text-2xl font-bold text-slate-900 mb-2">
@@ -314,7 +313,7 @@ This inquiry was sent from the Lee Chieng - Mortgage website.`,
                   className="flex items-center gap-2 text-xs text-slate-600 bg-slate-100 hover:bg-slate-200 px-3 py-1.5 rounded-full transition-colors"
                 >
                   <Phone className="w-3.5 h-3.5" />
-                  (833) 760-0828
+                  (415) 569-2119
                 </a>
               </div>
 
@@ -505,12 +504,12 @@ This inquiry was sent from the Lee Chieng - Mortgage website.`,
       <footer className="bg-white border-t border-gray-200 py-12 text-xs text-gray-500 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto space-y-4">
           <div className="flex flex-wrap items-start gap-x-6 gap-y-2 font-medium text-gray-700 text-sm">
-            <span>NMLS ID: 339727</span>
+            <span>NMLS ID: NMLS# 339727, CA DRE#01881231, AZ#1040124</span>
             <a
               href="tel:833-760-0828"
               className="hover:text-[#021B2C] transition"
             >
-              (833) 760-0828
+              (415) 569-2119
             </a>
             <a
               href="https://www.nmlsconsumeraccess.org"

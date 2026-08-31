@@ -109,7 +109,7 @@ export default function Footer() {
               href="tel:8337600828"
               className="hover:text-gray-300 transition-colors"
             >
-              (833) 760-0828
+              (415) 569-2119
             </Link>
           </p>
 
@@ -144,9 +144,9 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="hover:text-gray-300 transition-colors flex flex-col items-start gap-1"
             >
-              1601 S De Anza Blvd #260
+              10991 N. De Anza Blvd.
               <br />
-              Cupertino, CA 95014
+               #A, Cupertino, CA 95014
             </a>
           </p>
           {/* Social Links Row */}

@@ -75,17 +75,17 @@ const Loan: React.FC = () => {
               A Team You Can Trust
             </p>
             <h1 className="text-3xl sm:text-4xl font-semibold leading-tight text-gray-900">
-              Hi, I{`'`}m Lee, A Dedicated Mortgage Loan Officer Here to Make Your
-              Homeownership Dreams a Reality!
+              Hi, I{`'`}m Lee, A Dedicated Mortgage Loan Officer Here to Make
+              Your Homeownership Dreams a Reality!
             </h1>
           </div>
 
           <p className="mt-6 sm:mt-8 text-gray-800 text-sm sm:text-md leading-relaxed max-w-xl mx-auto lg:mx-0">
-            With over 20 years of experience in the mortgage industry, I{`'`}ve had
-            the privilege of helping countless families achieve their dream of
-            homeownership. My journey has been fueled by a passion for making a
-            positive impact in people{`'`}s lives. Let{`'`}s embark on this journey
-            together.
+            With over 20 years of experience in the mortgage industry, I{`'`}ve
+            had the privilege of helping countless families achieve their dream
+            of homeownership. My journey has been fueled by a passion for making
+            a positive impact in people{`'`}s lives. Let{`'`}s embark on this
+            journey together.
           </p>
 
           <Link href="/about">
@@ -124,7 +124,9 @@ const Loan: React.FC = () => {
               </h3>
               <p className="text-gray-800 mt-2 text-xs">Senior Loan Officer </p>
 
-              <p className="text-gray-800 text-xs mt-2">NMLS ID: 339727 </p>
+              <p className="text-gray-800 text-xs mt-2">
+                NMLS ID: NMLS# 339727, CA DRE#01881231, AZ#1040124{" "}
+              </p>
             </div>
           </div>
           <div className="flex gap-4 m-4">

@@ -142,7 +142,9 @@ const MortgageLandingPage = () => {
                 <p className="text-gray-600 text-sm mb-1">
                   Senior Loan Officer
                 </p>
-                <p className="text-gray-500 text-xs mb-1">NMLS ID: 339727</p>
+                <p className="text-gray-500 text-xs mb-1">
+                  NMLS ID: NMLS# 339727, CA DRE#01881231, AZ#1040124
+                </p>
                 <div className="flex items-center gap-3 w-full">
                   <a
                     href="https://www.facebook.com/Leethemortgagespecialist"

@@ -107,16 +107,16 @@ const AboutLeePage: React.FC = () => {
               <div className="flex flex-col sm:flex-row gap-4 mt-6 text-sm">
                 <div className="flex items-center gap-2 bg-white p-3 rounded-lg shadow-sm">
                   <Phone size={18} className="text-[#021B2C]" />
-                  <span className="font-medium">480.580.5626</span>
+                  <span className="font-medium">+1 (415) 569-2119</span>
                 </div>
                 <div className="flex items-center gap-2 bg-white p-3 rounded-lg shadow-sm">
                   <Mail size={18} className="text-[#021B2C]" />
-                  <span className="font-medium">
-                    rbongard@pricemortgage.com
-                  </span>
+                  <span className="font-medium">LChieng@gmccloan.com</span>
                 </div>
               </div>
-              <p className="text-sm text-gray-500 mt-4">NMLS ID:339727</p>
+              <p className="text-sm text-gray-500 mt-4">
+                NMLS ID:NMLS# 339727, CA DRE#01881231, AZ#1040124
+              </p>
             </div>
           </div>
         </div>
@@ -228,11 +228,11 @@ const AboutLeePage: React.FC = () => {
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-10">
             <div className="flex items-center gap-3 bg-white/10 px-6 py-3 rounded-full backdrop-blur-sm">
               <Phone size={20} />
-              <span className="font-medium">480.580.5626</span>
+              <span className="font-medium">+1 (415) 569-2119</span>
             </div>
             <div className="flex items-center gap-3 bg-white/10 px-6 py-3 rounded-full backdrop-blur-sm">
               <Mail size={20} />
-              <span className="font-medium">rbongard@pricemortgage.com</span>
+              <span className="font-medium">LChieng@gmccloan.com</span>
             </div>
           </div>
 
