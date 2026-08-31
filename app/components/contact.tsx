@@ -1,10 +1,8 @@
 "use client";
 
 import { JSX, useState } from "react";
-import Image from "next/image";
 import { Phone, Mail, Clock, Lock, CheckCircle2, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import Link from "next/link";
 
 interface SocialIcon {
   id: string;
