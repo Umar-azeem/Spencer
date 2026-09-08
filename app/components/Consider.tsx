@@ -36,7 +36,7 @@ function Consider() {
                 Loan Officer Profile
               </p>
               <h3 className="text-3xl sm:text-4xl font-bold mb-1 tracking-tight">
-                About Lee Chieng 
+                About Spencer Rhodes Bangert
               </h3>
               <p className="text-[#021B2C] text-xs sm:text-sm font-medium mb-6">
                 NMLS ID:384700
@@ -79,11 +79,11 @@ function Consider() {
 
               <div className="mt-8 pt-6 border-t border-white/10 grid gap-3 sm:grid-cols-2 text-sm">
                 <a
-                  href="mailto:Billy@billywatkinsmortgage.com"
+                  href="https://www.fdmhome.com/spencerbangert.html"
                   className="flex items-center gap-3 hover:text-[#021B2C] transition break-all"
                 >
                   <Mail className="w-4 h-4 text-[#021B2C] shrink-0" />
-                  <span>Billy@billywatkinsmortgage.com</span>
+                  <span>Spencer&apos;s website</span>
                 </a>
                 <a
                   href="tel:573-881-5436"

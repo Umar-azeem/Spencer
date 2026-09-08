@@ -14,9 +14,9 @@ interface SocialIcon {
 const socialIcons: SocialIcon[] = [
   {
     id: "facebook",
-    src: "https://www.facebook.com/Leethemortgagespecialist",
+    src: "https://www.facebook.com/fdmhomeold/posts/50-star-review-received-on-experiencecom-for-spencer-bangert-by-brenda-g-b-r-spe/5094514537334437/",
     alt: "Facebook",
-    url: "https://www.facebook.com/Leethemortgagespecialist",
+    url: "https://www.facebook.com/fdmhomeold/posts/50-star-review-received-on-experiencecom-for-spencer-bangert-by-brenda-g-b-r-spe/5094514537334437/",
     icon: (
       <span className="[&>svg]:h-5 [&>svg]:w-5">
         <svg
@@ -31,9 +31,9 @@ const socialIcons: SocialIcon[] = [
   },
   {
     id: "instagram",
-    src: "https://www.instagram.com/lee_themortgagepro/",
+    src: "https://www.fdmhome.com/spencerbangert.html",
     alt: "Instagram",
-    url: "https://www.instagram.com/lee_themortgagepro/",
+    url: "https://www.fdmhome.com/spencerbangert.html",
     icon: (
       <span className="[&>svg]:h-5 [&>svg]:w-5">
         <svg
@@ -48,9 +48,9 @@ const socialIcons: SocialIcon[] = [
   },
   {
     id: "linkedin",
-    src: "https://www.linkedin.com/in/lee-chieng/",
+    src: "https://www.linkedin.com/checkpoint/challenge/AgFcCCMLOusvRgAAAaBqcmFT-JEoh9_hihEjE51tqwo_B_yx1OwyvgJ2XhZGPkqeLGoeWETuDILg_Y37g8kAkPozkN4PSw?ut=089aOqHAFcRIo1",
     alt: "google",
-    url: "https://www.linkedin.com/in/lee-chieng/",
+    url: "https://www.linkedin.com/checkpoint/challenge/AgFcCCMLOusvRgAAAaBqcmFT-JEoh9_hihEjE51tqwo_B_yx1OwyvgJ2XhZGPkqeLGoeWETuDILg_Y37g8kAkPozkN4PSw?ut=089aOqHAFcRIo1",
     icon: (
       <span className="[&>svg]:h-5 [&>svg]:w-5">
         <svg
@@ -75,8 +75,8 @@ const Loan: React.FC = () => {
               A Team You Can Trust
             </p>
             <h1 className="text-3xl sm:text-4xl font-semibold leading-tight text-gray-900">
-              Hi, I{`'`}m Lee, A Dedicated Mortgage Loan Officer Here to Make
-              Your Homeownership Dreams a Reality!
+              Hi, I{`'`}m Spencer, a dedicated mortgage professional here to
+              make your homeownership goals a reality.
             </h1>
           </div>
 
@@ -120,13 +120,13 @@ const Loan: React.FC = () => {
             />
             <div className="sm:hidden  absolute top-6 md:bottom-1  md:top-40 left-42 -translate-x-1/2 sm:left-20 sm:translate-x-0  sm:top-1/2 sm:-translate-y-1/2 bg-white rounded-[24px] sm:rounded-[30px] border-white shadow-4xl p-5 sm:p-8 w-[68%] sm:w-[300px]">
               <h3 className="text-lg sm:text-xl font-bold text-black">
-                Lee Chieng
+                Spencer Rhodes Bangert
               </h3>
-              <p className="text-gray-800 mt-2 text-xs">Senior Loan Officer </p>
-
-              <p className="text-gray-800 text-xs mt-2">
-                NMLS ID: NMLS# 339727, CA DRE#01881231, AZ#1040124{" "}
+              <p className="text-gray-800 mt-2 text-xs">
+                Division Sales Manager
               </p>
+
+              <p className="text-gray-800 text-xs mt-2">NMLS# 1202142 </p>
             </div>
           </div>
           <div className="flex gap-4 m-4">

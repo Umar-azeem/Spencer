@@ -928,7 +928,7 @@ export default function Find() {
             Search by Location
           </h1>
           <p className="text-xl text-[#021B2C] mb-3">
-            Search by loan officer's name
+            Search by loan officer&apos;s name
           </p>
           <div className="max-w-xl mx-auto">
             <div className="relative bg-white rounded-lg overflow-hidden">
@@ -1119,8 +1119,8 @@ export default function Find() {
             Not sure which loan officer to contact?
           </h3>
           <p className="text-[#021B2C] mb-6 text-sm">
-            Reach our main line and we'll connect you with the right mortgage
-            professional.
+            Reach our main line and we&apos;ll connect you with the right
+            mortgage professional.
           </p>
           <a
             href="tel:8668151803"

@@ -15,9 +15,9 @@ interface SocialIcon {
 const socialIcons: SocialIcon[] = [
   {
     id: "facebook",
-    src: "https://www.facebook.com/Leethemortgagespecialist",
+    src: "https://www.facebook.com/SpencerBangertFDM/",
     alt: "Facebook",
-    url: "https://www.facebook.com/Leethemortgagespecialist",
+    url: "https://www.facebook.com/SpencerBangertFDM/",
     icon: (
       <span className="[&>svg]:h-5 [&>svg]:w-5">
         <svg
@@ -31,27 +31,10 @@ const socialIcons: SocialIcon[] = [
     ),
   },
   {
-    id: "instagram",
-    src: "https://www.instagram.com/lee_themortgagepro/",
-    alt: "Instagram",
-    url: "https://www.instagram.com/lee_themortgagepro/",
-    icon: (
-      <span className="[&>svg]:h-5 [&>svg]:w-5">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="currentColor"
-          viewBox="0 0 448 512"
-        >
-          <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
-        </svg>
-      </span>
-    ),
-  },
-  {
     id: "linkedin",
-    src: "https://www.linkedin.com/in/lee-chieng/",
+    src: "https://www.linkedin.com/in/spencer-bangert-8530512a",
     alt: "LinkedIn",
-    url: "https://www.linkedin.com/in/lee-chieng/",
+    url: "https://www.linkedin.com/in/spencer-bangert-8530512a",
     icon: (
       <span className="[&>svg]:h-5 [&>svg]:w-5">
         <svg
@@ -60,6 +43,23 @@ const socialIcons: SocialIcon[] = [
           viewBox="0 0 448 512"
         >
           <path d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
+        </svg>
+      </span>
+    ),
+  },
+  {
+    id: "zillow",
+    src: "https://www.zillow.com/lender-profile/Spencer%20Bangert/",
+    alt: "Zillow",
+    url: "https://www.zillow.com/lender-profile/Spencer%20Bangert/",
+    icon: (
+      <span className="[&>svg]:h-5 [&>svg]:w-5">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="currentColor"
+          viewBox="0 0 448 512"
+        >
+          <path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm88.4 88c13.4 0 25.2 7.1 31.7 18.6l77.5 134.3 77.5-134.3c6.5-11.5 18.3-18.6 31.7-18.6c20.2 0 36.5 16.3 36.5 36.5c0 8.9-3.3 17.4-9.3 24L269.8 304.5v41.2c0 10.7-8.7 19.4-19.4 19.4s-19.4-8.7-19.4-19.4V304.5L140.8 180.5c-6-6.6-9.3-15.1-9.3-24c0-20.2 16.3-36.5 36.5-36.5h-15.6z" />
         </svg>
       </span>
     ),
@@ -97,12 +97,12 @@ Message:
 ${message || "No additional message provided."}
 
 ---
-This inquiry was sent from the Lee Chieng - Mortgage website.`,
+This inquiry was sent from the Spencer Bangert - Mortgage website.`,
     );
 
     window.open(
-      `mailto:LChieng@gmccloan.com?subject=${emailSubject}&body=${emailBody}`,
-      "_blank",
+      `mailto:spencer@fdmhome.com?subject=${emailSubject}&body=${emailBody}`,
+      "_blank"
     );
 
     setIsSubmitting(false);
@@ -114,10 +114,10 @@ This inquiry was sent from the Lee Chieng - Mortgage website.`,
       <div className="min-h-screen bg-[#021B2C] flex items-center justify-center">
         <div className="max-w-2xl mx-auto bg-white shadow-lg p-8 border border-slate-200 rounded-2xl text-center">
           <div className="w-16 h-16 bg-[#021B2C] flex items-center justify-center mx-auto mb-4 rounded-full">
-            <CheckCircle2 className="w-8 h-8 text-[#021B2C]" />
+            <CheckCircle2 className="w-8 h-8 text-white" />
           </div>
           <h3 className="text-2xl font-bold text-slate-900 mb-2">
-            Message Ready!
+            Message Spencer!
           </h3>
           <p className="text-slate-600 mb-2">
             Your email client has been opened with your message pre-filled.
@@ -125,10 +125,10 @@ This inquiry was sent from the Lee Chieng - Mortgage website.`,
           <p className="text-slate-500 text-sm mb-6">
             If it didn&apos;t open, please contact us directly at{" "}
             <a
-              href="mailto:LChieng@gmccloan.com"
+              href="mailto:spencer@fdmhome.com"
               className="text-[#021B2C] underline font-medium"
             >
-              LChieng@gmccloan.com
+              spencer@fdmhome.com
             </a>
           </p>
           <Button
@@ -162,7 +162,7 @@ This inquiry was sent from the Lee Chieng - Mortgage website.`,
             Licensed Mortgage Broker
           </p>
           <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-4">
-            Contact Lee Chieng
+            Contact Spencer Bangert
           </h1>
           <p className="text-xl text-gray-200 max-w-2xl mx-auto font-light">
             Ready for a clear, straightforward mortgage plan? Let&apos;s
@@ -178,23 +178,20 @@ This inquiry was sent from the Lee Chieng - Mortgage website.`,
             {/* Profile Section */}
             <div>
               <h2 className="text-2xl sm:text-3xl font-bold mb-2">
-                Hi, I&apos;m Lee Chieng
+                Hi, I&apos;m Spencer Bangert
               </h2>
               <p className="text-2xl font-semibold text-[#021B2C] mb-4">
                 Your Senior Loan Officer
               </p>
               <p className="text-gray-600 leading-relaxed text-[15px]">
-                Lee and his team are committed to putting you in the
-                &ldquo;right&rdquo; loan program for you (based on your unique
-                situation and specific goals)&hellip; at the lowest cost
-                possible. Remember, we have access to many loan programs to
-                consider!
+                Whether you are buying a new home or refinancing your current
+                loan, Spencer provides personalized, dedicated service with a
+                focus on closing on time and within contract.
               </p>
               <p className="text-gray-600 leading-relaxed text-[15px] mt-4">
-                Lee is a true loan expert who prides himself on being a mortgage
-                &ldquo;advisor&rdquo;. Moreover, he wants to create long-term
-                relationships with each and every one of his clients&hellip; as
-                opposed to just a transactional focus.
+                With proven experience helping homeowners across Florida,
+                Maryland, and Washington D.C., Spencer takes pride in making the
+                loan process easy and stress free for every client.
               </p>
             </div>
 
@@ -202,23 +199,20 @@ This inquiry was sent from the Lee Chieng - Mortgage website.`,
             <div className="border-t border-gray-300 pt-8 space-y-6">
               <h3 className="font-semibold text-lg">Contact Me</h3>
 
-              <a
-                href="tel:833-760-0828"
-                className="flex items-start gap-4 group"
-              >
+              <a href="tel:4432540132" className="flex items-start gap-4 group">
                 <div className="w-10 h-10 rounded-full bg-white border border-gray-300 flex items-center justify-center text-[#021B2C] shrink-0 group-hover:bg-[#021B2C] group-hover:text-white transition">
                   <Phone className="w-4 h-4" />
                 </div>
                 <div>
                   <p className="font-bold text-lg text-gray-900 leading-tight group-hover:text-[#021B2C] transition">
-                    (415) 569-2119
+                    (443) 254-0132
                   </p>
                   <p className="text-gray-500 text-xs mt-1">Phone</p>
                 </div>
               </a>
 
               <a
-                href="mailto:LChieng@gmccloan.com"
+                href="mailto:spencer@fdmhome.com"
                 className="flex items-start gap-4 group"
               >
                 <div className="w-10 h-10 rounded-full bg-white border border-gray-300 flex items-center justify-center text-[#021B2C] shrink-0 group-hover:bg-[#021B2C] group-hover:text-white transition">
@@ -226,7 +220,7 @@ This inquiry was sent from the Lee Chieng - Mortgage website.`,
                 </div>
                 <div>
                   <p className="font-bold text-lg text-gray-900 leading-tight group-hover:text-[#021B2C] transition break-all">
-                    LChieng@gmccloan.com
+                    spencer@fdmhome.com
                   </p>
                   <p className="text-gray-500 text-xs mt-1">Email</p>
                 </div>
@@ -241,9 +235,9 @@ This inquiry was sent from the Lee Chieng - Mortgage website.`,
                     Office Location
                   </p>
                   <p className="text-gray-600 text-sm mt-1">
-                    10991 N. De Anza Blvd.
+                    555 Quince Orchard Road
                     <br />
-                    #A, Cupertino, CA 95014
+                    Gaithersburg, MD 21401
                   </p>
                 </div>
               </div>
@@ -258,6 +252,20 @@ This inquiry was sent from the Lee Chieng - Mortgage website.`,
                   </p>
                   <p className="text-gray-600 text-sm mt-1">
                     Mon – Sun: 8:30 AM – 7:00 PM
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <div className="w-10 h-10 rounded-full bg-white border border-gray-300 flex items-center justify-center text-[#021B2C] shrink-0">
+                  <MapPin className="w-4 h-4" />
+                </div>
+                <div>
+                  <p className="font-bold text-md text-gray-900 leading-tight">
+                    Licensed States
+                  </p>
+                  <p className="text-gray-600 text-sm mt-1">
+                    Florida · Maryland · Washington D.C.
                   </p>
                 </div>
               </div>
@@ -286,8 +294,7 @@ This inquiry was sent from the Lee Chieng - Mortgage website.`,
 
             <div className="border-t border-gray-300 pt-8">
               <p className="text-sm text-gray-500">
-                <span className="font-semibold">NMLS ID:</span> # NMLS# 339727,
-                CA DRE#01881231, AZ#1040124
+                <span className="font-semibold">NMLS ID:</span> #1202142
               </p>
             </div>
           </div>
@@ -300,18 +307,18 @@ This inquiry was sent from the Lee Chieng - Mortgage website.`,
 
               <div className="flex flex-wrap gap-3 mb-6">
                 <a
-                  href="mailto:LChieng@gmccloan.com"
+                  href="mailto:spencer@fdmhome.com"
                   className="flex items-center gap-2 text-xs text-slate-600 bg-slate-100 hover:bg-slate-200 px-3 py-1.5 rounded-full transition-colors"
                 >
                   <Mail className="w-3.5 h-3.5" />
-                  LChieng@gmccloan.com
+                  spencer@fdmhome.com
                 </a>
                 <a
-                  href="tel:833-760-0828"
+                  href="tel:4432540132"
                   className="flex items-center gap-2 text-xs text-slate-600 bg-slate-100 hover:bg-slate-200 px-3 py-1.5 rounded-full transition-colors"
                 >
                   <Phone className="w-3.5 h-3.5" />
-                  (415) 569-2119
+                  (443) 254-0132
                 </a>
               </div>
 
@@ -502,12 +509,18 @@ This inquiry was sent from the Lee Chieng - Mortgage website.`,
       <footer className="bg-white border-t border-gray-200 py-12 text-xs text-gray-500 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto space-y-4">
           <div className="flex flex-wrap items-start gap-x-6 gap-y-2 font-medium text-gray-700 text-sm">
-            <span>NMLS ID: NMLS# 339727, CA DRE#01881231, AZ#1040124</span>
+            <span>NMLS ID: #1202142</span>
             <a
-              href="tel:833-760-0828"
+              href="tel:4432540132"
               className="hover:text-[#021B2C] transition"
             >
-              (415) 569-2119
+              (443) 254-0132
+            </a>
+            <a
+              href="mailto:spencer@fdmhome.com"
+              className="hover:text-[#021B2C] transition"
+            >
+              spencer@fdmhome.com
             </a>
             <a
               href="https://www.nmlsconsumeraccess.org"

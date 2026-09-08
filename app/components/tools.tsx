@@ -17,8 +17,10 @@ interface CalculatorState {
   [key: string]: number | string;
 }
 
+type CalculatorResult = Record<string, number>;
+
 export default function Tools() {
-  const [results, setResults] = useState<Record<string, any>>({});
+  const [results, setResults] = useState<Record<string, CalculatorResult>>({});
   const [inputs, setInputs] = useState<Record<string, CalculatorState>>({});
 
   // Initialize inputs
@@ -91,7 +93,7 @@ export default function Tools() {
       const maxPITI = maxTotalPITI - debts;
 
       let loan = 0;
-      let step = 1000;
+      const step = 1000;
       for (let i = 0; i < 1000; i++) {
         const p =
           (loan * (rate * Math.pow(1 + rate, term))) /
@@ -273,7 +275,10 @@ export default function Tools() {
   };
 
   // Render calculator inputs
-  const renderInputs = (toolId: string, fields: Record<string, any>) => {
+  const renderInputs = (
+    toolId: string,
+    fields: Record<string, number | string>,
+  ) => {
     return Object.entries(fields).map(([key, value]) => {
       const inputValue = inputs[toolId]?.[key] ?? value;
       const label = key

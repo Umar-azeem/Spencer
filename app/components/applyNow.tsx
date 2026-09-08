@@ -20,9 +20,9 @@ const ApplyNow: React.FC = () => {
 
   const loanOfficers = [
     {
-      name: "Lee Chieng ",
-      phone: "+1 (415) 569-2119",
-      email: "LChieng@gmccloan.com",
+      name: "Spencer Rhodes Bangert",
+      phone: "+1 (443) 254-0132",
+      email: "Website: fdmhome.com/spencerbangert.html",
     },
   ];
 
@@ -125,7 +125,7 @@ const ApplyNow: React.FC = () => {
             </p>
           </div>
 
-          {/* Lee Chieng  Profile */}
+          {/* Spencer Rhodes Bangert profile */}
           <div className="p-6 sm:p-8 border-b border-gray-100 bg-gradient-to-r from-[#021B2C]/5 to-[#021B2C]/5">
             <div className="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6">
               <div className="flex-shrink-0">
@@ -142,37 +142,37 @@ const ApplyNow: React.FC = () => {
               <div className="flex-1">
                 <div className="flex items-center gap-2 mb-1">
                   <h3 className="text-xl font-bold text-[#021B2C]">
-                    Lee Chieng
+                    Spencer Rhodes Bangert
                   </h3>
                   <span className="inline-flex items-center gap-1 rounded-full bg-[#021B2C] px-2.5 py-0.5 text-xs font-medium text-white">
                     <Building2 className="h-3 w-3" />
-                    Loan Officer
+                    Division Sales Manager
                   </span>
                 </div>
                 <div className="flex flex-wrap items-center gap-3 text-sm text-gray-600">
                   <span className="flex items-center gap-1.5">
                     <Phone className="h-4 w-4 text-[#021B2C]" />
                     <a
-                      href="tel:4805805626"
+                      href="tel:4432540132"
                       className="hover:text-[#021B2C] transition-colors"
                     >
-                      +1 (415) 569-2119
+                      +1 (443) 254-0132
                     </a>
                   </span>
                   <span className="hidden sm:block text-gray-300">|</span>
                   <span className="flex items-center gap-1.5">
                     <Mail className="h-4 w-4 text-[#021B2C]" />
                     <a
-                      href="mailto:LChieng@gmccloan.com"
+                      href="https://www.fdmhome.com/spencerbangert.html"
                       className="hover:text-[#021B2C] transition-colors"
                     >
-                      LChieng@gmccloan.com
+                      Website
                     </a>
                   </span>
                   <span className="hidden sm:block text-gray-300">|</span>
                   <span className="flex items-center gap-1.5">
                     <Building2 className="h-4 w-4 text-[#021B2C]" />
-                    Price Mortgage
+                    NMLS# 1202142
                   </span>
                 </div>
               </div>

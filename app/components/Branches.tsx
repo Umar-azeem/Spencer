@@ -1100,7 +1100,7 @@ export default function Branches() {
             Not sure which branch to contact?
           </h3>
           <p className="text-[#021B2C] mb-6 text-sm">
-            Reach our main line and we'll connect you with the right loan
+            Reach our main line and we&apos;ll connect you with the right loan
             professional.
           </p>
           <a

@@ -221,7 +221,7 @@ function LoanProgramsContent() {
                           className="bg-white p-4 rounded-lg border border-gray-200"
                         >
                           <p className="text-gray-700 italic">
-                            "{testimonial.text}"
+                            &quot;{testimonial.text}&quot;
                           </p>
                           <p className="text-sm font-semibold text-gray-900 mt-2">
                             - {testimonial.name}

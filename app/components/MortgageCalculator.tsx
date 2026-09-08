@@ -90,8 +90,8 @@ export default function MortgageCalculator() {
           {/* Inputs Section */}
           <div className="w-full lg:w-2/3 bg-white shadow-md border border-gray-400 rounded-xl p-5 sm:p-8">
             <h3 className="text-lg sm:text-xl font-semibold text-black mb-6">
-              Enter your loan details below and we'll calculate your estimated
-              monthly payment.
+              Enter your loan details below and we&apos;ll calculate your
+              estimated monthly payment.
             </h3>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">

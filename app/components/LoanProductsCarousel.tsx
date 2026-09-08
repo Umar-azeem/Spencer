@@ -60,15 +60,15 @@ const AboutLeePage: React.FC = () => {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
             Home Loans Are Complicated.
             <br />
-            <span className="text-[#021B2C]">Let's Simplify That.</span>
+            <span className="text-[#021B2C]">Let&apos;s Simplify That.</span>
           </h1>
           <p className="text-xl md:text-2xl text-green-100/90 max-w-3xl mx-auto mb-8">
-            Get expert guidance from Lee Chieng , a trusted advisor with over 30
-            years of experience.
+            Get expert guidance from Spencer Rhodes Bangert, a trusted advisor
+            focused on making your mortgage process easier. years of experience.
           </p>
           <Link href="#contact">
             <button className="bg-white text-[#021B2C] hover:bg-gray-100 px-8 py-4 rounded-xl font-bold text-lg flex items-center gap-2 transition shadow-lg mx-auto">
-              Contact Lee <ArrowRight size={20} />
+              Contact Spencer <ArrowRight size={20} />
             </button>
           </Link>
         </div>
@@ -78,10 +78,10 @@ const AboutLeePage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              {/* Placeholder for Lee's Photo */}
+              {/* Profile photo */}
               <div className="bg-gray-200 rounded-2xl h-80 w-full max-w-md mx-auto flex items-center justify-center text-gray-500">
                 <User size={64} />
-                <span className="sr-only">Lee's Photo</span>
+                <span className="sr-only">Spencer&apos;s Photo</span>
               </div>
             </div>
             <div>
@@ -89,10 +89,10 @@ const AboutLeePage: React.FC = () => {
                 ABOUT ME
               </p>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                Meet Lee Chieng
+                Meet Spencer Rhodes Bangert
               </h2>
               <p className="text-gray-700 text-lg leading-relaxed mb-4">
-                Lee and his team are committed to putting you in the “right”
+                Spencer is committed to putting you in the &quot;right&quot;
                 loan program for you (based on your unique situation and
                 specific goals)… at the lowest cost possible. Remember, Price
                 Mortgage is a mortgage broker… so we have access to many more
@@ -107,16 +107,16 @@ const AboutLeePage: React.FC = () => {
               <div className="flex flex-col sm:flex-row gap-4 mt-6 text-sm">
                 <div className="flex items-center gap-2 bg-white p-3 rounded-lg shadow-sm">
                   <Phone size={18} className="text-[#021B2C]" />
-                  <span className="font-medium">+1 (415) 569-2119</span>
+                  <span className="font-medium">+1 (443) 254-0132</span>
                 </div>
                 <div className="flex items-center gap-2 bg-white p-3 rounded-lg shadow-sm">
                   <Mail size={18} className="text-[#021B2C]" />
-                  <span className="font-medium">LChieng@gmccloan.com</span>
+                  <span className="font-medium">
+                    Visit Spencer&apos;s website
+                  </span>
                 </div>
               </div>
-              <p className="text-sm text-gray-500 mt-4">
-                NMLS ID:NMLS# 339727, CA DRE#01881231, AZ#1040124
-              </p>
+              <p className="text-sm text-gray-500 mt-4">NMLS# 1202142</p>
             </div>
           </div>
         </div>
@@ -150,7 +150,9 @@ const AboutLeePage: React.FC = () => {
                     />
                   ))}
                 </div>
-                <p className="text-gray-700 italic mb-4">"{t.text}"</p>
+                <p className="text-gray-700 italic mb-4">
+                  &quot;{t.text}&quot;
+                </p>
                 <p className="font-bold text-gray-900">- {t.name}</p>
               </div>
             ))}
@@ -232,7 +234,7 @@ const AboutLeePage: React.FC = () => {
             </div>
             <div className="flex items-center gap-3 bg-white/10 px-6 py-3 rounded-full backdrop-blur-sm">
               <Mail size={20} />
-              <span className="font-medium">LChieng@gmccloan.com</span>
+              <span className="font-medium">Visit Spencer&apos;s website</span>
             </div>
           </div>
 

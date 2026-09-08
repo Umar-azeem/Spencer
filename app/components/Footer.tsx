@@ -16,9 +16,9 @@ interface SocialIcon {
 const socialIcons: SocialIcon[] = [
   {
     id: "facebook",
-    src: "https://www.facebook.com/Leethemortgagespecialist",
+    src: "https://www.facebook.com/fdmhomeold/posts/50-star-review-received-on-experiencecom-for-spencer-bangert-by-brenda-g-b-r-spe/5094514537334437/",
     alt: "Facebook",
-    url: "https://www.facebook.com/Leethemortgagespecialist",
+    url: "https://www.facebook.com/fdmhomeold/posts/50-star-review-received-on-experiencecom-for-spencer-bangert-by-brenda-g-b-r-spe/5094514537334437/",
     icon: (
       <span className="[&>svg]:h-5 [&>svg]:w-5">
         <svg
@@ -33,9 +33,9 @@ const socialIcons: SocialIcon[] = [
   },
   {
     id: "instagram",
-    src: "https://www.instagram.com/lee_themortgagepro/",
+    src: "https://www.fdmhome.com/spencerbangert.html",
     alt: "Instagram",
-    url: "https://www.instagram.com/lee_themortgagepro/",
+    url: "https://www.fdmhome.com/spencerbangert.html",
     icon: (
       <span className="[&>svg]:h-5 [&>svg]:w-5">
         <svg
@@ -50,9 +50,9 @@ const socialIcons: SocialIcon[] = [
   },
   {
     id: "linkedin",
-    src: "https://www.linkedin.com/in/lee-chieng/",
+    src: "https://www.linkedin.com/checkpoint/challenge/AgFcCCMLOusvRgAAAaBqcmFT-JEoh9_hihEjE51tqwo_B_yx1OwyvgJ2XhZGPkqeLGoeWETuDILg_Y37g8kAkPozkN4PSw?ut=089aOqHAFcRIo1",
     alt: "LinkedIn",
-    url: "https://www.linkedin.com/in/lee-chieng/",
+    url: "https://www.linkedin.com/checkpoint/challenge/AgFcCCMLOusvRgAAAaBqcmFT-JEoh9_hihEjE51tqwo_B_yx1OwyvgJ2XhZGPkqeLGoeWETuDILg_Y37g8kAkPozkN4PSw?ut=089aOqHAFcRIo1",
     icon: (
       <span className="[&>svg]:h-5 [&>svg]:w-5">
         <svg
@@ -95,7 +95,9 @@ export default function Footer() {
       <div className="flex flex-col md:flex-row md:justify-between md:items-end gap-10">
         {/* Contact Info Column */}
         <div>
-          <h3 className="text-xl font-semibold mb-4">Contact Lee Chieng</h3>
+          <h3 className="text-xl font-semibold mb-4">
+            Contact Spencer Bangert
+          </h3>
           <p className="mb-2 flex items-center gap-2">
             <Image
               src="https://cdn.prod.website-files.com/65d509901b89bb3fd2a62af7/65d509901b89bb3fd2a62b87_phone-white.svg"
@@ -106,10 +108,10 @@ export default function Footer() {
               unoptimized
             />
             <Link
-              href="tel:8337600828"
+              href="tel:4432540132"
               className="hover:text-gray-300 transition-colors"
             >
-              (415) 569-2119
+              (443) 254-0132
             </Link>
           </p>
 
@@ -123,10 +125,10 @@ export default function Footer() {
               unoptimized
             />
             <Link
-              href="mailto:LChieng@gmccloan.com"
+              href="https://www.fdmhome.com/spencerbangert.html"
               className="break-all hover:text-gray-300 transition-colors"
             >
-              LChieng@gmccloan.com
+              Spencer&apos;s website
             </Link>
           </p>
           <p className="mb-4 flex flex-row items-start gap-2">
@@ -144,9 +146,9 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="hover:text-gray-300 transition-colors flex flex-col items-start gap-1"
             >
-              10991 N. De Anza Blvd.
+              438 North Frederick Ave, Suite 315
               <br />
-               #A, Cupertino, CA 95014
+              Gaithersburg, MD 20877
             </a>
           </p>
           {/* Social Links Row */}
@@ -186,7 +188,7 @@ export default function Footer() {
           <div className="flex flex-col items-center md:mt-20">
             <Image
               src="/img/logoV.png"
-              alt="Lee Chieng logoV"
+              alt="Spencer Bangert logo"
               width={100}
               height={100}
               className="w-32 h-auto"

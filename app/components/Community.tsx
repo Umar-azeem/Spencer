@@ -25,11 +25,11 @@ export default function Community() {
           </h2>
 
           <p className="text-[15px] text-gray-600 leading-relaxed max-w-2xl mx-auto lg:mx-0 mb-10 sm:mb-14">
-            With over 20 years of experience in the mortgage industry, I've had
-            the privilege of helping countless families achieve their dream of
-            homeownership. My journey has been fueled by a passion for making a
-            positive impact in people's lives. Let's embark on this journey
-            together.
+            With over 20 years of experience in the mortgage industry, I&apos;ve
+            had the privilege of helping countless families achieve their dream
+            of homeownership. My journey has been fueled by a passion for making
+            a positive impact in people&apos;s lives. Let&apos;s embark on this
+            journey together.
           </p>
 
           <Link href="/contact-us">

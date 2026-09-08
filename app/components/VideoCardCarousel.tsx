@@ -28,7 +28,6 @@ const VideoCardCarousel: React.FC<VideoCardCarouselProps> = ({ videos }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isPlaying, setIsPlaying] = useState<number | null>(null);
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
-  const [isClient, setIsClient] = useState(false);
   const [showModal, setShowModal] = useState(false);
   const [selectedVideo, setSelectedVideo] = useState<TeamMember | null>(null);
   const [isMobile, setIsMobile] = useState(false);
@@ -44,17 +43,6 @@ const VideoCardCarousel: React.FC<VideoCardCarouselProps> = ({ videos }) => {
     window.addEventListener("resize", checkMobile);
     return () => window.removeEventListener("resize", checkMobile);
   }, []);
-
-  // Set client and initial index - combined to avoid cascading renders
-  useEffect(() => {
-    setIsClient(true);
-    if (totalCards > 0) {
-      // Set initial index to middle if possible
-      const initialIndex = Math.min(2, totalCards - 1);
-      setCurrentIndex(initialIndex);
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []); // Empty dependency array - runs once on mount
 
   const stopAllVideos = () => {
     setIsPlaying(null);
@@ -158,7 +146,7 @@ const VideoCardCarousel: React.FC<VideoCardCarouselProps> = ({ videos }) => {
     return match ? match[1] : "";
   };
 
-  if (!isClient || totalCards === 0) {
+  if (totalCards === 0) {
     return (
       <div className="relative w-full min-h-[520px] flex items-center justify-center">
         <div className="text-[#021B2C]">
@@ -198,7 +186,6 @@ const VideoCardCarousel: React.FC<VideoCardCarouselProps> = ({ videos }) => {
               className="flex transition-transform duration-500 ease-out absolute top-0 right-0 bottom-0 left-0 items-center justify-center"
               style={{ transformStyle: "preserve-3d" }}
             >
-
               {videos.map((member, index) => {
                 const style = getCardStyle(index);
                 const isFeatured = style.isFeatured;
@@ -346,14 +333,6 @@ const VideoCardCarousel: React.FC<VideoCardCarouselProps> = ({ videos }) => {
           className="fixed inset-0 z-50 flex items-center justify-center bg-[#021B2C]/40 p-2 sm:p-4 backdrop-blur-sm"
           onClick={closeModal}
         >
-
-
-
-
-
-
-
-
           <div
             className="relative w-full max-w-5xl overflow-hidden rounded-lg sm:rounded-2xl bg-black ring-1 ring-[#021B2C]/30 shadow-[0_0_60px_rgba(0, 43, 228, 1)]"
             onClick={(e) => e.stopPropagation()}

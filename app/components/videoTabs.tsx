@@ -30,8 +30,17 @@ const TABS: Tab[] = [
     label: "About Me",
     icon: User,
     videos: [
-      { id: 1, title: "🎆 Happy Independence Day! 🎆", youtubeId: "XJ8E32aul58" },
-      { id: 2, title: "🚨 Alert! Game Changer for Your Home Loan Application in the Bay Area", youtubeId: "D4iV_eAfYBY" },
+      {
+        id: 1,
+        title: "🎆 Happy Independence Day! 🎆",
+        youtubeId: "XJ8E32aul58",
+      },
+      {
+        id: 2,
+        title:
+          "🚨 Alert! Game Changer for Your Home Loan Application in the Bay Area",
+        youtubeId: "D4iV_eAfYBY",
+      },
     ],
   },
   {
@@ -39,9 +48,21 @@ const TABS: Tab[] = [
     label: "Divorce & Mortgage",
     icon: ClipboardCheck,
     videos: [
-      { id: 1, title: "Don't Wait for Your Divorce to Buy a Home", youtubeId: "D4iV_eAfYBY" },
-      { id: 2, title: "2 Ways to Qualify for a Mortgage During Divorce", youtubeId: "STWdpcwlF7c" },
-      { id: 3, title: "You DON'T Have to Wait Until Your Divorce Is Final", youtubeId: "XTGbegF4Mq4" },
+      {
+        id: 1,
+        title: "Don't Wait for Your Divorce to Buy a Home",
+        youtubeId: "D4iV_eAfYBY",
+      },
+      {
+        id: 2,
+        title: "2 Ways to Qualify for a Mortgage During Divorce",
+        youtubeId: "STWdpcwlF7c",
+      },
+      {
+        id: 3,
+        title: "You DON'T Have to Wait Until Your Divorce Is Final",
+        youtubeId: "XTGbegF4Mq4",
+      },
     ],
   },
   {
@@ -49,9 +70,17 @@ const TABS: Tab[] = [
     label: "Investor & Business Loans",
     icon: Layers,
     videos: [
-      { id: 1, title: "The Mortgage Secret Banks Don't Want You to Know", youtubeId: "GwUnfr80YvU" },
+      {
+        id: 1,
+        title: "The Mortgage Secret Banks Don't Want You to Know",
+        youtubeId: "GwUnfr80YvU",
+      },
       { id: 2, title: "Your Income Doesn't Matter", youtubeId: "_QCAqHPz_XQ" },
-      { id: 3, title: "The Loan They Don't Want You to Know About", youtubeId: "gWKRcQh6Wm4" },
+      {
+        id: 3,
+        title: "The Loan They Don't Want You to Know About",
+        youtubeId: "gWKRcQh6Wm4",
+      },
     ],
   },
   {
@@ -59,9 +88,21 @@ const TABS: Tab[] = [
     label: "Home Buying Tips",
     icon: Route,
     videos: [
-      { id: 1, title: "Factor in Taxes & Insurance Costs", youtubeId: "Z9I8F9s_1s4" },
-      { id: 2, title: "Why You Shouldn't Wait for Your Divorce to Finalize", youtubeId: "aZZftZR7u-0" },
-      { id: 3, title: "Mortgage Qualification Tips During Life Changes", youtubeId: "REnKa8BVMFI" },
+      {
+        id: 1,
+        title: "Factor in Taxes & Insurance Costs",
+        youtubeId: "Z9I8F9s_1s4",
+      },
+      {
+        id: 2,
+        title: "Why You Shouldn't Wait for Your Divorce to Finalize",
+        youtubeId: "aZZftZR7u-0",
+      },
+      {
+        id: 3,
+        title: "Mortgage Qualification Tips During Life Changes",
+        youtubeId: "REnKa8BVMFI",
+      },
     ],
   },
   {
@@ -69,9 +110,21 @@ const TABS: Tab[] = [
     label: "Loan Programs",
     icon: Layers,
     videos: [
-      { id: 1, title: "Understanding DSCR Loans for Investors", youtubeId: "WkLJyhqgRlU" },
-      { id: 2, title: "Asset-Based Lending Explained", youtubeId: "HtpNUrOYdP4" },
-      { id: 3, title: "Bank Statement Loan Programs", youtubeId: "A519CuarPU8" },
+      {
+        id: 1,
+        title: "Understanding DSCR Loans for Investors",
+        youtubeId: "WkLJyhqgRlU",
+      },
+      {
+        id: 2,
+        title: "Asset-Based Lending Explained",
+        youtubeId: "HtpNUrOYdP4",
+      },
+      {
+        id: 3,
+        title: "Bank Statement Loan Programs",
+        youtubeId: "A519CuarPU8",
+      },
     ],
   },
   {
@@ -79,12 +132,32 @@ const TABS: Tab[] = [
     label: "FAQ",
     icon: HelpCircle,
     videos: [
-      { id: 1, title: "Common Mortgage Questions Answered", youtubeId: "IuPiV8L5_F8" },
+      {
+        id: 1,
+        title: "Common Mortgage Questions Answered",
+        youtubeId: "IuPiV8L5_F8",
+      },
       { id: 2, title: "How to Get Pre-Qualified", youtubeId: "PgKZK85DrVU" },
-      { id: 3, title: "Understanding Your Loan Options", youtubeId: "isZdNZVQgk0" },
-      { id: 4, title: "Mortgage Tips for First-Time Buyers", youtubeId: "UF31ZMRL2dg" },
-      { id: 5, title: "What to Know About Mortgage Insurance", youtubeId: "cDI5vVjH6P8" },
-      { id: 6, title: "How to Prepare for a Mortgage Application", youtubeId: "1PJvoxGyo_Y" },
+      {
+        id: 3,
+        title: "Understanding Your Loan Options",
+        youtubeId: "isZdNZVQgk0",
+      },
+      {
+        id: 4,
+        title: "Mortgage Tips for First-Time Buyers",
+        youtubeId: "UF31ZMRL2dg",
+      },
+      {
+        id: 5,
+        title: "What to Know About Mortgage Insurance",
+        youtubeId: "cDI5vVjH6P8",
+      },
+      {
+        id: 6,
+        title: "How to Prepare for a Mortgage Application",
+        youtubeId: "1PJvoxGyo_Y",
+      },
     ],
   },
 ];
@@ -121,7 +194,7 @@ export default function VideoTabs() {
               Watch &amp; Learn
             </p>
             <h1 className="text-3xl sm:text-4xl font-semibold leading-tight text-gray-900">
-              Pick a topic below to see every video we've made about it.
+              Pick a topic below to see every video we&apos;ve made about it.
             </h1>
           </div>
         </div>

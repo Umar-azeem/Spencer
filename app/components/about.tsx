@@ -151,7 +151,7 @@ export default function AboutPage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Hero Section - Lee Chieng */}
+      {/* Hero Section - Spencer Rhodes Bangert */}
       <div className="relative bg-gradient-to-r from-[#021B4C] via-[#021B2C] to-[#04202D] text-white rounded-2xl">
         <div
           className="absolute inset-0 z-0 opacity-20"
@@ -167,21 +167,17 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-white font-bold tracking-[4px] text-sm mb-4">
-                Certified Mortgage Advisor
+                Division Sales Manager
               </p>
-              <p className="text-white text-sm mb-2">
-                NMLS #NMLS# 339727, CA DRE#01881231, AZ#1040124
-              </p>
-              <p className="text-white text-sm mb-2">CA DRE# 01881231</p>
-              <p className="text-white text-sm mb-4">AZ# 1040124</p>
+              <p className="text-white text-sm mb-2">NMLS# 1202142</p>
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-6">
-                Lee Chieng
+                Spencer Rhodes Bangert
               </h1>
               <p className="text-gray-200 text-lg max-w-xl mb-2">
-                10991 N. De Anza Blvd. 
+                438 North Frederick Ave, Suite 315
               </p>
               <p className="text-gray-200 text-lg max-w-xl mb-6">
-                #A, Cupertino, CA 95014
+                Gaithersburg, MD 20877
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link href="/contact-us">
@@ -191,7 +187,7 @@ export default function AboutPage() {
                 </Link>
                 <a href="tel:+14155692119">
                   <button className="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white/10 transition flex items-center gap-2">
-                    <Icons.Phone className="w-4 h-4" /> Call Lee
+                    <Icons.Phone className="w-4 h-4" /> Call Spencer
                   </button>
                 </a>
               </div>
@@ -202,7 +198,7 @@ export default function AboutPage() {
                 <div className="absolute inset-0 rounded-full bg-[#021B2C]/95 animate-pulse" />
                 <Image
                   src="/img/lee.png"
-                  alt="Lee Chieng - Certified Mortgage Advisor"
+                  alt="Spencer Rhodes Bangert - Division Sales Manager"
                   fill
                   className="rounded-full object-cover border-4 border-white/20 shadow-2xl"
                   priority
@@ -217,22 +213,21 @@ export default function AboutPage() {
       </div>
 
       <div className="container mx-auto max-w-7xl px-4 py-12 md:py-16">
-        {/* About Lee Chieng - Updated with new intro */}
+        {/* About Spencer Rhodes Bangert */}
         <section className="mb-16">
           <div className="text-center max-w-4xl mx-auto mb-10">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-              Let's Get Introduced
+              Let&apos;s Get Introduced
             </h2>
             <p className="text-xl text-gray-700 font-medium mb-4">
-              "Hi, I'm Lee, A Dedicated Mortgage Loan Officer Here to Make Your
-              Homeownership Dreams a Reality!"
+              &quot;Hi, I&apos;m Spencer, and I am here to make your
+              homeownership goals easier to reach.&quot;
             </p>
             <p className="text-gray-600 leading-relaxed">
-              With over 20 years of experience in the mortgage industry, I've
-              had the privilege of helping countless families achieve their
-              dream of homeownership. My journey has been fueled by a passion
-              for making a positive impact in people's lives. Let's embark on
-              this journey together.
+              Whether you are looking to buy a new home or refinance your
+              current loan, I provide personalized, dedicated service with a
+              focus on closing on time and within contract. I take pride in
+              making the loan process easy and stress free for every client.
             </p>
           </div>
 
@@ -262,25 +257,23 @@ export default function AboutPage() {
                 My Offer To You
               </h3>
               <p className="text-gray-700 leading-relaxed mb-4">
-                With over 20 years of experience, I offer expert guidance,
-                personalized solutions, and a commitment to making your
-                homeownership journey smooth and successful.
+                Whether you are looking to buy a new home or refinance your
+                current loan, I provide personalized, dedicated service with a
+                focus on closing on time and within contract.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
-                I take pride in making the mortgage process as smooth and
-                enjoyable as possible, whether you're purchasing a new home or
-                refinancing.
+                With proven experience helping homeowners across our region, I
+                take pride in making the loan process as easy and stress free as
+                possible.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Originally from Augusta, I graduated from the University of
-                Georgia with a degree in Economics. I spent nine years living in
-                Atlanta, where I met my wife, before returning to Augusta to
-                begin my career as a mortgage lender. We have two sons, Daniel
-                (22) and Shaw (21).
+                I am proud to serve clients from my local office in
+                Gaithersburg, Maryland, with a relationship-first approach to
+                mortgage lending.
               </p>
               <p className="text-gray-700 leading-relaxed font-medium">
-                If you want a mortgage experience that's professional, personal,
-                and even a little fun, give me a call.
+                If you want a mortgage experience that&apos;s professional,
+                personal, and even a little fun, give me a call.
               </p>
               <div className="mt-6 flex items-center gap-4">
                 <a
@@ -288,14 +281,14 @@ export default function AboutPage() {
                   className="text-[#021B2C] font-medium flex items-center gap-2"
                 >
                   <Icons.Phone className="w-4 h-4" />
-                  (415) 569-2119
+                  (443) 254-0132
                 </a>
                 <a
-                  href="mailto:LChieng@gmccloan.com"
+                  href="https://www.fdmhome.com/spencerbangert.html"
                   className="text-[#021B2C] font-medium flex items-center gap-2"
                 >
                   <Icons.Mail className="w-4 h-4" />
-                  LChieng@gmccloan.com
+                  Spencer&apos;s website
                 </a>
               </div>
             </div>
@@ -401,19 +394,19 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* Let's Get You Into Your Dream Home */}
+        {/* Let&apos;s Get You Into Your Dream Home */}
         <section className="mb-16 bg-[#021B2C] text-white rounded-2xl p-8 text-center">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
-            Let's get you into your dream home
+            Let&apos;s get you into your dream home
           </h2>
           <p className="text-gray-300 max-w-2xl mx-auto mb-8">
-            It's simple to get started on your mortgage journey – whether you're
-            just looking to get pre-qualified or are ready to submit an
-            application. Just click the button below or submit a contact form to
-            speak with me. I'm here to help!
+            It&apos;s simple to get started on your mortgage journey – whether
+            you&apos;re just looking to get pre-qualified or are ready to submit
+            an application. Just click the button below or submit a contact form
+            to speak with me. I&apos;m here to help!
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <a href="mailto:LChieng@gmccloan.com">
+            <a href="https://www.fdmhome.com/spencerbangert.html">
               <button className="bg-white text-[#021B2C] px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
                 Get Started Today
               </button>
@@ -545,7 +538,7 @@ export default function AboutPage() {
               <Icons.Phone className="w-5 h-5" /> (415) 569-2119
             </a>
             <a
-              href="mailto:LChieng@gmccloan.com"
+              href="https://www.fdmhome.com/spencerbangert.html"
               className="inline-flex items-center gap-2 border-2 border-white text-white font-semibold px-6 py-3 rounded-xl hover:bg-white/10 transition"
             >
               <Icons.Mail className="w-5 h-5" /> Email Lee
@@ -555,9 +548,9 @@ export default function AboutPage() {
 
         <div className="mt-8 p-4 bg-gray-50 rounded-lg border border-gray-200">
           <p className="text-xs text-gray-500 text-center leading-relaxed">
-            Lee Chieng is a licensed mortgage professional. NMLS #NMLS# 339727,
-            CA DRE#01881231, AZ#1040124, CA DRE# 01881231, AZ# 1040124. Loan
-            approvals are subject to underwriting guidelines. Equal Housing
+            Spencer Rhodes Bangert is a licensed mortgage professional. NMLS#
+            1202142. CA DRE#01881231, AZ#1040124, CA DRE# 01881231, AZ# 1040124.
+            Loan approvals are subject to underwriting guidelines. Equal Housing
             Lender.
           </p>
         </div>

@@ -43,7 +43,7 @@ const MortgageLandingPage = () => {
           <div className="flex-1  max-w-2xl w-full text-center lg:text-left">
             <div className="hidden md:flex flex-col ">
               <p className=" text-md font-bold tracking-[0.2em] mb-6 uppercase">
-                Hi, I{`'`}m Lee Chieng
+                Hi, I{`'`}m Spencer Bangert
               </p>
 
               <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold leading-tight mb-6">
@@ -53,15 +53,11 @@ const MortgageLandingPage = () => {
               </h1>
             </div>
             <p className="text-sm sm:text-base text-gray-200 mb-10 mt-5 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-              Welcome to General Mortgage Capital Corporation – Lee Chieng
-              Mortgage Advisor! With 20+ years of experience, I help buyers,
-              homeowners, and investors find financing solutions. As a Mortgage
-              Broker and Mortgage Loan Officer based in Cupertino, I serve
-              clients all over CA. Services include First Time Homebuyer Loans,
-              home mortgages, Conventional Loans, FHA Loan lender programs, VA
-              Loans, zero down payment Loans, self-employed Loans, Non-QM loans,
-              DSCR Loans, Investor Mortgages, Reverse Mortgages, and Divorce
-              Mortgage solutions.
+              Welcome to Spencer Bangert Mortgage. Whether you are buying a new
+              home or refinancing, I provide personalized, dedicated service
+              with a focus on closing on time and within contract. As a local
+              Division Sales Manager, I help homeowners across our region make
+              the loan process easy and stress free.
             </p>
 
             <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center lg:justify-start gap-4">
@@ -101,7 +97,7 @@ const MortgageLandingPage = () => {
             <div className="  relative w-full max-w-[450px]">
               <div className="flex flex-col text-center p-1 md:hidden">
                 <p className="text-md font-bold tracking-[0.2em] mb-2 uppercase">
-                  Hi, I{`'`}m Lee Chieng{" "}
+                  Hi, I{`'`}m Spencer Bangert{" "}
                 </p>
 
                 <h1 className="text-3xl sm:text-5xl lg:text-7xl font-bold leading-tight mb-24">
@@ -127,7 +123,7 @@ const MortgageLandingPage = () => {
               </div>
               <img
                 src="/img/lee.png"
-                alt="Adrian Webb"
+                alt="Spencer Bangert"
                 className="w-full h-[450px] sm:h-[480px] lg:h-[550px] object-cover object-top rounded-2xl"
                 style={{
                   maskImage:
@@ -138,16 +134,14 @@ const MortgageLandingPage = () => {
               />
 
               <div className="absolute -bottom-10 sm:-bottom-4 right-0 md:right-22 left-0 sm:left-auto mx-auto sm:mx-0 bg-white text-gray-900 p-3 sm:p-4 rounded-2xl shadow-2xl w-[80%] sm:w-60">
-                <h3 className="text-xl font-bold mb-2">Lee Chieng </h3>
+                <h3 className="text-xl font-bold mb-2">Spencer Bangert</h3>
                 <p className="text-gray-600 text-sm mb-1">
-                  Senior Loan Officer
+                  Division Sales Manager
                 </p>
-                <p className="text-gray-500 text-xs mb-1">
-                  NMLS ID: NMLS# 339727, CA DRE#01881231, AZ#1040124
-                </p>
+                <p className="text-gray-500 text-xs mb-1">NMLS# 1202142</p>
                 <div className="flex items-center gap-3 w-full">
                   <a
-                    href="https://www.facebook.com/Leethemortgagespecialist"
+                    href="https://www.facebook.com/fdmhomeold/posts/50-star-review-received-on-experiencecom-for-spencer-bangert-by-brenda-g-b-r-spe/5094514537334437/"
                     className="w-9 h-8 md:w-10 md:h-10 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100 transition"
                   >
                     <Icon
@@ -157,13 +151,13 @@ const MortgageLandingPage = () => {
                     />
                   </a>
                   <a
-                    href="https://www.instagram.com/lee_themortgagepro/"
+                    href="https://www.fdmhome.com/spencerbangert.html"
                     className="w-9 h-8 md:w-10 md:h-10 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100 transition"
                   >
                     <Icon src={icons.instagram} size={18} />
                   </a>
                   <a
-                    href="https://www.linkedin.com/in/lee-chieng/"
+                    href="https://www.linkedin.com/checkpoint/challenge/AgFcCCMLOusvRgAAAaBqcmFT-JEoh9_hihEjE51tqwo_B_yx1OwyvgJ2XhZGPkqeLGoeWETuDILg_Y37g8kAkPozkN4PSw?ut=089aOqHAFcRIo1"
                     className="w-9 h-8 md:w-10 md:h-10 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100 transition"
                   >
                     <Icon src={icons.linkedin} size={18} />
