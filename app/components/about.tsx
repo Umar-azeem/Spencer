@@ -197,7 +197,7 @@ export default function AboutPage() {
               <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96">
                 <div className="absolute inset-0 rounded-full bg-[#021B2C]/95 animate-pulse" />
                 <Image
-                  src="/img/lee.png"
+                  src="/img/spens.png"
                   alt="Spencer Rhodes Bangert - Division Sales Manager"
                   fill
                   className="rounded-full object-cover border-4 border-white/20 shadow-2xl"
@@ -281,7 +281,7 @@ export default function AboutPage() {
                   className="text-[#021B2C] font-medium flex items-center gap-2"
                 >
                   <Icons.Phone className="w-4 h-4" />
-                  (443) 254-0132
+                  (240) 252-4095
                 </a>
                 <a
                   href="https://www.fdmhome.com/spencerbangert.html"
@@ -413,7 +413,7 @@ export default function AboutPage() {
             </a>
             <Link href="/contact-us">
               <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition flex items-center gap-2">
-                <Icons.Mail className="w-4 h-4" /> Contact Lee
+                <Icons.Mail className="w-4 h-4" /> Contact spens
               </button>
             </Link>
           </div>
@@ -422,7 +422,7 @@ export default function AboutPage() {
         {/* Process Steps */}
         <section className="mb-16 bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
-            How to Work With Lee
+            How to Work With spens
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {processSteps.slice(0, 4).map((step) => (
@@ -528,20 +528,20 @@ export default function AboutPage() {
         <div className="mt-12 bg-[#021B2C] rounded-2xl p-8 text-white text-center">
           <h3 className="text-xl font-bold mb-2">Ready to get started?</h3>
           <p className="text-gray-300 mb-6 text-sm">
-            Contact Lee today for a no-obligation consultation.
+            Contact spens today for a no-obligation consultation.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a
               href="tel:+14155692119"
               className="inline-flex items-center gap-2 bg-white text-[#021B2C] font-semibold px-6 py-3 rounded-xl hover:bg-gray-100 transition"
             >
-              <Icons.Phone className="w-5 h-5" /> (415) 569-2119
+              <Icons.Phone className="w-5 h-5" /> (240) 252-4095
             </a>
             <a
               href="https://www.fdmhome.com/spencerbangert.html"
               className="inline-flex items-center gap-2 border-2 border-white text-white font-semibold px-6 py-3 rounded-xl hover:bg-white/10 transition"
             >
-              <Icons.Mail className="w-5 h-5" /> Email Lee
+              <Icons.Mail className="w-5 h-5" /> Email spens
             </a>
           </div>
         </div>

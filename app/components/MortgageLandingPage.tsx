@@ -22,7 +22,7 @@ const MortgageLandingPage = () => {
     instagram: "https://img.icons8.com/ios/50/374151/instagram-new.png",
     linkedin: "https://img.icons8.com/ios-filled/50/374151/linkedin.png",
     youtube: "https://img.icons8.com/ios-filled/50/374151/youtube-play.png",
-    google: "https://img.icons8.com/ios-filled/50/374151/google-logoN.png",
+    google: "https://img.icons8.com/ios-filled/50/374151/google-logo.png",
   };
 
   return (
@@ -122,7 +122,7 @@ const MortgageLandingPage = () => {
                 </div>
               </div>
               <img
-                src="/img/lee.png"
+                src="/img/spens.png"
                 alt="Spencer Bangert"
                 className="w-full h-[450px] sm:h-[480px] lg:h-[550px] object-cover object-top rounded-2xl"
                 style={{

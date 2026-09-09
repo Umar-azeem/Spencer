@@ -19,19 +19,10 @@ const FooterText = () => {
           increase the APR and the monthly mortgage payment. Additional loan
           programs may be available. Some programs are subject to income/census
           tract limit and available only in selected counties/states.
-          
-          
-          
-          
-          
-          
-          
-         
         </p>
 
         <p className="mt-6 text-sm">
-           APR
-          reflects the effective cost of your loan on a yearly basis,
+          APR reflects the effective cost of your loan on a yearly basis,
           considering such items as interest, most closing costs, discount
           points (also referred to as “points”) and loan-origination fees. One
           point is 1.00% of the mortgage amount (e.g., $1,000 on a $100,000
@@ -42,28 +33,28 @@ const FooterText = () => {
           the fixed period: ARMs assume 30-year term.
         </p>
         <p className="text-sm">
- General Mortgage Capital
-          Corporation and eMeta Funding are licensed in the following state:
-          Alabama – NMLS: 23260, Arkansas – NMLS: 129989, Arizona – NMLS:
-          1026178, California CFL – NMLS: 60DBO-66060, California DRE – NMLS:
-          01509029, Colorado – NMLS: 254895, Connecticut – NMLS: 254895,
-          Delaware – NMLS: 038061, Florida – NMLS: MLD2191, Georgia – NMLS –
-          254895, Hawaii – NMLS: HI-254895, Idaho- NMLS: MBL-2080254895,
-          Illinois – NMLS: MB.6761662, Indiana – NMLS: None, Iowa – NMLS:
-          2022-0038, Kansas- NMLS: MC.0025844, Kentucky – NMLS: MC782027,
-          Louisiana – NMLS: 254895, Maryland – NMLS: 254895, Maine- NMLS:
-          254895, Massachusetts – NMLS: MC254895, Michigan NMLS: FR0024243,
-          Minnesota – NMLS: MO-MN-254895, Mississippi – NMLS:254895, Missouri –
-          NMLS: 254895, Montana – NMLS: 254895, Nevada – NMLS: 5419, Nebraska –
-          NMLS: 254895, New Hampshire, New Jersey – NMLS: 254895, New Mexico:
-          NMLS – 254895: New York – NMLS: LMB 110903, North Carolina – NMLS:
-          L-208502, North Dakota – NMLS; MB104140, Oklahoma – NMLS: ML014608,
-          Ohio – NMLS: RM.804881.000, Oregon – NMLS: 254895, Pennsylvania –
-          NMLS: 96566, Rhode Island – NMLS: None, South Carolina – NMLS: 254895,
-          Tennessee – NMLS: 254895, Texas – NMLS: 254895, Utah – NMLS: 12679832,
+          General Mortgage Capital Corporation and eMeta Funding are licensed in
+          the following state: Alabama – NMLS: 23260, Arkansas – NMLS: 129989,
+          Arizona – NMLS: 1026178, California CFL – NMLS: 60DBO-66060,
+          California DRE – NMLS: 01509029, Colorado – NMLS: 254895, Connecticut
+          – NMLS: 254895, Delaware – NMLS: 038061, Florida – NMLS: MLD2191,
+          Georgia – NMLS – 254895, Hawaii – NMLS: HI-254895, Idaho- NMLS:
+          MBL-2080254895, Illinois – NMLS: MB.6761662, Indiana – NMLS: None,
+          Iowa – NMLS: 2022-0038, Kansas- NMLS: MC.0025844, Kentucky – NMLS:
+          MC782027, Louisiana – NMLS: 254895, Maryland – NMLS: 254895, Maine-
+          NMLS: 254895, Massachusetts – NMLS: MC254895, Michigan NMLS:
+          FR0024243, Minnesota – NMLS: MO-MN-254895, Mississippi – NMLS:254895,
+          Missouri – NMLS: 254895, Montana – NMLS: 254895, Nevada – NMLS: 5419,
+          Nebraska – NMLS: 254895, New Hampshire, New Jersey – NMLS: 254895, New
+          Mexico: NMLS – 254895: New York – NMLS: LMB 110903, North Carolina –
+          NMLS: L-208502, North Dakota – NMLS; MB104140, Oklahoma – NMLS:
+          ML014608, Ohio – NMLS: RM.804881.000, Oregon – NMLS: 254895,
+          Pennsylvania – NMLS: 96566, Rhode Island – NMLS: None, South Carolina
+          – NMLS: 254895, Tennessee – NMLS: 254895, Texas – NMLS: 254895, Utah –
+          NMLS: 12679832,
         </p>
         <p className="text-sm">
-           Vermont – NMLS: LL-254895, Virginia – NMLS: MC-7314, Washington –
+          Vermont – NMLS: LL-254895, Virginia – NMLS: MC-7314, Washington –
           NMLS: CL-254895, Washington DC – NMLS: MLB254895, West Virginia –
           NMLS: ML-254895, Wisconsin – NMLS: 254895BA, Wyoming – NMLS: 4763.
           General Mortgage Capital Corporation NMLS: 254895. For licensing
@@ -81,7 +72,7 @@ const FooterText = () => {
       <hr className="border-gray-700 my-6 sm:my-10" />
       <div className="flex justify-end mt-4 sm:mt-0">
         <Image
-          src="/img/logoV.png"
+          src="/img/logo.png"
           alt="Equal Housing Opportunity"
           width={100}
           height={100}

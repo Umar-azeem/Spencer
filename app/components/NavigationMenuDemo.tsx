@@ -185,8 +185,8 @@ function NavigationMenuDemo() {
             <div className="flex h-20 items-center border-b border-white/10  px-2">
               <Link href="/" onClick={() => setIsOpen(false)}>
                 <Image
-                  src="/img/logoV.png"
-                  alt="logoV"
+                  src="/img/logo.png"
+                  alt="logo"
                   width={100}
                   height={100}
                   className="w-32 h-18 object-contain"
@@ -251,7 +251,7 @@ function NavigationMenuDemo() {
                 className="flex gap-2 justify-center w-full px-4"
               >
                 <button className="bg-white flex justify-center gap-4 text-[#021B2C] px-6 w-full py-3 rounded-xl font-semibold transition transform duration-300 hover:-translate-y-1">
-                  (415) 569-2119{" "}
+                  (240) 252-4095{" "}
                 </button>
               </Link>
               <Link href="/applyNow" className="w-full px-4">
@@ -269,8 +269,8 @@ function NavigationMenuDemo() {
               <div className="flex h-10 items-center  ">
                 <Link href="/" onClick={() => setIsOpen(false)}>
                   <Image
-                    src="/img/logoV.png"
-                    alt="logoV"
+                    src="/img/logo.png"
+                    alt="logo"
                     width={140}
                     height={80}
                     className="w-32 h-24 object-contain"
@@ -331,7 +331,7 @@ function NavigationMenuDemo() {
         <div className="hidden lg:flex items-center gap-3 text-white py-4">
           <Link href="tel:+14155692119" className="flex gap-2 justify-center ">
             <PhoneCall />
-            <h3>(415) 569-2119</h3>
+            <h3>(240) 252-4095</h3>
           </Link>
           <Link href="/applyNow" className="flex gap-2 justify-center ">
             <button className="bg-white text-[#021B2C] px-6 py-3 rounded-xl font-semibold transition transform duration-300 hover:-translate-y-1">

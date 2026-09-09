@@ -9,12 +9,12 @@ import Link from "next/link";
 const testimonials = [
   {
     name: "Casey J",
-    text: "The team that worked for me was amazing! Lee is a champion and helped me in every way... The professionalism, work ethic, skill and customer service is stellar!!",
+    text: "The team that worked for me was amazing! spens is a champion and helped me in every way... The professionalism, work ethic, skill and customer service is stellar!!",
     rating: 5,
   },
   {
     name: "Yvette",
-    text: "Lee and his team were outstanding! They provided top-notch service... An unexpected bonus were video’s emailed explaining the next phase so you weren’t left confused.",
+    text: "spens and his team were outstanding! They provided top-notch service... An unexpected bonus were video’s emailed explaining the next phase so you weren’t left confused.",
     rating: 5,
   },
   {
@@ -24,7 +24,7 @@ const testimonials = [
   },
   {
     name: "Thomas",
-    text: "Lee's people, in particular Josh have been more than available and helpful through out this whole process. As a first time buyer, I am extremely thankful...",
+    text: "spens's people, in particular Josh have been more than available and helpful through out this whole process. As a first time buyer, I am extremely thankful...",
     rating: 5,
   },
 ];
@@ -51,7 +51,7 @@ const resources = [
   },
 ];
 
-const AboutLeePage: React.FC = () => {
+const AboutspensPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* --- 1. HERO SECTION --- */}
@@ -107,7 +107,7 @@ const AboutLeePage: React.FC = () => {
               <div className="flex flex-col sm:flex-row gap-4 mt-6 text-sm">
                 <div className="flex items-center gap-2 bg-white p-3 rounded-lg shadow-sm">
                   <Phone size={18} className="text-[#021B2C]" />
-                  <span className="font-medium">+1 (443) 254-0132</span>
+                  <span className="font-medium">+1 (240) 252-4095</span>
                 </div>
                 <div className="flex items-center gap-2 bg-white p-3 rounded-lg shadow-sm">
                   <Mail size={18} className="text-[#021B2C]" />
@@ -221,7 +221,7 @@ const AboutLeePage: React.FC = () => {
       <section id="contact" className="py-16 md:py-24 bg-[#021B2C] text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Need Some Help? Contact Lee
+            Need Some Help? Contact spens
           </h2>
           <p className="text-xl text-green-100/90 mb-8">
             Have questions? Ready to get started? Reach out anytime.
@@ -230,7 +230,7 @@ const AboutLeePage: React.FC = () => {
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-10">
             <div className="flex items-center gap-3 bg-white/10 px-6 py-3 rounded-full backdrop-blur-sm">
               <Phone size={20} />
-              <span className="font-medium">+1 (415) 569-2119</span>
+              <span className="font-medium">+1 (240) 252-4095</span>
             </div>
             <div className="flex items-center gap-3 bg-white/10 px-6 py-3 rounded-full backdrop-blur-sm">
               <Mail size={20} />
@@ -300,4 +300,4 @@ const AboutLeePage: React.FC = () => {
   );
 };
 
-export default AboutLeePage;
+export default AboutspensPage;

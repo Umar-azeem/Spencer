@@ -22,7 +22,7 @@ const CreditBuild = () => {
       <div className="flex flex-col lg:flex-row gap-10 lg:gap-12">
         <div className="relative w-full lg:w-[60%] rounded-3xl ">
           <img
-            src="/img/stage.png"
+            src="/img/sat.jpg"
             alt="speaker"
             className="w-full h-[280px] sm:h-[400px] lg:h-150 object-cover rounded-3xl"
           />

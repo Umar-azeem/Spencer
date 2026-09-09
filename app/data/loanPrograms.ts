@@ -85,11 +85,11 @@ export const loanPrograms: LoanProgram[] = [
     testimonials: [
       {
         name: "Casey J",
-        text: "The team that worked for me was amazing! Lee is a champion and helped me in every way. I would call and text the team constantly to ask questions and get clarity and he would always answer me. The team always works, I would bother them on Sunday evenings and they still answered! I would highly recommend this team to anyone. The professionalism, work ethic, skill and customer service is stellar!! Thank you so much for getting me into my house!!!",
+        text: "The team that worked for me was amazing! spens is a champion and helped me in every way. I would call and text the team constantly to ask questions and get clarity and he would always answer me. The team always works, I would bother them on Sunday evenings and they still answered! I would highly recommend this team to anyone. The professionalism, work ethic, skill and customer service is stellar!! Thank you so much for getting me into my house!!!",
       },
       {
         name: "Yvette",
-        text: "Lee and his team were outstanding! They provided top-notch service! Their dedication to your needs and satisfaction came through every step of the way. Jason and Amanda were not only professional but gracious and available 24/7 while Lee stayed in touch to make sure you understood and was comfortable with each step. An unexpected bonus were video's emailed explaining the next phase so you weren't left confused on how to proceed. Thank you to everyone involved. A five star rating!",
+        text: "spens and his team were outstanding! They provided top-notch service! Their dedication to your needs and satisfaction came through every step of the way. Jason and Amanda were not only professional but gracious and available 24/7 while spens stayed in touch to make sure you understood and was comfortable with each step. An unexpected bonus were video's emailed explaining the next phase so you weren't left confused on how to proceed. Thank you to everyone involved. A five star rating!",
       },
       {
         name: "Carl",
@@ -97,7 +97,7 @@ export const loanPrograms: LoanProgram[] = [
       },
       {
         name: "Thomas",
-        text: "Lee's people, in particular Josh have been more than available and helpful through out this whole process. As a first time buyer, I am extremely thankful for all the guidance while purchasing my first home. I would (and am) highly recommending them to my friends.",
+        text: "spens's people, in particular Josh have been more than available and helpful through out this whole process. As a first time buyer, I am extremely thankful for all the guidance while purchasing my first home. I would (and am) highly recommending them to my friends.",
       },
     ],
     faqs: [
@@ -172,11 +172,11 @@ export const loanPrograms: LoanProgram[] = [
     testimonials: [
       {
         name: "Casey J",
-        text: "The team that worked for me was amazing! Lee is a champion and helped me in every way. I would call and text the team constantly to ask questions and get clarity and he would always answer me.",
+        text: "The team that worked for me was amazing! spens is a champion and helped me in every way. I would call and text the team constantly to ask questions and get clarity and he would always answer me.",
       },
       {
         name: "Yvette",
-        text: "Lee and his team were outstanding! They provided top-notch service! Their dedication to your needs and satisfaction came through every step of the way.",
+        text: "spens and his team were outstanding! They provided top-notch service! Their dedication to your needs and satisfaction came through every step of the way.",
       },
       {
         name: "Carl",
@@ -184,7 +184,7 @@ export const loanPrograms: LoanProgram[] = [
       },
       {
         name: "Thomas",
-        text: "Lee's people, in particular Josh have been more than available and helpful through out this whole process. As a first time buyer, I am extremely thankful for all the guidance while purchasing my first home.",
+        text: "spens's people, in particular Josh have been more than available and helpful through out this whole process. As a first time buyer, I am extremely thankful for all the guidance while purchasing my first home.",
       },
     ],
     faqs: [
@@ -259,11 +259,11 @@ export const loanPrograms: LoanProgram[] = [
     testimonials: [
       {
         name: "Casey J",
-        text: "The team that worked for me was amazing! Lee is a champion and helped me in every way. I would highly recommend this team to anyone.",
+        text: "The team that worked for me was amazing! spens is a champion and helped me in every way. I would highly recommend this team to anyone.",
       },
       {
         name: "Yvette",
-        text: "Lee and his team were outstanding! They provided top-notch service! Their dedication to your needs and satisfaction came through every step of the way.",
+        text: "spens and his team were outstanding! They provided top-notch service! Their dedication to your needs and satisfaction came through every step of the way.",
       },
       {
         name: "Carl",
@@ -271,7 +271,7 @@ export const loanPrograms: LoanProgram[] = [
       },
       {
         name: "Thomas",
-        text: "Lee's people, in particular Josh have been more than available and helpful through out this whole process. As a first time buyer, I am extremely thankful for all the guidance while purchasing my first home.",
+        text: "spens's people, in particular Josh have been more than available and helpful through out this whole process. As a first time buyer, I am extremely thankful for all the guidance while purchasing my first home.",
       },
     ],
     faqs: [
@@ -345,11 +345,11 @@ export const loanPrograms: LoanProgram[] = [
     testimonials: [
       {
         name: "Casey J",
-        text: "The team that worked for me was amazing! Lee is a champion and helped me in every way. I would call and text the team constantly to ask questions and get clarity and he would always answer me.",
+        text: "The team that worked for me was amazing! spens is a champion and helped me in every way. I would call and text the team constantly to ask questions and get clarity and he would always answer me.",
       },
       {
         name: "Yvette",
-        text: "Lee and his team were outstanding! They provided top-notch service! Their dedication to your needs and satisfaction came through every step of the way.",
+        text: "spens and his team were outstanding! They provided top-notch service! Their dedication to your needs and satisfaction came through every step of the way.",
       },
       {
         name: "Carl",
@@ -357,7 +357,7 @@ export const loanPrograms: LoanProgram[] = [
       },
       {
         name: "Thomas",
-        text: "Lee's people, in particular Josh have been more than available and helpful through out this whole process. As a first time buyer, I am extremely thankful for all the guidance while purchasing my first home.",
+        text: "spens's people, in particular Josh have been more than available and helpful through out this whole process. As a first time buyer, I am extremely thankful for all the guidance while purchasing my first home.",
       },
     ],
     faqs: [
@@ -431,11 +431,11 @@ export const loanPrograms: LoanProgram[] = [
     testimonials: [
       {
         name: "Casey J",
-        text: "The team that worked for me was amazing! Lee is a champion and helped me in every way. I would call and text the team constantly to ask questions and get clarity and he would always answer me.",
+        text: "The team that worked for me was amazing! spens is a champion and helped me in every way. I would call and text the team constantly to ask questions and get clarity and he would always answer me.",
       },
       {
         name: "Yvette",
-        text: "Lee and his team were outstanding! They provided top-notch service! Their dedication to your needs and satisfaction came through every step of the way.",
+        text: "spens and his team were outstanding! They provided top-notch service! Their dedication to your needs and satisfaction came through every step of the way.",
       },
       {
         name: "Carl",
@@ -443,7 +443,7 @@ export const loanPrograms: LoanProgram[] = [
       },
       {
         name: "Thomas",
-        text: "Lee's people, in particular Josh have been more than available and helpful through out this whole process. As a first time buyer, I am extremely thankful for all the guidance while purchasing my first home.",
+        text: "spens's people, in particular Josh have been more than available and helpful through out this whole process. As a first time buyer, I am extremely thankful for all the guidance while purchasing my first home.",
       },
     ],
     faqs: [
@@ -518,11 +518,11 @@ export const loanPrograms: LoanProgram[] = [
     testimonials: [
       {
         name: "Casey J",
-        text: "The team that worked for me was amazing! Lee is a champion and helped me in every way. I would call and text the team constantly to ask questions and get clarity and he would always answer me.",
+        text: "The team that worked for me was amazing! spens is a champion and helped me in every way. I would call and text the team constantly to ask questions and get clarity and he would always answer me.",
       },
       {
         name: "Yvette",
-        text: "Lee and his team were outstanding! They provided top-notch service! Their dedication to your needs and satisfaction came through every step of the way.",
+        text: "spens and his team were outstanding! They provided top-notch service! Their dedication to your needs and satisfaction came through every step of the way.",
       },
       {
         name: "Carl",
@@ -530,7 +530,7 @@ export const loanPrograms: LoanProgram[] = [
       },
       {
         name: "Thomas",
-        text: "Lee's people, in particular Josh have been more than available and helpful through out this whole process. As a first time buyer, I am extremely thankful for all the guidance while purchasing my first home.",
+        text: "spens's people, in particular Josh have been more than available and helpful through out this whole process. As a first time buyer, I am extremely thankful for all the guidance while purchasing my first home.",
       },
     ],
     faqs: [
@@ -605,11 +605,11 @@ export const loanPrograms: LoanProgram[] = [
     testimonials: [
       {
         name: "Casey J",
-        text: "The team that worked for me was amazing! Lee is a champion and helped me in every way. I would call and text the team constantly to ask questions and get clarity and he would always answer me.",
+        text: "The team that worked for me was amazing! spens is a champion and helped me in every way. I would call and text the team constantly to ask questions and get clarity and he would always answer me.",
       },
       {
         name: "Yvette",
-        text: "Lee and his team were outstanding! They provided top-notch service! Their dedication to your needs and satisfaction came through every step of the way.",
+        text: "spens and his team were outstanding! They provided top-notch service! Their dedication to your needs and satisfaction came through every step of the way.",
       },
       {
         name: "Carl",
@@ -617,7 +617,7 @@ export const loanPrograms: LoanProgram[] = [
       },
       {
         name: "Thomas",
-        text: "Lee's people, in particular Josh have been more than available and helpful through out this whole process. As a first time buyer, I am extremely thankful for all the guidance while purchasing my first home.",
+        text: "spens's people, in particular Josh have been more than available and helpful through out this whole process. As a first time buyer, I am extremely thankful for all the guidance while purchasing my first home.",
       },
     ],
     faqs: [
@@ -692,11 +692,11 @@ export const loanPrograms: LoanProgram[] = [
     testimonials: [
       {
         name: "Casey J",
-        text: "The team that worked for me was amazing! Lee is a champion and helped me in every way. I would highly recommend this team to anyone.",
+        text: "The team that worked for me was amazing! spens is a champion and helped me in every way. I would highly recommend this team to anyone.",
       },
       {
         name: "Yvette",
-        text: "Lee and his team were outstanding! They provided top-notch service! Their dedication to your needs and satisfaction came through every step of the way.",
+        text: "spens and his team were outstanding! They provided top-notch service! Their dedication to your needs and satisfaction came through every step of the way.",
       },
       {
         name: "Carl",
@@ -704,7 +704,7 @@ export const loanPrograms: LoanProgram[] = [
       },
       {
         name: "Thomas",
-        text: "Lee's people, in particular Josh have been more than available and helpful through out this whole process. As a first time buyer, I am extremely thankful for all the guidance while purchasing my first home.",
+        text: "spens's people, in particular Josh have been more than available and helpful through out this whole process. As a first time buyer, I am extremely thankful for all the guidance while purchasing my first home.",
       },
     ],
     faqs: [
@@ -779,11 +779,11 @@ export const loanPrograms: LoanProgram[] = [
     testimonials: [
       {
         name: "Casey J",
-        text: "The team that worked for me was amazing! Lee is a champion and helped me in every way. I would call and text the team constantly to ask questions and get clarity and he would always answer me.",
+        text: "The team that worked for me was amazing! spens is a champion and helped me in every way. I would call and text the team constantly to ask questions and get clarity and he would always answer me.",
       },
       {
         name: "Yvette",
-        text: "Lee and his team were outstanding! They provided top-notch service! Their dedication to your needs and satisfaction came through every step of the way.",
+        text: "spens and his team were outstanding! They provided top-notch service! Their dedication to your needs and satisfaction came through every step of the way.",
       },
       {
         name: "Carl",
@@ -791,7 +791,7 @@ export const loanPrograms: LoanProgram[] = [
       },
       {
         name: "Thomas",
-        text: "Lee's people, in particular Josh have been more than available and helpful through out this whole process. As a first time buyer, I am extremely thankful for all the guidance while purchasing my first home.",
+        text: "spens's people, in particular Josh have been more than available and helpful through out this whole process. As a first time buyer, I am extremely thankful for all the guidance while purchasing my first home.",
       },
     ],
     faqs: [
@@ -865,11 +865,11 @@ export const loanPrograms: LoanProgram[] = [
     testimonials: [
       {
         name: "Casey J",
-        text: "The team that worked for me was amazing! Lee is a champion and helped me in every way. I would call and text the team constantly to ask questions and get clarity and he would always answer me.",
+        text: "The team that worked for me was amazing! spens is a champion and helped me in every way. I would call and text the team constantly to ask questions and get clarity and he would always answer me.",
       },
       {
         name: "Yvette",
-        text: "Lee and his team were outstanding! They provided top-notch service! Their dedication to your needs and satisfaction came through every step of the way.",
+        text: "spens and his team were outstanding! They provided top-notch service! Their dedication to your needs and satisfaction came through every step of the way.",
       },
       {
         name: "Carl",
@@ -877,7 +877,7 @@ export const loanPrograms: LoanProgram[] = [
       },
       {
         name: "Thomas",
-        text: "Lee's people, in particular Josh have been more than available and helpful through out this whole process. As a first time buyer, I am extremely thankful for all the guidance while purchasing my first home.",
+        text: "spens's people, in particular Josh have been more than available and helpful through out this whole process. As a first time buyer, I am extremely thankful for all the guidance while purchasing my first home.",
       },
     ],
     faqs: [
@@ -952,11 +952,11 @@ export const loanPrograms: LoanProgram[] = [
     testimonials: [
       {
         name: "Casey J",
-        text: "The team that worked for me was amazing! Lee is a champion and helped me in every way. I would call and text the team constantly to ask questions and get clarity and he would always answer me.",
+        text: "The team that worked for me was amazing! spens is a champion and helped me in every way. I would call and text the team constantly to ask questions and get clarity and he would always answer me.",
       },
       {
         name: "Yvette",
-        text: "Lee and his team were outstanding! They provided top-notch service! Their dedication to your needs and satisfaction came through every step of the way.",
+        text: "spens and his team were outstanding! They provided top-notch service! Their dedication to your needs and satisfaction came through every step of the way.",
       },
       {
         name: "Carl",
@@ -964,7 +964,7 @@ export const loanPrograms: LoanProgram[] = [
       },
       {
         name: "Thomas",
-        text: "Lee's people, in particular Josh have been more than available and helpful through out this whole process. As a first time buyer, I am extremely thankful for all the guidance while purchasing my first home.",
+        text: "spens's people, in particular Josh have been more than available and helpful through out this whole process. As a first time buyer, I am extremely thankful for all the guidance while purchasing my first home.",
       },
     ],
     faqs: [

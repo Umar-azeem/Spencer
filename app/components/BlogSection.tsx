@@ -40,7 +40,7 @@ const blogPosts: BlogPost[] = [
     category: "FHA Loans",
     author: "Spencer Rhodes Bangert",
     authorRole: "Division Sales Manager",
-    authorImage: "/img/lee.png",
+    authorImage: "/img/spens.png",
     image:
       "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=800&h=500&fit=crop",
     slug: "loan-programs?program=fha",
@@ -54,7 +54,7 @@ const blogPosts: BlogPost[] = [
     category: "First Time Buyers",
     author: "Spencer Rhodes Bangert",
     authorRole: "Division Sales Manager",
-    authorImage: "/img/lee.png",
+    authorImage: "/img/spens.png",
     image:
       "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&h=500&fit=crop",
     slug: "loan-programs?program=va",
@@ -68,7 +68,7 @@ const blogPosts: BlogPost[] = [
     category: "Credit Tips",
     author: "Spencer Rhodes Bangert",
     authorRole: "Division Sales Manager",
-    authorImage: "/img/lee.png",
+    authorImage: "/img/spens.png",
     image:
       "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=500&fit=crop",
     slug: "loan-programs?program=dpa",
@@ -83,7 +83,7 @@ const blogPosts: BlogPost[] = [
     category: "Bridge Loans",
     author: "Spencer Rhodes Bangert",
     authorRole: "Division Sales Manager",
-    authorImage: "/img/lee.png",
+    authorImage: "/img/spens.png",
     image:
       "https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=800&h=500&fit=crop",
     slug: "loan-programs?program=jumbo",
@@ -97,7 +97,7 @@ const blogPosts: BlogPost[] = [
     category: "Bridge Loans",
     author: "Spencer Rhodes Bangert",
     authorRole: "Division Sales Manager",
-    authorImage: "/img/lee.png",
+    authorImage: "/img/spens.png",
     image:
       "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&h=500&fit=crop",
     slug: "loan-programs?program=refinance",
@@ -111,7 +111,7 @@ const blogPosts: BlogPost[] = [
     category: "Buying Tips",
     author: "Spencer Rhodes Bangert",
     authorRole: "Division Sales Manager",
-    authorImage: "/img/lee.png",
+    authorImage: "/img/spens.png",
     image:
       "https://images.unsplash.com/photo-1430285561322-7808604715df?w=800&h=500&fit=crop",
     slug: "loan-programs?program=non-qm",
@@ -125,7 +125,7 @@ const blogPosts: BlogPost[] = [
     category: "Refinancing",
     author: "Spencer Rhodes Bangert",
     authorRole: "Division Sales Manager",
-    authorImage: "/img/lee.png",
+    authorImage: "/img/spens.png",
     image:
       "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&h=500&fit=crop",
     slug: "loan-programs?program=rehab",
@@ -139,7 +139,7 @@ const blogPosts: BlogPost[] = [
     category: "Home Equity",
     author: "Spencer Rhodes Bangert",
     authorRole: "Division Sales Manager",
-    authorImage: "/img/lee.png",
+    authorImage: "/img/spens.png",
     image:
       "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&h=500&fit=crop",
     slug: "loan-programs?program=usda",
@@ -153,7 +153,7 @@ const blogPosts: BlogPost[] = [
     category: "Mortgage Tips",
     author: "Spencer Rhodes Bangert",
     authorRole: "Division Sales Manager",
-    authorImage: "/img/lee.png",
+    authorImage: "/img/spens.png",
     image:
       "https://images.unsplash.com/photo-1560523159-4a9692d222ef?w=800&h=500&fit=crop",
     slug: "loan-programs?program=rehab",
@@ -167,7 +167,7 @@ const blogPosts: BlogPost[] = [
     category: "Rate Buydowns",
     author: "Spencer Rhodes Bangert",
     authorRole: "Division Sales Manager",
-    authorImage: "/img/lee.png",
+    authorImage: "/img/spens.png",
     image:
       "https://images.unsplash.com/photo-1460317442991-0ec209397118?w=800&h=500&fit=crop",
     slug: "loan-programs?program=usda",

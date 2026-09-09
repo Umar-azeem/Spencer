@@ -110,7 +110,7 @@ const Loan: React.FC = () => {
             </div>
             <div className="w-full max-w-[350px] sm:max-w-[400px] md:max-w-[450px] aspect-[4/5]  md:h-[500px] bg-[#021B2C] rounded-[20px]" />
             <Image
-              src="/img/lee.png"
+              src="/img/spens.png"
               alt="Advisor"
               width={480}
               height={680}

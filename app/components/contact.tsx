@@ -102,7 +102,7 @@ This inquiry was sent from the Spencer Bangert - Mortgage website.`,
 
     window.open(
       `mailto:spencer@fdmhome.com?subject=${emailSubject}&body=${emailBody}`,
-      "_blank"
+      "_blank",
     );
 
     setIsSubmitting(false);
@@ -205,7 +205,7 @@ This inquiry was sent from the Spencer Bangert - Mortgage website.`,
                 </div>
                 <div>
                   <p className="font-bold text-lg text-gray-900 leading-tight group-hover:text-[#021B2C] transition">
-                    (443) 254-0132
+                    (240) 252-4095
                   </p>
                   <p className="text-gray-500 text-xs mt-1">Phone</p>
                 </div>
@@ -318,7 +318,7 @@ This inquiry was sent from the Spencer Bangert - Mortgage website.`,
                   className="flex items-center gap-2 text-xs text-slate-600 bg-slate-100 hover:bg-slate-200 px-3 py-1.5 rounded-full transition-colors"
                 >
                   <Phone className="w-3.5 h-3.5" />
-                  (443) 254-0132
+                  (240) 252-4095
                 </a>
               </div>
 
@@ -514,7 +514,7 @@ This inquiry was sent from the Spencer Bangert - Mortgage website.`,
               href="tel:4432540132"
               className="hover:text-[#021B2C] transition"
             >
-              (443) 254-0132
+              (240) 252-4095
             </a>
             <a
               href="mailto:spencer@fdmhome.com"

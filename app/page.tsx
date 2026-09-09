@@ -22,7 +22,7 @@ export default function Home() {
    <MortgageCalculator/>
    <CardStack/>
    <Loan/>
-   <VideoTabs/>
+   {/* <VideoTabs/> */}
    <BlogSection/>
    <ApplyNow/>
    <FAQ/>

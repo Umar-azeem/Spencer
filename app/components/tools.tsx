@@ -13,10 +13,8 @@ import {
 import { toolData } from "@/app/data/tools-data";
 
 // Types
-interface CalculatorState {
-  [key: string]: number | string;
-}
-
+type CalculatorInputValue = number | string | undefined;
+type CalculatorState = Record<string, CalculatorInputValue>;
 type CalculatorResult = Record<string, number>;
 
 export default function Tools() {
@@ -275,12 +273,9 @@ export default function Tools() {
   };
 
   // Render calculator inputs
-  const renderInputs = (
-    toolId: string,
-    fields: Record<string, number | string>,
-  ) => {
+  const renderInputs = (toolId: string, fields: CalculatorState) => {
     return Object.entries(fields).map(([key, value]) => {
-      const inputValue = inputs[toolId]?.[key] ?? value;
+      const inputValue = inputs[toolId]?.[key] ?? value ?? "";
       const label = key
         .replace(/([A-Z])/g, " $1")
         .replace(/^./, (str) => str.toUpperCase());
@@ -328,11 +323,12 @@ export default function Tools() {
           ].includes(key);
           const isPercent = key === "dscr";
 
-          let displayValue = value;
-          if (isCurrency) displayValue = formatCurrency(value);
-          else if (isPercent) displayValue = value.toFixed(2);
-          else if (Number.isInteger(value)) displayValue = value;
-          else displayValue = value.toFixed(2);
+          const numericValue = Number(value);
+          let displayValue: string | number = numericValue;
+          if (isCurrency) displayValue = formatCurrency(numericValue);
+          else if (isPercent) displayValue = numericValue.toFixed(2);
+          else if (Number.isInteger(numericValue)) displayValue = numericValue;
+          else displayValue = numericValue.toFixed(2);
 
           return (
             <div key={key} className="mb-3 last:mb-0">
@@ -396,7 +392,7 @@ export default function Tools() {
         {/* Calculator Sections */}
         {toolData.tools.map((tool) => {
           const Icon = getIcon(tool.icon);
-          const defaultInputs = tool.defaultInputs || {};
+          const defaultInputs = (tool.defaultInputs || {}) as CalculatorState;
 
           return (
             <div

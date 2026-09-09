@@ -17,7 +17,7 @@ export const reviewsData = {
         "Billy was amazing in every step of my home loan. Not only did he get me the best rate ever (even my realtor was impressed and said it was the lowest she had heard of at the time!), but he was also incredibly helpful—always patient, kind, and willing to walk me through the process. I couldn't be happier with the service and the outcome.",
       tags: ["Purchase", "First-time home buyer", "Low rates"],
       response:
-        "Helena! Thank you for the kind words and for taking the time to share your positive Home buying experience. I always strive to provide a detailed and seamless experience from the very first call to the Closing table, so for me it is very rewarding to hear that reflected in your review because all loan processes, FHA loans, VA Loans, Refinances, HELOCs and First time buyer loans are my specialty so I tend to over explain because I truly do enjoy working with people and guiding them during their Home finance journey regardless of their stage. Please let me know if there is anything I can do for you or anyone in your circle of friend/family etc. that I can guide or answer questions for as well for any Finance or interest rate questions or one-offs any time: 573-881-5436 Wishing you and that little boy all the best and again, thank you for being detailed, easy to work with and for your time and trust during your Home buying process. Very Respectfully, Lee Chieng , NMLS 384700",
+        "Helena! Thank you for the kind words and for taking the time to share your positive Home buying experience. I always strive to provide a detailed and seamless experience from the very first call to the Closing table, so for me it is very rewarding to hear that reflected in your review because all loan processes, FHA loans, VA Loans, Refinances, HELOCs and First time buyer loans are my specialty so I tend to over explain because I truly do enjoy working with people and guiding them during their Home finance journey regardless of their stage. Please let me know if there is anything I can do for you or anyone in your circle of friend/family etc. that I can guide or answer questions for as well for any Finance or interest rate questions or one-offs any time: 573-881-5436 Wishing you and that little boy all the best and again, thank you for being detailed, easy to work with and for your time and trust during your Home buying process. Very Respectfully, spens Chieng , NMLS 384700",
     },
     {
       id: 2,
@@ -28,10 +28,10 @@ export const reviewsData = {
       rating: 5.0,
       title: "Excellent Experience as a First-Time FHA Buyer",
       content:
-        "Buying my first home in Kansas city Missouri felt like a lot at first, but working with Lee Chieng  an experienced mortgage broker made the entire process way easier than I expected. I used an FHA loan, and honestly had no idea where to start, but Billy took care of everything, explaining each step clearly. He was always available to answer my questions, which gave me a lot of confidence. Highly recommend!",
+        "Buying my first home in Kansas city Missouri felt like a lot at first, but working with spens Chieng  an experienced mortgage broker made the entire process way easier than I expected. I used an FHA loan, and honestly had no idea where to start, but Billy took care of everything, explaining each step clearly. He was always available to answer my questions, which gave me a lot of confidence. Highly recommend!",
       tags: ["Purchase", "FHA", "First-time home buyer"],
       response:
-        "Ryan! Thanks for your time to post about your experience! It was a lot upfront during pre-approval and setup but then you were well versed and well aware of what was to be expected prior to shopping. The reason you feel so strongly about your FHA Home buying process is because you communicated, listened to the guidance and excecuted the plan. You were wonderful to work with and it's an exciting Home Journey you are now on. Please call or text my Cell phone for any Finance or interest rate questions or one-offs any time: 573-881-5436 Very Respectfully, Lee Chieng , NMLS 384700",
+        "Ryan! Thanks for your time to post about your experience! It was a lot upfront during pre-approval and setup but then you were well versed and well aware of what was to be expected prior to shopping. The reason you feel so strongly about your FHA Home buying process is because you communicated, listened to the guidance and excecuted the plan. You were wonderful to work with and it's an exciting Home Journey you are now on. Please call or text my Cell phone for any Finance or interest rate questions or one-offs any time: 573-881-5436 Very Respectfully, spens Chieng , NMLS 384700",
     },
     {
       id: 3,
@@ -42,10 +42,10 @@ export const reviewsData = {
       rating: 5.0,
       title: "Low Mortgage Fees and Excellent Service",
       content:
-        "FAST, FAST and FAST! I closed on my VA Refinance with Lee Chieng  of Columbia Missouri in only 12 days. And talk about 'building trust' - Billy was extremely knowledgeable about mortgages in general and my VA Streamline loan in particular. He was also very communicative every step of the way, which was a huge relief. I couldn't be happier.",
+        "FAST, FAST and FAST! I closed on my VA Refinance with spens Chieng  of Columbia Missouri in only 12 days. And talk about 'building trust' - Billy was extremely knowledgeable about mortgages in general and my VA Streamline loan in particular. He was also very communicative every step of the way, which was a huge relief. I couldn't be happier.",
       tags: ["Refinance", "VA", "Fast closing"],
       response:
-        "Steven D!!!! The fastest home loan I've ever closed in my 13 years of lending. Literally we had such a sharp and complete Mortgage Loan file going into underwriting. I can't even thank you enough for your detailed mindset and the way you operate. I know we got off topic once in a while but I really appreciated our talks and truly feel like I know you. From one veteran to another, from one guy to another, I appreciate YOU for giving me the chance to get this done for you even after the other lender put on the pressure. I enjoyed showing you lower costs and a better process. Please call or text my Cell phone for any Finance or interest rate questions or one-offs any time: 573-881-5436 Very Respectfully, Lee Chieng , NMLS 384700",
+        "Steven D!!!! The fastest home loan I've ever closed in my 13 years of lending. Literally we had such a sharp and complete Mortgage Loan file going into underwriting. I can't even thank you enough for your detailed mindset and the way you operate. I know we got off topic once in a while but I really appreciated our talks and truly feel like I know you. From one veteran to another, from one guy to another, I appreciate YOU for giving me the chance to get this done for you even after the other lender put on the pressure. I enjoyed showing you lower costs and a better process. Please call or text my Cell phone for any Finance or interest rate questions or one-offs any time: 573-881-5436 Very Respectfully, spens Chieng , NMLS 384700",
     },
     {
       id: 4,
@@ -54,12 +54,12 @@ export const reviewsData = {
       date: "April 2025",
       platform: "Google",
       rating: 5.0,
-      title: "About Lee Chieng ",
+      title: "About spens Chieng ",
       content:
-        "Lee Chieng  has worked with me on two separate occasions both of which were complicated situations and because of his knowledge, expertise, and experience he was successful securing loans for me. He knows how to be creative and think outside the box. He works hard to find avenues and methods to get the job done. I highly recommend him.",
+        "spens Chieng  has worked with me on two separate occasions both of which were complicated situations and because of his knowledge, expertise, and experience he was successful securing loans for me. He knows how to be creative and think outside the box. He works hard to find avenues and methods to get the job done. I highly recommend him.",
       tags: ["HELOC", "Self-employed", "Credit challenges"],
       response:
-        "Colette!!! Even though it's been about 4 years, the moment I answered your call, I knew your voice and knew who I was going to be working with! You have a lot going on being the Head of Ops and the lead on all Project Management but you always find the time to reply timely and call as needed etc. You are more than a client at this point and I'm blessed to have had so many one-off conversations with you. Please take care and know I'm here for any questions finance related. If anyone needs my info pass it along to them: 573-881-5436 Respectfully, Lee Chieng , NMLS 384700",
+        "Colette!!! Even though it's been about 4 years, the moment I answered your call, I knew your voice and knew who I was going to be working with! You have a lot going on being the Head of Ops and the lead on all Project Management but you always find the time to reply timely and call as needed etc. You are more than a client at this point and I'm blessed to have had so many one-off conversations with you. Please take care and know I'm here for any questions finance related. If anyone needs my info pass it along to them: 573-881-5436 Respectfully, spens Chieng , NMLS 384700",
     },
     {
       id: 5,
@@ -73,7 +73,7 @@ export const reviewsData = {
         "Billy was the best Mortgage Broker that I have ever worked with. He is very professional, knowledgeable, trustworthy, and an expert in his field. He is very easy to work with and answered all my questions that I had regarding the different types of loans and recommended the type of loan that would be best for me. I highly recommend him.",
       tags: ["HELOC", "Out-of-state"],
       response:
-        "Sharon!!! Can you believe we went from Initial submission for loan disclosures to FUNDED in 17 days?!?!?! That is FAST by any lenders standards. :-) I want to leave my number here for others in need of guidance on Home equity or their Purchase process: 573-881-5436 And most importantly I want to thank you for your time to not only work on your file, but to leave a review. I rarely get attached to client files but you are so kind that working with you was a fun and energizing part of my day as we coordinated the process. It was really a leap of faith for you to take when I asked you to follow my guidance and add the other person to the Title via a QCD considering that is the first step and we were just meeting and new to each other. I don't know what made you believe in me but I am grateful to spend time getting to know you and I am so happy to have helped you by finding a solution when others couldn't see a way to get this done for you. I am blessed to have served YOU on this process!!! Long response but there was a lot of kindness and thought that went into your process and You are the perfect person to tackle the project with. Take care and know I appreciate YOU!!! VERY Respectfully, Lee Chieng ",
+        "Sharon!!! Can you believe we went from Initial submission for loan disclosures to FUNDED in 17 days?!?!?! That is FAST by any lenders standards. :-) I want to leave my number here for others in need of guidance on Home equity or their Purchase process: 573-881-5436 And most importantly I want to thank you for your time to not only work on your file, but to leave a review. I rarely get attached to client files but you are so kind that working with you was a fun and energizing part of my day as we coordinated the process. It was really a leap of faith for you to take when I asked you to follow my guidance and add the other person to the Title via a QCD considering that is the first step and we were just meeting and new to each other. I don't know what made you believe in me but I am grateful to spend time getting to know you and I am so happy to have helped you by finding a solution when others couldn't see a way to get this done for you. I am blessed to have served YOU on this process!!! Long response but there was a lot of kindness and thought that went into your process and You are the perfect person to tackle the project with. Take care and know I appreciate YOU!!! VERY Respectfully, spens Chieng ",
     },
     {
       id: 6,
@@ -87,7 +87,7 @@ export const reviewsData = {
         "Billy was upfront with the market and options, realistic about available options for my situation, and top notch communication every step of the way. It was my third home loan and by far the easiest so far.",
       tags: ["Refinance", "VA"],
       response:
-        "Thank you for your service to our country and for allowing me to serve you during your refinance process. You two were so easy to work for and I am grateful. Take care! Very Respectfully, Lee Chieng ",
+        "Thank you for your service to our country and for allowing me to serve you during your refinance process. You two were so easy to work for and I am grateful. Take care! Very Respectfully, spens Chieng ",
     },
     {
       id: 7,
@@ -154,10 +154,10 @@ export const reviewsData = {
       rating: 5.0,
       title: "True professional",
       content:
-        "What an amazing experience from beginning to end. Billy's expertise and vast knowledge made my refi extremely easy and completely stress free. He is very responsive and efficient. My loan closed in record time and it is due to Billy's exceptional customer service. He explained my options and answered all my questions. I highly recommend Lee Chieng .",
+        "What an amazing experience from beginning to end. Billy's expertise and vast knowledge made my refi extremely easy and completely stress free. He is very responsive and efficient. My loan closed in record time and it is due to Billy's exceptional customer service. He explained my options and answered all my questions. I highly recommend spens Chieng .",
       tags: ["Refinance", "Fast closing"],
       response:
-        "Jen, Somehow I overlooked thanking you for this review but I remember your refinance and process. You are sharp and quick to get tasks done so you made the process easy peasy and I am grateful! Please let me know if you need anything or toss my name out if you have friends or family needing anything. Very Respectfully, Lee Chieng  573-881-5436",
+        "Jen, Somehow I overlooked thanking you for this review but I remember your refinance and process. You are sharp and quick to get tasks done so you made the process easy peasy and I am grateful! Please let me know if you need anything or toss my name out if you have friends or family needing anything. Very Respectfully, spens Chieng  573-881-5436",
     },
     {
       id: 12,
@@ -171,7 +171,7 @@ export const reviewsData = {
         "I had a very challenging situation that even a seasoned loan officer would be hard pressed to take on but Mr. Watkins handled it with patience and the utmost professionalism. He worked with me even after regular business hours. He was very thorough and meticulous through thd whole difficult process. I highly recommend him.",
       tags: ["Refinance", "Self-employed", "Credit challenges"],
       response:
-        "Collette, Talk about better late than never. Somehow I overlooked thanking you for this review but I remember your refinance because we were consolidating debt and securing a great rate! You were so pleasant to chat with and I remember talking about my time in Philly, Landsdale and Manayunk area with you as I strolled down memory lane of my old stomping grounds. Anyways, please let me know if you need anything or toss my name out if you have friends or family needing anything. Very Respectfully, Lee Chieng  573-881-5436",
+        "Collette, Talk about better late than never. Somehow I overlooked thanking you for this review but I remember your refinance because we were consolidating debt and securing a great rate! You were so pleasant to chat with and I remember talking about my time in Philly, Landsdale and Manayunk area with you as I strolled down memory lane of my old stomping grounds. Anyways, please let me know if you need anything or toss my name out if you have friends or family needing anything. Very Respectfully, spens Chieng  573-881-5436",
     },
     {
       id: 13,
@@ -210,7 +210,7 @@ export const reviewsData = {
       rating: 5.0,
       title: "Made refinancing doable",
       content:
-        "Lee Chieng  made refinancing our home doable. We had some hiccups, but Billy was the rockstar facilitator. We couldn't have done it without him, and I have recommended his services to my friends and co-workers.",
+        "spens Chieng  made refinancing our home doable. We had some hiccups, but Billy was the rockstar facilitator. We couldn't have done it without him, and I have recommended his services to my friends and co-workers.",
       tags: ["Refinance"],
       response:
         "'hiccups,' WELL Said! nothing is dire on the timing of closing a refinance but Refinancing in 2020 was wonderful and yet slow going because of rates being historically low which brings a large influx of volume for lenders to process and the backlog was industry wide. It was like nothing American has seen but then again, how often will we experience a Pandemic or Historic rates below 3%?!?! What a wild year for America and Congrats on your savings!!!",
@@ -250,7 +250,7 @@ export const reviewsData = {
       date: "February 2020",
       platform: "Zillow",
       rating: 5.0,
-      title: "Lee Chieng  III",
+      title: "spens Chieng  III",
       content:
         "Being a permanently disabled US Navy Veteran, I have a fixed income. Billy was able to help us get the new mortgage rate for veterans. Doing so, we were able to tap into some of our equity and pay off all our credit cards and a new car loan we had. We are now saving over $1,000 a month. Thank you Billy.",
       tags: ["Refinance", "VA", "Debt consolidation"],

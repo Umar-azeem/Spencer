@@ -187,7 +187,7 @@ export default function Footer() {
 
           <div className="flex flex-col items-center md:mt-20">
             <Image
-              src="/img/logoV.png"
+              src="/img/logoS.png"
               alt="Spencer Bangert logo"
               width={100}
               height={100}

@@ -21,7 +21,7 @@ const ApplyNow: React.FC = () => {
   const loanOfficers = [
     {
       name: "Spencer Rhodes Bangert",
-      phone: "+1 (443) 254-0132",
+      phone: "+1 (240) 252-4095",
       email: "Website: fdmhome.com/spencerbangert.html",
     },
   ];
@@ -131,7 +131,7 @@ const ApplyNow: React.FC = () => {
               <div className="flex-shrink-0">
                 <div className="h-20 w-20 rounded-full bg-[#021B2C] flex items-center justify-center text-white text-2xl font-bold overflow-hidden">
                   <img
-                    src="/img/lee.png"
+                    src="/img/spens.png"
                     alt="Advisor"
                     width={40}
                     height={40}
@@ -156,7 +156,7 @@ const ApplyNow: React.FC = () => {
                       href="tel:4432540132"
                       className="hover:text-[#021B2C] transition-colors"
                     >
-                      +1 (443) 254-0132
+                      +1 (240) 252-4095
                     </a>
                   </span>
                   <span className="hidden sm:block text-gray-300">|</span>
