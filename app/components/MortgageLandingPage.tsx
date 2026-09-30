@@ -150,12 +150,17 @@ const MortgageLandingPage = () => {
                       className="text-black"
                     />
                   </a>
-                  <a
-                    href="https://www.fdmhome.com/spencerbangert.html"
-                    className="w-9 h-8 md:w-10 md:h-10 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100 transition"
-                  >
-                    <Icon src={icons.instagram} size={18} />
-                  </a>
+                  <Link href="https://www.zillow.com/lender-profile/Spencer%20Bangert/" className="w-9 h-8 md:w-10 md:h-10 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100 transition">
+                    <span className="[&>svg]:h-5 [&>svg]:w-5">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor"
+                        viewBox="0 0 448 512"
+                      >
+                        <path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm88.4 88c13.4 0 25.2 7.1 31.7 18.6l77.5 134.3 77.5-134.3c6.5-11.5 18.3-18.6 31.7-18.6c20.2 0 36.5 16.3 36.5 36.5c0 8.9-3.3 17.4-9.3 24L269.8 304.5v41.2c0 10.7-8.7 19.4-19.4 19.4s-19.4-8.7-19.4-19.4V304.5L140.8 180.5c-6-6.6-9.3-15.1-9.3-24c0-20.2 16.3-36.5 36.5-36.5h-15.6z" />
+                      </svg>
+                    </span>
+                  </Link>
                   <a
                     href="https://www.linkedin.com/checkpoint/challenge/AgFcCCMLOusvRgAAAaBqcmFT-JEoh9_hihEjE51tqwo_B_yx1OwyvgJ2XhZGPkqeLGoeWETuDILg_Y37g8kAkPozkN4PSw?ut=089aOqHAFcRIo1"
                     className="w-9 h-8 md:w-10 md:h-10 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100 transition"

@@ -281,7 +281,7 @@ export default function AboutPage() {
                   className="text-[#021B2C] font-medium flex items-center gap-2"
                 >
                   <Icons.Phone className="w-4 h-4" />
-                  (240) 252-4095
+                  (443) 254-0132
                 </a>
                 <a
                   href="https://www.fdmhome.com/spencerbangert.html"
@@ -363,9 +363,9 @@ export default function AboutPage() {
               pay and your projected principal balances. You can also input
               prepayment amounts to see their impact on your mortgage.
             </p>
-            <Link href="/calculator">
+            <Link href="/contact-us">
               <button className="bg-[#021B2C] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#004a25] transition">
-                Try Our Mortgage Calculator
+                Contact Us
               </button>
             </Link>
           </div>
@@ -406,11 +406,11 @@ export default function AboutPage() {
             to speak with me. I&apos;m here to help!
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <a href="https://www.fdmhome.com/spencerbangert.html">
+            <Link href="/loan-programs?program=fha">
               <button className="bg-white text-[#021B2C] px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
                 Get Started Today
               </button>
-            </a>
+            </Link>
             <Link href="/contact-us">
               <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition flex items-center gap-2">
                 <Icons.Mail className="w-4 h-4" /> Contact spens
@@ -535,7 +535,7 @@ export default function AboutPage() {
               href="tel:+14155692119"
               className="inline-flex items-center gap-2 bg-white text-[#021B2C] font-semibold px-6 py-3 rounded-xl hover:bg-gray-100 transition"
             >
-              <Icons.Phone className="w-5 h-5" /> (240) 252-4095
+              <Icons.Phone className="w-5 h-5" /> (443) 254-0132
             </a>
             <a
               href="https://www.fdmhome.com/spencerbangert.html"

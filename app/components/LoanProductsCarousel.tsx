@@ -107,7 +107,7 @@ const AboutspensPage: React.FC = () => {
               <div className="flex flex-col sm:flex-row gap-4 mt-6 text-sm">
                 <div className="flex items-center gap-2 bg-white p-3 rounded-lg shadow-sm">
                   <Phone size={18} className="text-[#021B2C]" />
-                  <span className="font-medium">+1 (240) 252-4095</span>
+                  <span className="font-medium">+1 (443) 254-0132</span>
                 </div>
                 <div className="flex items-center gap-2 bg-white p-3 rounded-lg shadow-sm">
                   <Mail size={18} className="text-[#021B2C]" />
@@ -230,7 +230,7 @@ const AboutspensPage: React.FC = () => {
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-10">
             <div className="flex items-center gap-3 bg-white/10 px-6 py-3 rounded-full backdrop-blur-sm">
               <Phone size={20} />
-              <span className="font-medium">+1 (240) 252-4095</span>
+              <span className="font-medium">+1 (443) 254-0132</span>
             </div>
             <div className="flex items-center gap-3 bg-white/10 px-6 py-3 rounded-full backdrop-blur-sm">
               <Mail size={20} />

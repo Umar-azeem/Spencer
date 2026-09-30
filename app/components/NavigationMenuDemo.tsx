@@ -251,7 +251,7 @@ function NavigationMenuDemo() {
                 className="flex gap-2 justify-center w-full px-4"
               >
                 <button className="bg-white flex justify-center gap-4 text-[#021B2C] px-6 w-full py-3 rounded-xl font-semibold transition transform duration-300 hover:-translate-y-1">
-                  (240) 252-4095{" "}
+                  (443) 254-0132{" "}
                 </button>
               </Link>
               <Link href="/applyNow" className="w-full px-4">
@@ -331,7 +331,7 @@ function NavigationMenuDemo() {
         <div className="hidden lg:flex items-center gap-3 text-white py-4">
           <Link href="tel:+14155692119" className="flex gap-2 justify-center ">
             <PhoneCall />
-            <h3>(240) 252-4095</h3>
+            <h3>(443) 254-0132</h3>
           </Link>
           <Link href="/applyNow" className="flex gap-2 justify-center ">
             <button className="bg-white text-[#021B2C] px-6 py-3 rounded-xl font-semibold transition transform duration-300 hover:-translate-y-1">

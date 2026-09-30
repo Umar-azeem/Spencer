@@ -21,7 +21,7 @@ const ApplyNow: React.FC = () => {
   const loanOfficers = [
     {
       name: "Spencer Rhodes Bangert",
-      phone: "+1 (240) 252-4095",
+      phone: "+1 (443) 254-0132",
       email: "Website: fdmhome.com/spencerbangert.html",
     },
   ];
@@ -156,7 +156,7 @@ const ApplyNow: React.FC = () => {
                       href="tel:4432540132"
                       className="hover:text-[#021B2C] transition-colors"
                     >
-                      +1 (240) 252-4095
+                      +1 (443) 254-0132
                     </a>
                   </span>
                   <span className="hidden sm:block text-gray-300">|</span>
