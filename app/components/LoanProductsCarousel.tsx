@@ -95,7 +95,7 @@ const AboutspensPage: React.FC = () => {
                 Spencer is committed to putting you in the &quot;right&quot;
                 loan program for you (based on your unique situation and
                 specific goals)… at the lowest cost possible. Remember, Price
-                Mortgage is a mortgage broker… so we have access to many more
+                Mortgage is a Mortgage lender… so we have access to many more
                 loan programs to consider!
               </p>
               <p className="text-gray-700 text-lg leading-relaxed mb-4">

@@ -234,17 +234,17 @@ export default function AboutPage() {
           {/* Stats Row */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10">
             <div className="bg-white rounded-xl p-6 text-center shadow-sm border border-gray-200">
-              <p className="text-3xl font-bold text-[#021B2C]">20+</p>
+              <p className="text-3xl font-bold text-[#021B2C]">12+ </p>
               <p className="text-gray-600 text-sm font-medium">
                 Years Of Experience
               </p>
             </div>
             <div className="bg-white rounded-xl p-6 text-center shadow-sm border border-gray-200">
-              <p className="text-3xl font-bold text-[#021B2C]">2,200</p>
+              <p className="text-3xl font-bold text-[#021B2C]">multiples </p>
               <p className="text-gray-600 text-sm font-medium">Doors Opened</p>
             </div>
             <div className="bg-white rounded-xl p-6 text-center shadow-sm border border-gray-200">
-              <p className="text-3xl font-bold text-[#021B2C]">21</p>
+              <p className="text-3xl font-bold text-[#021B2C]">30</p>
               <p className="text-gray-600 text-sm font-medium">
                 Day Turnaround
               </p>
@@ -301,16 +301,16 @@ export default function AboutPage() {
                 <div>
                   <h4 className="font-medium text-[#021B2C] text-sm">GMCC</h4>
                   <p className="text-gray-600 text-xs leading-relaxed">
-                    GMCC Mortgage Programs offer tailored mortgage solutions to
+                    Absolute Home Mortgage Corp (AHMC) Mortgage Programs offer tailored mortgage solutions to
                     find the perfect fit for your homeownership goals.
                   </p>
                 </div>
                 <div className="border-t border-gray-100 pt-3">
                   <h4 className="font-medium text-[#021B2C] text-sm">
-                    The GMCC Advantage
+                    The Absolute Home Mortgage Corp (AHMC) Advantage
                   </h4>
                   <p className="text-gray-600 text-xs leading-relaxed">
-                    By partnering with GMCC, my services provide access to
+                    By partnering with Absolute Home Mortgage Corp (AHMC), my services provide access to
                     secondary capital, top-notch expertise, and a wide array of
                     mortgage programs you will not find elsewhere.
                   </p>

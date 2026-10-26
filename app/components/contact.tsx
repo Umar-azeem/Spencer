@@ -159,7 +159,7 @@ This inquiry was sent from the Spencer Bangert - Mortgage website.`,
         <div className="absolute inset-0 z-1 bg-[#021B2C] opacity-65" />
         <div className="relative z-10 max-w-4xl mx-auto px-4">
           <p className="text-[#021B2C] uppercase tracking-[4px] font-bold text-xs sm:text-sm mb-3">
-            Licensed Mortgage Broker
+            Licensed Mortgage lender
           </p>
           <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-4">
             Contact Spencer Bangert

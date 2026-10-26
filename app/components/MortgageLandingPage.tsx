@@ -80,26 +80,12 @@ const MortgageLandingPage = () => {
           </div>
 
           <div className="flex-1 relative flex justify-center lg:justify-end items-end w-full">
-            <div className="absolute hidden -top-2 sm:top-10 left-1/2 -translate-x-1/2 lg:left-auto lg:-translate-x-0 lg:-left-4 xl:-left-16 z-20 md:flex items-center gap-2">
-              <div className="flex flex-col items-center">
-                <img
-                  src="https://cdn.prod.website-files.com/65d509901b89bb3fd2a62af7/65d509901b89bb3fd2a62b22_Customer%20Badges.svg"
-                  alt="Customers"
-                  className="w-24 h-24 sm:w-32 sm:h-32 object-contain"
-                />
-                <p className="text-sm sm:text-lg text-gray-100 -mt-6 sm:-mt-8 text-center whitespace-nowrap">
-                  Satisfied Customers
-                </p>
-              </div>
-              <h2 className="text-2xl sm:text-3xl font-bold">100K+</h2>
-            </div>
-
+            
             <div className="  relative w-full max-w-[450px]">
               <div className="flex flex-col text-center p-1 md:hidden">
                 <p className="text-md font-bold tracking-[0.2em] mb-2 uppercase">
                   Hi, I{`'`}m Spencer Bangert{" "}
                 </p>
-
                 <h1 className="text-3xl sm:text-5xl lg:text-7xl font-bold leading-tight mb-24">
                   Your Senior
                   <br />
@@ -107,19 +93,7 @@ const MortgageLandingPage = () => {
                 </h1>
               </div>
               <div className="absolute md:hidden  top-26 left-1/2 -translate-x-1/2 lg:left-auto lg:-translate-x-0 lg:-left-4 xl:-left-16 z-20 md:flex items-center gap-2">
-                <div className="flex flex-col items-center">
-                  <img
-                    src="https://cdn.prod.website-files.com/65d509901b89bb3fd2a62af7/65d509901b89bb3fd2a62b22_Customer%20Badges.svg"
-                    alt="Customers"
-                    className="w-20 h-20 object-contain"
-                  />
-                  <div className="flex  pt-2">
-                    <p className="text-xs text-gray-100 -mt-6 sm:-mt-8 text-center whitespace-nowrap">
-                      Satisfied Customers
-                    </p>
-                  </div>
-                  <h2 className="text-sm font-semibold">100K+</h2>
-                </div>
+                
               </div>
               <img
                 src="/img/spens.png"

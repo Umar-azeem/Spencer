@@ -8,6 +8,8 @@ const FooterText = () => {
     <footer className="bg-[#1c1c1c] text-white px-4 sm:px-6 py-6 text-[14px] sm:text-[16px] leading-6">
       <div>
         <hr className="border-gray-700 my-6 sm:my-10" />
+
+        {/* Rate / APR disclaimer */}
         <p className="text-sm">
           Interest rates and annual percentage rates (APRs) are based on current
           market rates, are for informational purposes only, are subject to
@@ -32,40 +34,80 @@ const FooterText = () => {
           period. ARM rates and monthly payments are subject to increase after
           the fixed period: ARMs assume 30-year term.
         </p>
-        <p className="text-sm">
-          General Mortgage Capital Corporation and eMeta Funding are licensed in
-          the following state: Alabama – NMLS: 23260, Arkansas – NMLS: 129989,
-          Arizona – NMLS: 1026178, California CFL – NMLS: 60DBO-66060,
-          California DRE – NMLS: 01509029, Colorado – NMLS: 254895, Connecticut
-          – NMLS: 254895, Delaware – NMLS: 038061, Florida – NMLS: MLD2191,
-          Georgia – NMLS – 254895, Hawaii – NMLS: HI-254895, Idaho- NMLS:
-          MBL-2080254895, Illinois – NMLS: MB.6761662, Indiana – NMLS: None,
-          Iowa – NMLS: 2022-0038, Kansas- NMLS: MC.0025844, Kentucky – NMLS:
-          MC782027, Louisiana – NMLS: 254895, Maryland – NMLS: 254895, Maine-
-          NMLS: 254895, Massachusetts – NMLS: MC254895, Michigan NMLS:
-          FR0024243, Minnesota – NMLS: MO-MN-254895, Mississippi – NMLS:254895,
-          Missouri – NMLS: 254895, Montana – NMLS: 254895, Nevada – NMLS: 5419,
-          Nebraska – NMLS: 254895, New Hampshire, New Jersey – NMLS: 254895, New
-          Mexico: NMLS – 254895: New York – NMLS: LMB 110903, North Carolina –
-          NMLS: L-208502, North Dakota – NMLS; MB104140, Oklahoma – NMLS:
-          ML014608, Ohio – NMLS: RM.804881.000, Oregon – NMLS: 254895,
-          Pennsylvania – NMLS: 96566, Rhode Island – NMLS: None, South Carolina
-          – NMLS: 254895, Tennessee – NMLS: 254895, Texas – NMLS: 254895, Utah –
-          NMLS: 12679832,
+
+        {/* Lender disclosure — AHMC is a lender, NOT a broker */}
+        <p className="mt-6 text-sm">
+          Absolute Home Mortgage Corp is a licensed mortgage banker and direct
+          lender, not a mortgage broker.
         </p>
+
+        {/* Correct entity licensing block — AHMC / FDM */}
         <p className="text-sm">
-          Vermont – NMLS: LL-254895, Virginia – NMLS: MC-7314, Washington –
-          NMLS: CL-254895, Washington DC – NMLS: MLB254895, West Virginia –
-          NMLS: ML-254895, Wisconsin – NMLS: 254895BA, Wyoming – NMLS: 4763.
-          General Mortgage Capital Corporation NMLS: 254895. For licensing
-          information go to: www.nmlsconsumeraccess.org Texas: Any consumer
-          complaints please click below:
-          https://www.sml.texas.gov/wp-content/uploads/2021/07/rmlo_81_200_c_recovery_fund_notice.pdf
-          General Mortgage Capital Corporation 1350 Bayshore Hwy Ste 740,
-          Burlingame CA 94010 Ph: 650-340-7800SSS
+          Absolute Home Mortgage Corp (d/b/a Fidelity Direct Mortgage) is
+          licensed in the following states: Alabama – AL Consumer Credit License
+          #22912; Arizona – Mortgage Banker License #BK-1008055; Arkansas –
+          Combination Mortgage Banker-Broker-Servicer License #176743;
+          California – CA Financing Law License #603L578; Colorado – Mortgage
+          Company Registration; Connecticut – Mortgage Lender License
+          #ML-176743; Delaware – Lender License #025694; District of Columbia –
+          Mortgage Dual Authority License #MLB 176743; Florida – Mortgage
+          Lender License #MLD424 and Mortgage Lender Servicer License #MLD2617;
+          Georgia – Mortgage Lender License/Registration #176743; Idaho –
+          Mortgage Broker/Lender License #MBL-2080176743; Illinois – Residential
+          Mortgage License #MB.6761437; Indiana – DFI Mortgage Lending License
+          #70384; Kentucky – Mortgage Company License #MC889240; Maine –
+          Supervised Lender License #176743; Maryland – Mortgage Lender License
+          #176743; Massachusetts – Mortgage Lender License #MC176743 and
+          Mortgage Broker License #MC176743; Michigan – 1st Mortgage
+          Broker/Lender License #FL0024163 and 2nd Mortgage Broker/Lender
+          Registrant #SR0024199; New Hampshire – Mortgage Banker License
+          #176743MB; New Jersey – Residential Mortgage Lender License #9826392;
+          New York – Mortgage Banker License #LMBC 111237; North Carolina –
+          Mortgage Lender License #L-177842; Ohio – Residential Mortgage Lending
+          Act Certificate of Registration #RM.850254.000; Oklahoma – Mortgage
+          Lender License #ML016776; Oregon – Mortgage Lending License #176743;
+          Pennsylvania – Mortgage Lender License #34628 and Mortgage Servicer
+          License #34628; Rhode Island – Lender License #20234665LL and Loan
+          Broker License #20244695LB; South Carolina – BFI Mortgage
+          Lender/Servicer License #MLS-176743; Tennessee – Mortgage License
+          #221915; Texas – SML Mortgage Banker Registration; Vermont – Lender
+          License #LL-176743; Virginia – Lender License #MC-5924 and Broker
+          License #MC-5924; West Virginia – Mortgage Lender License #ML-176743.
         </p>
+
+        <p className="mt-6 text-sm">
+          Absolute Home Mortgage Corp NMLS: 176743. For licensing information go
+          to:{" "}
+          <Link
+            href="https://www.nmlsconsumeraccess.org"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline"
+          >
+            www.nmlsconsumeraccess.org
+          </Link>
+          . Texas: Any consumer complaints please click below:{" "}
+          <Link
+            href="https://www.sml.texas.gov/wp-content/uploads/2021/07/rmlo_81_200_c_recovery_fund_notice.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline"
+          >
+            Texas SML Recovery Fund Notice
+          </Link>
+          . Absolute Home Mortgage Corp, 165 Passaic Avenue, Suite 411,
+          Fairfield, NJ 07004. Ph: 855-888-2462.
+        </p>
+
+        {/* Equal Housing Opportunity statement */}
+        <p className="mt-6 text-sm">
+          Equal Housing Opportunity. Absolute Home Mortgage Corp is an Equal
+          Housing Lender.
+        </p>
+
         <p className="mt-6">
-          © {currentYear} Price Mortgage, LLC. All rights reserved.
+          © {currentYear} Absolute Home Mortgage Corp (AHMC). All rights
+          reserved.
         </p>
       </div>
 
