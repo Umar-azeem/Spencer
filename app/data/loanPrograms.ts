@@ -344,20 +344,12 @@ export const loanPrograms: LoanProgram[] = [
     ],
     testimonials: [
       {
-        name: "Casey J",
-        text: "The team that worked for me was amazing! spens is a champion and helped me in every way. I would call and text the team constantly to ask questions and get clarity and he would always answer me.",
+        name: "Michael R",
+        text: "Financing at this level comes with complexity, and the team handled it with real expertise. Every document, every deadline — managed without drama. We felt like a priority, not a file number.",
       },
       {
-        name: "Yvette",
-        text: "spens and his team were outstanding! They provided top-notch service! Their dedication to your needs and satisfaction came through every step of the way.",
-      },
-      {
-        name: "Carl",
-        text: "Thank you to the Bongard Team for a swift loan process. I appreciated the updates and follow up calls. You made it very simple and easy to understand for this 1st time home buyer!",
-      },
-      {
-        name: "Thomas",
-        text: "spens's people, in particular Josh have been more than available and helpful through out this whole process. As a first time buyer, I am extremely thankful for all the guidance while purchasing my first home.",
+        name: "Dana & Paul K",
+        text: "What stood out was the communication. Our questions were answered same-day, and the underwriting was smooth despite the size of the loan. Confident, professional, and genuinely helpful throughout.",
       },
     ],
     faqs: [
@@ -951,20 +943,12 @@ export const loanPrograms: LoanProgram[] = [
     ],
     testimonials: [
       {
-        name: "Casey J",
-        text: "The team that worked for me was amazing! spens is a champion and helped me in every way. I would call and text the team constantly to ask questions and get clarity and he would always answer me.",
+        name: "Rachel M",
+        text: "The process was straightforward from start to finish. Our loan officer kept us informed at every milestone, and we closed right on schedule. It felt like having a guide who actually knew the terrain.",
       },
       {
-        name: "Yvette",
-        text: "spens and his team were outstanding! They provided top-notch service! Their dedication to your needs and satisfaction came through every step of the way.",
-      },
-      {
-        name: "Carl",
-        text: "Thank you to the Bongard Team for a swift loan process. I appreciated the updates and follow up calls. You made it very simple and easy to understand for this 1st time home buyer!",
-      },
-      {
-        name: "Thomas",
-        text: "spens's people, in particular Josh have been more than available and helpful through out this whole process. As a first time buyer, I am extremely thankful for all the guidance while purchasing my first home.",
+        name: "Steven T",
+        text: "We compared several lenders and were impressed by the transparency here — no surprise fees, no last-minute runaround. The rate was competitive and the team was responsive. Exactly what we needed.",
       },
     ],
     faqs: [

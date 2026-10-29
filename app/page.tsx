@@ -8,7 +8,6 @@ import FAQ from "./components/FAQ";
 import Loan from "./components/Loan";
 import MortgageCalculator from "./components/MortgageCalculator";
 import MortgageLandingPage from "./components/MortgageLandingPage";
-import VideoTabs from "./components/videoTabs";
 
 export default function Home() {
   return (
