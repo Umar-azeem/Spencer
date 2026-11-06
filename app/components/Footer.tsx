@@ -82,7 +82,7 @@ export default function Footer() {
         </h2>
 
         <div className="flex flex-col sm:flex-row gap-3 w-full md:w-auto">
-          <Link href="/contact-us-us">
+          <Link href="/contact-us">
             <button className="bg-[#021B2C] px-6 py-3 rounded-xl transition-transform duration-300 hover:translate-y-1 w-full sm:w-auto">
               Contact us
             </button>

@@ -71,7 +71,7 @@ const MortgageLandingPage = () => {
                   />
                 </button>
               </Link>
-              <a href="/contact-us-us">
+              <a href="/contact-us">
                 <button className="w-full sm:w-auto flex items-center bg-white text-black justify-center gap-3  px-6 py-4 rounded-xl font-semibold transition transform duration-300 hover:-translate-y-1">
                   Quick Contact
                 </button>

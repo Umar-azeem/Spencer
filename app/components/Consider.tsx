@@ -20,7 +20,7 @@ function Consider() {
               to our clients.
             </p>
 
-            <Link href="/contact-us-us">
+            <Link href="/contact-us">
               {" "}
               <button className="bg-[#021B2C] w-full sm:w-auto flex items-center justify-center gap-3 text-white px-6 py-4 rounded-xl font-bold transition transform duration-300 hover:-translate-y-1">
                 Contact

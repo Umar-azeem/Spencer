@@ -303,7 +303,7 @@ const BlogSection: React.FC = () => {
                     </p>
                   </div>
                   <a
-                    href="/contact-us-us"
+                    href="/contact-us"
                     className="inline-flex items-center justify-center rounded-full bg-[#021B2C]/10 p-2 text-[#021B2C] hover:bg-[#021B2C] hover:text-white transition-all duration-300"
                   >
                     <ArrowRight className="h-4 w-4" />
