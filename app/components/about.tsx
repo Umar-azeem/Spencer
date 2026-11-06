@@ -180,7 +180,7 @@ export default function AboutPage() {
                 Gaithersburg, MD 20877
               </p>
               <div className="flex flex-wrap gap-4">
-                <Link href="/contact-us">
+                <Link href="/contact-us-us">
                   <button className="bg-white text-[#021B2C] px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
                     Get Pre-Approved
                   </button>
@@ -301,8 +301,9 @@ export default function AboutPage() {
                 <div>
                   <h4 className="font-medium text-[#021B2C] text-sm">GMCC</h4>
                   <p className="text-gray-600 text-xs leading-relaxed">
-                    Absolute Home Mortgage Corp (AHMC) Mortgage Programs offer tailored mortgage solutions to
-                    find the perfect fit for your homeownership goals.
+                    Absolute Home Mortgage Corp (AHMC) Mortgage Programs offer
+                    tailored mortgage solutions to find the perfect fit for your
+                    homeownership goals.
                   </p>
                 </div>
                 <div className="border-t border-gray-100 pt-3">
@@ -310,9 +311,10 @@ export default function AboutPage() {
                     The Absolute Home Mortgage Corp (AHMC) Advantage
                   </h4>
                   <p className="text-gray-600 text-xs leading-relaxed">
-                    By partnering with Absolute Home Mortgage Corp (AHMC), my services provide access to
-                    secondary capital, top-notch expertise, and a wide array of
-                    mortgage programs you will not find elsewhere.
+                    By partnering with Absolute Home Mortgage Corp (AHMC), my
+                    services provide access to secondary capital, top-notch
+                    expertise, and a wide array of mortgage programs you will
+                    not find elsewhere.
                   </p>
                 </div>
               </div>
@@ -363,7 +365,7 @@ export default function AboutPage() {
               pay and your projected principal balances. You can also input
               prepayment amounts to see their impact on your mortgage.
             </p>
-            <Link href="/contact-us">
+            <Link href="/contact-us-us">
               <button className="bg-[#021B2C] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#004a25] transition">
                 Contact Us
               </button>
@@ -411,7 +413,7 @@ export default function AboutPage() {
                 Get Started Today
               </button>
             </Link>
-            <Link href="/contact-us">
+            <Link href="/contact-us-us">
               <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition flex items-center gap-2">
                 <Icons.Mail className="w-4 h-4" /> Contact spens
               </button>

@@ -77,8 +77,8 @@ const CreditBuild = () => {
           </div>
 
           <div className="flex flex-col justify-between w-full  md:flex-row gap-3 sm:gap-4 mt-8 sm:mt-10">
-            <Link href="/contact-us"></Link>{" "}
-            <a href="/contact-us">
+            <Link href="/contact-us-us"></Link>{" "}
+            <a href="/contact-us-us">
               {" "}
               <button className="bg-[#021B2C] text-white px-6 py-4 w-full rounded-xl flex items-center justify-center gap-2 font-semibold">
                 <img
@@ -103,4 +103,3 @@ const CreditBuild = () => {
 };
 
 export default CreditBuild;
- 

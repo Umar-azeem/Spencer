@@ -71,7 +71,7 @@ const MortgageLandingPage = () => {
                   />
                 </button>
               </Link>
-              <a href="/contact-us">
+              <a href="/contact-us-us">
                 <button className="w-full sm:w-auto flex items-center bg-white text-black justify-center gap-3  px-6 py-4 rounded-xl font-semibold transition transform duration-300 hover:-translate-y-1">
                   Quick Contact
                 </button>
@@ -80,7 +80,6 @@ const MortgageLandingPage = () => {
           </div>
 
           <div className="flex-1 relative flex justify-center lg:justify-end items-end w-full">
-            
             <div className="  relative w-full max-w-[450px]">
               <div className="flex flex-col text-center p-1 md:hidden">
                 <p className="text-md font-bold tracking-[0.2em] mb-2 uppercase">
@@ -92,9 +91,7 @@ const MortgageLandingPage = () => {
                   Loan Officer{" "}
                 </h1>
               </div>
-              <div className="absolute md:hidden  top-26 left-1/2 -translate-x-1/2 lg:left-auto lg:-translate-x-0 lg:-left-4 xl:-left-16 z-20 md:flex items-center gap-2">
-                
-              </div>
+              <div className="absolute md:hidden  top-26 left-1/2 -translate-x-1/2 lg:left-auto lg:-translate-x-0 lg:-left-4 xl:-left-16 z-20 md:flex items-center gap-2"></div>
               <img
                 src="/img/spens.png"
                 alt="Spencer Bangert"
@@ -124,7 +121,10 @@ const MortgageLandingPage = () => {
                       className="text-black"
                     />
                   </a>
-                  <Link href="https://www.zillow.com/lender-profile/Spencer%20Bangert/" className="w-9 h-8 md:w-10 md:h-10 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100 transition">
+                  <Link
+                    href="https://www.zillow.com/lender-profile/Spencer%20Bangert/"
+                    className="w-9 h-8 md:w-10 md:h-10 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100 transition"
+                  >
                     <span className="[&>svg]:h-5 [&>svg]:w-5">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -135,12 +135,7 @@ const MortgageLandingPage = () => {
                       </svg>
                     </span>
                   </Link>
-                  <a
-                    href="https://www.linkedin.com/checkpoint/challenge/AgFcCCMLOusvRgAAAaBqcmFT-JEoh9_hihEjE51tqwo_B_yx1OwyvgJ2XhZGPkqeLGoeWETuDILg_Y37g8kAkPozkN4PSw?ut=089aOqHAFcRIo1"
-                    className="w-9 h-8 md:w-10 md:h-10 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100 transition"
-                  >
-                    <Icon src={icons.linkedin} size={18} />
-                  </a>
+
                   {/* <a
                     href="/LBaird@cfmtg.com"
                     className=" w-9 h-8 md:w-10 md:h-10 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100 transition"

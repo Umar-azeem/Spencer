@@ -40,7 +40,7 @@ const loanProducts: LoanProduct[] = [
     icon: <Shield className="w-6 h-6" />,
   },
   {
-    id: "/loan-programs?program=DPA",
+    id: "/loan-programs?program=dpa",
     title: "DPA Loans",
     description:
       "A Down Payment Assistance (DPA) loan helps cover a portion of the down payment on a home.",
@@ -141,7 +141,7 @@ const LoanProductsCarousel: React.FC = () => {
               your unique financial needs and homeownership goals.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 mt-8 justify-center lg:justify-start">
-              <Link href="/contact-us">
+              <Link href="/contact-us-us">
                 <button className="bg-[#021B2C] hover:bg-[#012c49] text-white px-6 py-3 rounded-xl font-semibold flex items-center justify-center gap-2 transition w-full sm:w-auto">
                   Get Started <ArrowRight size={18} />
                 </button>

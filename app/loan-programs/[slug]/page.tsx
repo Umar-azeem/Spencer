@@ -198,7 +198,7 @@ export default function LoanProgramDetailPage({
             {/* CTA */}
             <div className="mt-8 flex flex-wrap gap-4 border-t border-gray-200 pt-8">
               <Link
-                href={program.ctaLink || "/contact"}
+                href={program.ctaLink || "/contact-us"}
                 className="inline-flex items-center px-6 py-3 bg-[#021B2C] hover:bg-[#004d26] text-white font-semibold rounded-lg transition"
               >
                 {program.ctaText || "Get Started"}

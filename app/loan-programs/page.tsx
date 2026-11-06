@@ -262,7 +262,7 @@ function LoanProgramsContent() {
             {/* CTA */}
             <div className="mt-8 flex flex-wrap gap-4">
               <Link
-                href={selectedProgram.ctaLink || "/contact-us"}
+                href={selectedProgram.ctaLink || "/contact-us-us"}
                 className="inline-flex items-center px-6 py-3 bg-[#021B2C] hover:bg-[#004d26] text-white font-semibold rounded-lg transition"
               >
                 {selectedProgram.ctaText || "Get Started"}

@@ -223,7 +223,7 @@ export default function MortgageCalculator() {
               ))}
             </div>
 
-            <a href="/contact-us">
+            <a href="/contact-us-us">
               <button className="w-full mt-8 bg-white text-black py-3 rounded-lg font-semibold hover:bg-gray-100 transition text-sm">
                 Quick Contact
               </button>

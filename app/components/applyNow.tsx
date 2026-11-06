@@ -194,7 +194,7 @@ const ApplyNow: React.FC = () => {
                   below.
                 </p>
                 <Link
-                  href="/contact-us"
+                  href="/contact-us-us"
                   className="inline-flex items-center gap-2 rounded-full bg-white px-8 py-3.5 text-[#021B2C] font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
                 >
                   Start Your Application
