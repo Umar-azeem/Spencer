@@ -23,7 +23,7 @@ const FooterText = () => {
           tract limit and available only in selected counties/states.
         </p>
 
-        <p className="mt-6 text-sm">
+        {/* <p className="mt-6 text-sm">
           APR reflects the effective cost of your loan on a yearly basis,
           considering such items as interest, most closing costs, discount
           points (also referred to as “points”) and loan-origination fees. One
@@ -33,7 +33,7 @@ const FooterText = () => {
           assume no increase in the financial index after the initial fixed
           period. ARM rates and monthly payments are subject to increase after
           the fixed period: ARMs assume 30-year term.
-        </p>
+        </p> */}
 
         {/* Lender disclosure — AHMC is a lender, NOT a broker */}
         <p className="mt-6 text-sm">
@@ -42,7 +42,7 @@ const FooterText = () => {
         </p>
 
         {/* Correct entity licensing block — AHMC / FDM */}
-        <p className="text-sm">
+        {/* <p className="text-sm">
           Absolute Home Mortgage Corp (d/b/a Fidelity Direct Mortgage) is
           licensed in the following states: Alabama – AL Consumer Credit License
           #22912; Arizona – Mortgage Banker License #BK-1008055; Arkansas –
@@ -73,7 +73,7 @@ const FooterText = () => {
           Mortgage Banker Registration; Vermont – Lender License #LL-176743;
           Virginia – Lender License #MC-5924 and Broker License #MC-5924; West
           Virginia – Mortgage Lender License #ML-176743.
-        </p>
+        </p> */}
 
         <p className="mt-6 text-sm">
           Absolute Home Mortgage Corp NMLS: 176743. For licensing information go
