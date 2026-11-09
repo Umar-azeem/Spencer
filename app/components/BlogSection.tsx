@@ -211,7 +211,7 @@ const BlogSection: React.FC = () => {
               Expert advice on mortgages, home buying, and more
             </p>
           </div>
-         
+  
         </div>
 
         {/* Category Filter */}
