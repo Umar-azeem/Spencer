@@ -3,17 +3,9 @@
 import React from "react";
 import {
   Calendar,
-  Clock,
   ArrowRight,
-  User,
   Tag,
   Newspaper,
-  TrendingUp,
-  Home,
-  DollarSign,
-  Shield,
-  Search,
-  BookOpen,
   Sparkles,
 } from "lucide-react";
 
