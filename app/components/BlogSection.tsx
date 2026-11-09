@@ -211,15 +211,7 @@ const BlogSection: React.FC = () => {
               Expert advice on mortgages, home buying, and more
             </p>
           </div>
-          <div className="flex items-center gap-2">
-            <a
-              href="/blog"
-              className="inline-flex items-center gap-2 text-sm font-medium text-[#021B2C] hover:text-[#021B5C] transition-colors"
-            >
-              View All Posts
-              <ArrowRight className="h-4 w-4" />
-            </a>
-          </div>
+         
         </div>
 
         {/* Category Filter */}
