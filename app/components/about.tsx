@@ -301,20 +301,18 @@ export default function AboutPage() {
                 <div>
                   <h4 className="font-medium text-[#021B2C] text-sm">GMCC</h4>
                   <p className="text-gray-600 text-xs leading-relaxed">
-                    Absolute Home Mortgage Corp (AHMC) Mortgage Programs offer
-                    tailored mortgage solutions to find the perfect fit for your
-                    homeownership goals.
+                    Spencer Mortgage Programs offer tailored mortgage solutions
+                    to find the perfect fit for your homeownership goals.
                   </p>
                 </div>
                 <div className="border-t border-gray-100 pt-3">
                   <h4 className="font-medium text-[#021B2C] text-sm">
-                    The Absolute Home Mortgage Corp (AHMC) Advantage
+                    The Spencer Advantage
                   </h4>
                   <p className="text-gray-600 text-xs leading-relaxed">
-                    By partnering with Absolute Home Mortgage Corp (AHMC), my
-                    services provide access to secondary capital, top-notch
-                    expertise, and a wide array of mortgage programs you will
-                    not find elsewhere.
+                    By partnering with Spencer, my services provide access to
+                    secondary capital, top-notch expertise, and a wide array of
+                    mortgage programs you will not find elsewhere.
                   </p>
                 </div>
               </div>

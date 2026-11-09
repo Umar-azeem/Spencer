@@ -50,29 +50,29 @@ const FooterText = () => {
           California – CA Financing Law License #603L578; Colorado – Mortgage
           Company Registration; Connecticut – Mortgage Lender License
           #ML-176743; Delaware – Lender License #025694; District of Columbia –
-          Mortgage Dual Authority License #MLB 176743; Florida – Mortgage
-          Lender License #MLD424 and Mortgage Lender Servicer License #MLD2617;
-          Georgia – Mortgage Lender License/Registration #176743; Idaho –
-          Mortgage Broker/Lender License #MBL-2080176743; Illinois – Residential
-          Mortgage License #MB.6761437; Indiana – DFI Mortgage Lending License
-          #70384; Kentucky – Mortgage Company License #MC889240; Maine –
-          Supervised Lender License #176743; Maryland – Mortgage Lender License
-          #176743; Massachusetts – Mortgage Lender License #MC176743 and
-          Mortgage Broker License #MC176743; Michigan – 1st Mortgage
-          Broker/Lender License #FL0024163 and 2nd Mortgage Broker/Lender
-          Registrant #SR0024199; New Hampshire – Mortgage Banker License
-          #176743MB; New Jersey – Residential Mortgage Lender License #9826392;
-          New York – Mortgage Banker License #LMBC 111237; North Carolina –
-          Mortgage Lender License #L-177842; Ohio – Residential Mortgage Lending
-          Act Certificate of Registration #RM.850254.000; Oklahoma – Mortgage
-          Lender License #ML016776; Oregon – Mortgage Lending License #176743;
-          Pennsylvania – Mortgage Lender License #34628 and Mortgage Servicer
-          License #34628; Rhode Island – Lender License #20234665LL and Loan
-          Broker License #20244695LB; South Carolina – BFI Mortgage
-          Lender/Servicer License #MLS-176743; Tennessee – Mortgage License
-          #221915; Texas – SML Mortgage Banker Registration; Vermont – Lender
-          License #LL-176743; Virginia – Lender License #MC-5924 and Broker
-          License #MC-5924; West Virginia – Mortgage Lender License #ML-176743.
+          Mortgage Dual Authority License #MLB 176743; Florida – Mortgage Lender
+          License #MLD424 and Mortgage Lender Servicer License #MLD2617; Georgia
+          – Mortgage Lender License/Registration #176743; Idaho – Mortgage
+          Broker/Lender License #MBL-2080176743; Illinois – Residential Mortgage
+          License #MB.6761437; Indiana – DFI Mortgage Lending License #70384;
+          Kentucky – Mortgage Company License #MC889240; Maine – Supervised
+          Lender License #176743; Maryland – Mortgage Lender License #176743;
+          Massachusetts – Mortgage Lender License #MC176743 and Mortgage Broker
+          License #MC176743; Michigan – 1st Mortgage Broker/Lender License
+          #FL0024163 and 2nd Mortgage Broker/Lender Registrant #SR0024199; New
+          Hampshire – Mortgage Banker License #176743MB; New Jersey –
+          Residential Mortgage Lender License #9826392; New York – Mortgage
+          Banker License #LMBC 111237; North Carolina – Mortgage Lender License
+          #L-177842; Ohio – Residential Mortgage Lending Act Certificate of
+          Registration #RM.850254.000; Oklahoma – Mortgage Lender License
+          #ML016776; Oregon – Mortgage Lending License #176743; Pennsylvania –
+          Mortgage Lender License #34628 and Mortgage Servicer License #34628;
+          Rhode Island – Lender License #20234665LL and Loan Broker License
+          #20244695LB; South Carolina – BFI Mortgage Lender/Servicer License
+          #MLS-176743; Tennessee – Mortgage License #221915; Texas – SML
+          Mortgage Banker Registration; Vermont – Lender License #LL-176743;
+          Virginia – Lender License #MC-5924 and Broker License #MC-5924; West
+          Virginia – Mortgage Lender License #ML-176743.
         </p>
 
         <p className="mt-6 text-sm">
@@ -105,10 +105,7 @@ const FooterText = () => {
           Housing Lender.
         </p>
 
-        <p className="mt-6">
-          © {currentYear} Absolute Home Mortgage Corp (AHMC). All rights
-          reserved.
-        </p>
+        <p className="mt-6">© {currentYear} Spencer. All rights reserved.</p>
       </div>
 
       <hr className="border-gray-700 my-6 sm:my-10" />
